@@ -6,7 +6,7 @@ subtitle: Professor, Future University Hakodate
 
 profile:
   align: right
-  image: kaoru_sumi.jpg
+  image: kaoru_sumi_profile.jpg
   image_circular: false
 
   more_info: >
