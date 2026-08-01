@@ -8,7 +8,7 @@ profile:
   align: right
   image: kaoru_sumi.jpg
   image_circular: false
-  image_width: 250px
+
   more_info: >
     <p>School of Systems Information Science</p>
     <p>Future University Hakodate</p>
@@ -19,7 +19,6 @@ social: true
 
 announcements:
   enabled: true
-  title: Recent Activities
   scrollable: true
   limit: 5
 
