@@ -6,7 +6,7 @@ subtitle: Professor, Future University Hakodate
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: kaoru_sumi.jpg
   image_circular: false
   more_info: >
     <p>School of Systems Information Science</p>
