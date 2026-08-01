@@ -48,3 +48,14 @@ My current research includes affective and persuasive agents, embodied AI, socia
 - Virtual, Mixed, and Extended Reality
 - Serious Games and Affective Learning
 - Nonverbal Communication and Physiological Sensing
+
+<style>
+h2 > a[href$="/news/"] {
+  font-size: 0;
+}
+
+h2 > a[href$="/news/"]::after {
+  content: "Recent Activities";
+  font-size: 2rem;
+}
+</style>
