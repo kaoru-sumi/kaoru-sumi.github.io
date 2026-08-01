@@ -16,7 +16,7 @@ profile:
     <p>Hakodate, Hokkaido, Japan</p>
 
 selected_papers: true
-social: false
+social: true
 
 announcements:
   enabled: true
