@@ -5,9 +5,9 @@ permalink: /research/
 nav: true
 nav_order: 2
 ---
-# Research
 
 My research explores how intelligent and embodied technologies can understand human emotions and behavior, support learning and behavior change, and create meaningful interactions between humans and AI.
+
 
 ## Affective Computing and Human–AI Interaction
 
