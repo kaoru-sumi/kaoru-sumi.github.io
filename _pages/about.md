@@ -2,8 +2,7 @@
 layout: about
 title: Home
 permalink: /
-nav: true
-nav_order: 1
+nav: false
 subtitle: Professor, Future University Hakodate
 
 profile:
