@@ -14,8 +14,8 @@ profile:
     <p>Future University Hakodate</p>
     <p>Hakodate, Hokkaido, Japan</p>
 
-selected_papers: true
-social: true
+selected_papers: false
+social: false
 
 announcements:
   enabled: true
