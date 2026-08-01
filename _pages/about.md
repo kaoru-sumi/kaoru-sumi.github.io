@@ -19,6 +19,7 @@ social: true
 
 announcements:
   enabled: true
+  title: Recent Activities
   scrollable: true
   limit: 5
 
