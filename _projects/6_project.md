@@ -4,7 +4,7 @@ title: Serious Games and Affective Learning
 description: Interactive systems that support learning through emotion, engagement, and meaningful experience
 importance: 6
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ## Serious Games and Affective Learning
