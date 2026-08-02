@@ -37,6 +37,8 @@ I am a Professor at Future University Hakodate, Japan. My research focuses on af
 I investigate how intelligent agents and interactive systems can understand human emotions and behavior, support learning and behavior change, and create meaningful interactions between humans and AI.
 
 My current research includes affective and persuasive agents, embodied AI, social interaction in VR and MR, serious games, nonverbal communication, and physiological sensing.
+[Future University Hakodate Faculty Page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/)
+
 ## Highlights
 
 - **New Book:** [*Affective Learning and Serious Games*](https://www.routledge.com/Affective-Learning-and-Serious-Games/Sumi/p/book/9781041322627), CRC Press / Taylor & Francis, published June 2, 2026.
