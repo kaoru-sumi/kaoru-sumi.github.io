@@ -118,8 +118,4 @@ HOKKAIDO Student App Contest, 2016.
 
 HOKKAIDO Student App Contest, 2012.
 
-## Professional Recognition
 
-### ACM Senior Member
-
-Senior Member, Association for Computing Machinery (ACM).
