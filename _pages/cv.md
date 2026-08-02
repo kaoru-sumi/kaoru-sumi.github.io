@@ -27,4 +27,10 @@ PAHAI Lab welcomes inquiries related to academic collaboration, visiting researc
 
 Future University Hakodate is located in Hakodate, Hokkaido, Japan.
 
-![Future University Hakodate](/assets/img/future_university_hakodate.jpg)
+<p align="center">
+  <img
+    src="/assets/img/future_university_hakodate.jpg"
+    alt="Future University Hakodate"
+    style="width: 45%; max-width: 650px; height: auto;"
+  >
+</p>
