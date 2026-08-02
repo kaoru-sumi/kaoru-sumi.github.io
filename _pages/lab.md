@@ -5,8 +5,9 @@ permalink: /lab/
 nav: true
 nav_order: 4
 ---
-
-[日本語版はこちら / Japanese version](/ja/lab/)
+<p align="right">
+  <a href="/ja/lab/">日本語 / Japanese</a>
+</p>
 
 **Persuasive and Affective Human–AI Interaction Laboratory**
 
