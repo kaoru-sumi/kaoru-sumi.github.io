@@ -24,7 +24,7 @@ PAHAI Lab has welcomed degree students and visiting researchers from a wide rang
   <img
     src="/assets/img/global_pahai_network.png"
     alt="Global PAHAI Network"
-    style="width: 30%; max-width: 400px; height: auto;"
+    style="width: 65%; height: auto;"
   >
 </p>
 
