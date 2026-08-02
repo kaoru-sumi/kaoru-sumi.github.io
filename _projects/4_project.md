@@ -5,7 +5,7 @@ description: Visually induced bodily sensations in immersive virtual environment
 img: assets/img/research/phantom_sensations_social_vr.png
 importance: 4
 category: work
-related_publications: true
+related_publications: false
 ---
 
 *Experimental scene used to investigate visually induced phantom sensations in social VR.*
