@@ -4,3 +4,59 @@
   vertical-align: -2px;
   margin-right: 5px;
 }
+
+/* Bilingual navigation */
+#navbar .navbar-menu-list > .nav-item > .nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.05;
+  white-space: nowrap;
+}
+
+#navbar .navbar-menu-list > .nav-item > .nav-link::after {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.64rem;
+  font-weight: 400;
+  line-height: 1;
+  opacity: 0.68;
+}
+
+/* Home */
+#navbar .navbar-menu-list > .nav-item > .nav-link[href="/"]::after {
+  content: "ホーム";
+}
+
+/* Research */
+#navbar .navbar-menu-list > .nav-item > .nav-link[href="/research/"]::after {
+  content: "研究";
+}
+
+/* Publications */
+#navbar .navbar-menu-list > .nav-item > .nav-link[href="/publications/"]::after {
+  content: "研究業績";
+}
+
+/* PAHAI Lab */
+#navbar .navbar-menu-list > .nav-item > .nav-link[href="/lab/"]::after {
+  content: "PAHAI研究室";
+}
+
+/* Contact */
+#navbar .navbar-menu-list > .nav-item > .nav-link[href="/contact/"]::after {
+  content: "お問い合わせ";
+}
+
+/* Do not add Japanese labels below utility buttons */
+#navbar #search-toggle .nav-link::after {
+  content: none;
+}
+
+/* Keep the navigation compact on smaller screens */
+@media (max-width: 991px) {
+  #navbar .navbar-menu-list > .nav-item > .nav-link::after {
+    font-size: 0.6rem;
+  }
+}
