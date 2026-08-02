@@ -5,7 +5,6 @@ description: Quadruped virtual agents for affective and persuasive interaction
 img: assets/img/research/animal_embodied_agent.png
 importance: 3
 category: work
-related_publications: false
 ---
 
 ## Animal-like Embodied Agents
