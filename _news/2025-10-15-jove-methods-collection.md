@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Guest Editor of the JoVE Methods Collection, [*Interactive Technologies for Behavior Change and Emotional Engagement*](https://app.jove.com/methods-collections/3756).
+🎬 **Guest Editor:** JoVE Methods Collection, [*Interactive Technologies for Behavior Change and Emotional Engagement*](https://app.jove.com/methods-collections/3756).
