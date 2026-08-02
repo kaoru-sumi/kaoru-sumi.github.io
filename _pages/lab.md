@@ -83,7 +83,7 @@ Industry collaboration has also included major Japanese game companies and inter
   <img
     src="/assets/img/pahai_lab_members.png"
     alt="PAHAI Lab members"
-    style="width: 75%; max-width: 1000px; height: auto;"
+    style="width: 55%; max-width: 750px; height: auto;"
   >
 </p>
 
