@@ -21,11 +21,17 @@ The laboratory brings together students and researchers from diverse academic an
 PAHAI Lab has welcomed degree students and visiting researchers from a wide range of countries and regions．
 
 <p align="center">
-  <img
-    src="/assets/img/global_pahai_network.png"
-    alt="Global PAHAI Network"
-    style="width: 75%; max-width: 1100px; height: auto;"
-  >
+  <a href="/assets/img/global_pahai_network.png" target="_blank">
+    <img
+      src="/assets/img/global_pahai_network.png"
+      alt="Global PAHAI Network"
+      style="width: 75%; max-width: 1100px; height: auto; cursor: zoom-in;"
+    >
+  </a>
+</p>
+
+<p align="center">
+  <small>Click the map to view a larger version.</small>
 </p>
 
 ### Degree Students and Alumni
