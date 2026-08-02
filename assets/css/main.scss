@@ -5,58 +5,71 @@
   margin-right: 5px;
 }
 
+.flag {
+  width: 15px;
+  height: auto;
+  vertical-align: -2px;
+  margin-right: 5px;
+}
+
 /* Bilingual navigation */
-#navbar .navbar-menu-list > .nav-item > .nav-link {
-  display: flex;
+#navbar .navbar-menu-list > li.nav-item > a.nav-link {
+  display: flex !important;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
   line-height: 1.05;
   white-space: nowrap;
 }
 
-#navbar .navbar-menu-list > .nav-item > .nav-link::after {
+#navbar .navbar-menu-list > li.nav-item > a.nav-link::after {
   display: block;
   margin-top: 3px;
-  font-size: 0.64rem;
+  font-size: 0.62rem;
   font-weight: 400;
   line-height: 1;
-  opacity: 0.68;
+  opacity: 0.7;
 }
 
-/* Home */
-#navbar .navbar-menu-list > .nav-item > .nav-link[href="/"]::after {
+/* 1: Home */
+#navbar .navbar-menu-list > li.nav-item:nth-child(1) > a.nav-link::after {
   content: "ホーム";
 }
 
-/* Research */
-#navbar .navbar-menu-list > .nav-item > .nav-link[href="/research/"]::after {
+/* 2: Research */
+#navbar .navbar-menu-list > li.nav-item:nth-child(2) > a.nav-link::after {
   content: "研究";
 }
 
-/* Publications */
-#navbar .navbar-menu-list > .nav-item > .nav-link[href="/publications/"]::after {
+/* 3: Publications */
+#navbar .navbar-menu-list > li.nav-item:nth-child(3) > a.nav-link::after {
   content: "研究業績";
 }
 
-/* PAHAI Lab */
-#navbar .navbar-menu-list > .nav-item > .nav-link[href="/lab/"]::after {
+/* 4: PAHAI Lab */
+#navbar .navbar-menu-list > li.nav-item:nth-child(4) > a.nav-link::after {
   content: "PAHAI研究室";
 }
 
-/* Contact */
-#navbar .navbar-menu-list > .nav-item > .nav-link[href="/contact/"]::after {
+/* 5: Contact */
+#navbar .navbar-menu-list > li.nav-item:nth-child(5) > a.nav-link::after {
   content: "お問い合わせ";
 }
 
-/* Do not add Japanese labels below utility buttons */
+/* Do not add a second line to search or utility buttons */
 #navbar #search-toggle .nav-link::after {
-  content: none;
+  content: none !important;
 }
 
-/* Keep the navigation compact on smaller screens */
+/* Give the two-line navbar enough height */
+#navbar {
+  min-height: 64px;
+}
+
 @media (max-width: 991px) {
-  #navbar .navbar-menu-list > .nav-item > .nav-link::after {
-    font-size: 0.6rem;
+  #navbar .navbar-menu-list > li.nav-item > a.nav-link::after {
+    font-size: 0.58rem;
   }
 }
