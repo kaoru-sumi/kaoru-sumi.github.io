@@ -30,12 +30,14 @@ nav: false
 
 ## 最近の活動
 
-- 2026年6月，CRC Pressより *Affective Learning and Serious Games* を刊行
-- 2026年8月，IEEE RO-MAN 2026 TED-HRI Workshopにて招待講演
-- 2026年3月，Persuasive 2026 General Chair
-- Frontiers in AI Research Topic Guest Editor
-- JoVE Methods Collection Guest Editor
-- - **受賞:** PAHAI研究室の学生・共同研究者による主な受賞を掲載しています．[受賞一覧を見る](/ja/awards/)
+- **新刊書籍：** 2026年6月，CRC Press / Taylor & Francisより，[*Affective Learning and Serious Games*](https://www.routledge.com/Affective-Learning-and-Serious-Games/Sumi/p/book/9781041322627)を刊行しました．
+- **招待講演：** 2026年8月，IEEE RO-MAN 2026の[TED-HRI Workshop](https://sites.google.com/view/ted-hri/program?authuser=0)にて招待講演を行います．
+- **国際会議General Chair：** 2026年3月，函館で開催された[Persuasive 2026](https://2026.persuasivetech.org/)のGeneral Chairを務めました．
+- **国際会議論文集：** Springer LNCS 16476，[*Persuasive Technology: PERSUASIVE 2026 Proceedings*](https://link.springer.com/book/10.1007/978-3-032-19687-3)のVolume Editorを務めました．
+- **Guest Editor：** Frontiers in Artificial IntelligenceのResearch Topic，[“Next-Generation Persuasive Technologies for Human–AI Interaction and Behavior Change”](https://www.frontiersin.org/research-topics/75786/next-generation-persuasive-technologies-for-human-ai-interaction-and-behavior-change)．
+- **Guest Editor：** JoVE Methods Collection，[“Interactive Technologies for Behavior Change and Emotional Engagement”](https://app.jove.com/methods-collections/3756)．
+- **受賞：** PAHAI研究室の学生・共同研究者による主な受賞を掲載しています．[受賞一覧を見る](/ja/awards/)
+
 
 ## PAHAI研究室
 
