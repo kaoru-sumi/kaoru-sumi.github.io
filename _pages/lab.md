@@ -5,17 +5,22 @@ permalink: /lab/
 nav: true
 nav_order: 4
 ---
+
 <p align="right">
   <a href="/ja/lab/">日本語 / Japanese</a>
 </p>
+
+# PAHAI Lab
 
 **Persuasive and Affective Human–AI Interaction Laboratory**
 
 *A Global Laboratory for Human–AI Interaction*
 
-PAHAI Lab at Future University Hakodate conducts interdisciplinary research on persuasive and affective human–AI interaction, affective computing, embodied agents, serious games, and virtual and mixed reality.
+PAHAI Lab at Future University Hakodate conducts interdisciplinary research on persuasive and affective human–AI interaction, affective computing, embodied AI, serious games, and virtual and mixed reality.
 
-The laboratory brings together students and researchers from diverse academic and cultural backgrounds and promotes international collaboration in human-centered artificial intelligence.
+The laboratory welcomes students and researchers from diverse academic and cultural backgrounds and actively promotes international collaboration in human-centered artificial intelligence.
+
+---
 
 ## International Community
 
@@ -26,57 +31,63 @@ PAHAI Lab has welcomed degree students and visiting researchers from a wide rang
     <img
       src="/assets/img/global_pahai_network.png"
       alt="Global PAHAI Network"
-      style="width: 75%; max-width: 1100px; height: auto; cursor: zoom-in;"
+      style="width:75%; max-width:1100px; height:auto; cursor:zoom-in;"
     >
   </a>
 </p>
 
 <p align="center">
-  <small>Click the map to view a larger version.</small>
+<small>Click the map to view a larger version.</small>
 </p>
 
 ### Degree Students and Alumni
 
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Japan
-- <img src="/assets/img/flags/th.svg" alt="Thailand" width="24" style="vertical-align: middle; margin-right: 7px;"> Thailand
-- <img src="/assets/img/flags/ph.svg" alt="Philippines" width="24" style="vertical-align: middle; margin-right: 7px;"> Philippines
-- <img src="/assets/img/flags/eg.svg" alt="Egypt" width="24" style="vertical-align: middle; margin-right: 7px;"> Egypt
-- <img src="/assets/img/flags/id.svg" alt="Indonesia" width="24" style="vertical-align: middle; margin-right: 7px;"> Indonesia
-- <img src="/assets/img/flags/tw.svg" alt="Taiwan" width="24" style="vertical-align: middle; margin-right: 7px;"> Taiwan
-- <img src="/assets/img/flags/cn.svg" alt="China" width="24" style="vertical-align: middle; margin-right: 7px;"> China
-- <img src="/assets/img/flags/ke.svg" alt="Kenya" width="24" style="vertical-align: middle; margin-right: 7px;"> Kenya
-- <img src="/assets/img/flags/my.svg" alt="Malaysia" width="24" style="vertical-align: middle; margin-right: 7px;"> Malaysia
-- <img src="/assets/img/flags/bd.svg" alt="Bangladesh" width="24" style="vertical-align: middle; margin-right: 7px;"> Bangladesh
+- <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- <img src="/assets/img/flags/th.svg" class="flag"> Thailand
+- <img src="/assets/img/flags/ph.svg" class="flag"> Philippines
+- <img src="/assets/img/flags/eg.svg" class="flag"> Egypt
+- <img src="/assets/img/flags/id.svg" class="flag"> Indonesia
+- <img src="/assets/img/flags/tw.svg" class="flag"> Taiwan
+- <img src="/assets/img/flags/cn.svg" class="flag"> China
+- <img src="/assets/img/flags/ke.svg" class="flag"> Kenya
+- <img src="/assets/img/flags/my.svg" class="flag"> Malaysia
+- <img src="/assets/img/flags/bd.svg" class="flag"> Bangladesh
 
 ### Visiting Students
 
-- <img src="/assets/img/flags/fr.svg" alt="France" width="24" style="vertical-align: middle; margin-right: 7px;"> France
-- <img src="/assets/img/flags/mx.svg" alt="Mexico" width="24" style="vertical-align: middle; margin-right: 7px;"> Mexico
-- <img src="/assets/img/flags/tw.svg" alt="Taiwan" width="24" style="vertical-align: middle; margin-right: 7px;"> Taiwan
+- <img src="/assets/img/flags/fr.svg" class="flag"> France
+- <img src="/assets/img/flags/mx.svg" class="flag"> Mexico
+- <img src="/assets/img/flags/tw.svg" class="flag"> Taiwan
+
+---
 
 ## International Collaborations
 
-PAHAI Lab has conducted academic and industry collaborations across several countries and regions.
+PAHAI Lab has collaborated with universities and research institutions in:
 
-- <img src="/assets/img/flags/ca.svg" alt="Canada" width="24" style="vertical-align: middle; margin-right: 7px;"> Canada
-- <img src="/assets/img/flags/us.svg" alt="United States" width="24" style="vertical-align: middle; margin-right: 7px;"> Florida, United States
-- <img src="/assets/img/flags/fr.svg" alt="France" width="24" style="vertical-align: middle; margin-right: 7px;"> France
-- <img src="/assets/img/flags/ph.svg" alt="Philippines" width="24" style="vertical-align: middle; margin-right: 7px;"> Philippines
-- <img src="/assets/img/flags/th.svg" alt="Thailand" width="24" style="vertical-align: middle; margin-right: 7px;"> Thailand
+- <img src="/assets/img/flags/ca.svg" class="flag"> Canada
+- <img src="/assets/img/flags/us.svg" class="flag"> United States
+- <img src="/assets/img/flags/fr.svg" class="flag"> France
+- <img src="/assets/img/flags/ph.svg" class="flag"> Philippines
+- <img src="/assets/img/flags/th.svg" class="flag"> Thailand
 
-Industry collaboration has also included major Japanese game companies and interactive technology companies.
+The laboratory also collaborates with Japanese game companies and interactive technology industries.
+
+---
 
 ## Research Areas
 
 - Persuasive and Affective Human–AI Interaction
-- Affective Computing
 - Human–AI and Human–Agent Interaction
-- Persuasive Technology and Behavior Change
+- Affective Computing
 - Embodied AI and Social Agents
-- Virtual, Mixed, and Extended Reality
+- Persuasive Technology and Behavior Change
+- Virtual, Mixed, and Extended Reality (VR/MR/XR)
 - Serious Games and Affective Learning
 - Nonverbal Communication
 - Physiological and Neural Sensing
+
+---
 
 ## Current Members
 
@@ -84,7 +95,7 @@ Industry collaboration has also included major Japanese game companies and inter
   <img
     src="/assets/img/pahai_lab_members.png"
     alt="PAHAI Lab members"
-    style="width: 55%; max-width: 750px; height: auto;"
+    style="width:60%; max-width:850px; height:auto;"
   >
 </p>
 
@@ -92,46 +103,46 @@ Industry collaboration has also included major Japanese game companies and inter
 
 #### Second Year
 
-- <img src="/assets/img/flags/ph.svg" alt="Philippines" width="24" style="vertical-align: middle; margin-right: 7px;"> Candy Joyce Herminado Espulgar — Philippines
+- Candy Joyce Herminado Espulgar — <img src="/assets/img/flags/ph.svg" class="flag"> Philippines
 
 #### First Year
 
-- <img src="/assets/img/flags/th.svg" alt="Thailand" width="24" style="vertical-align: middle; margin-right: 7px;"> Pakpoom Chaimook — Thailand
-- <img src="/assets/img/flags/ph.svg" alt="Philippines" width="24" style="vertical-align: middle; margin-right: 7px;"> Sandra Mae Famador — Philippines
+- Pakpoom Chaimook — <img src="/assets/img/flags/th.svg" class="flag"> Thailand
+- Sandra Mae Famador — <img src="/assets/img/flags/ph.svg" class="flag"> Philippines
 
-### Master’s Students
+### Master's Students
 
 #### Second Year
 
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Takeru Ohta — Japan
-- <img src="/assets/img/flags/ke.svg" alt="Kenya" width="24" style="vertical-align: middle; margin-right: 7px;"> Andrew Wanyonyi Kipruto — Kenya
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Kyosuke Saga — Japan
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Hayato Nagasawa — Japan
-- <img src="/assets/img/flags/my.svg" alt="Malaysia" width="24" style="vertical-align: middle; margin-right: 7px;"> Iffah Nurain Binti Zulkarnain — Malaysia
+- Takeru Ohta — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Andrew Wanyonyi Kipruto — <img src="/assets/img/flags/ke.svg" class="flag"> Kenya
+- Kyosuke Saga — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Hayato Nagasawa — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Iffah Nurain Binti Zulkarnain — <img src="/assets/img/flags/my.svg" class="flag"> Malaysia
 
-#### Second Year, September Intake
+#### Second Year (September Intake)
 
-- <img src="/assets/img/flags/cn.svg" alt="China" width="24" style="vertical-align: middle; margin-right: 7px;"> Mao Shuo — China
+- Mao Shuo — <img src="/assets/img/flags/cn.svg" class="flag"> China
 
 #### First Year
 
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Shun Suzuki — Japan
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Daichi Nakano — Japan
-- <img src="/assets/img/flags/bd.svg" alt="Bangladesh" width="24" style="vertical-align: middle; margin-right: 7px;"> Mushfiqur Rahman Joseph — Bangladesh
-- <img src="/assets/img/flags/bd.svg" alt="Bangladesh" width="24" style="vertical-align: middle; margin-right: 7px;"> Md. Ismail Hossain — Bangladesh
+- Shun Suzuki — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Daichi Nakano — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Mushfiqur Rahman Joseph — <img src="/assets/img/flags/bd.svg" class="flag"> Bangladesh
+- Md. Ismail Hossain — <img src="/assets/img/flags/bd.svg" class="flag"> Bangladesh
 
-#### First Year, September Intake
+#### First Year (September Intake)
 
-- <img src="/assets/img/flags/bd.svg" alt="Bangladesh" width="24" style="vertical-align: middle; margin-right: 7px;"> Md. Abdul Momin — Bangladesh
+- Md. Abdul Momin — <img src="/assets/img/flags/bd.svg" class="flag"> Bangladesh
 
 ### Undergraduate Students
 
 #### Fourth Year
 
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Shota Isokado — Japan
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Kosuke Sato — Japan
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Haruta Sugawara — Japan
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Yuta Abe — Japan
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Satoru Kimura — Japan
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Ryota Kuroda — Japan
-- <img src="/assets/img/flags/jp.svg" alt="Japan" width="24" style="vertical-align: middle; margin-right: 7px;"> Haruto Sato — Japan
+- Shota Isokado — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Kosuke Sato — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Haruta Sugawara — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Yuta Abe — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Satoru Kimura — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Ryota Kuroda — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
+- Haruto Sato — <img src="/assets/img/flags/jp.svg" class="flag"> Japan
