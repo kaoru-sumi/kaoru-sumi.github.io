@@ -4,6 +4,9 @@ title: 研究
 permalink: /ja/research/
 nav: false
 ---
+<p align="right">
+  <a href="/research/">English</a>
+</p>
 
 <nav class="mb-4">
   <a href="/ja/">ホーム</a> ｜
