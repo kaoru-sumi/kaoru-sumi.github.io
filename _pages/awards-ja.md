@@ -17,7 +17,7 @@ nav: false
 
 **鈴木隼，角薫**  
 「実世界を理解するピアエージェントが孤独感と社会的存在感に与える影響の検証」  
-人工知能学会 ことば工学研究会，2026年2月．
+人工知能学会 ことば工学研究会，2026年7月．
 
 ## 2025年
 
@@ -33,7 +33,7 @@ AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 
 **原田理央，角薫**  
 「ペット型の人工物による動作と感情による説得」  
-人工知能学会 ことば工学研究会，2023年．
+人工知能学会 ことば工学研究会，2023年6月．
 
 ## 2021年
 
@@ -69,17 +69,17 @@ AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 
 ### IEEE Brain Winner
 
-Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年10月．
+Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
 
 ### 1st Place Winner
 
-Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年10月．
+Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
 
 ### 学生発表賞
 
 **矢吹渓悟，角薫**  
 「ヒューマノイド・ロボットを用いた自閉症者とのコミュニケーション学習支援システム」  
-情報処理学会 人文科学とコンピュータ研究会，2018年1月．
+情報処理学会 人文科学とコンピュータ研究会，2018年．
 
 ## 2017年
 
