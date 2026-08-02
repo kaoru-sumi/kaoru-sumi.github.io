@@ -6,13 +6,13 @@ nav: true
 nav_order: 4
 ---
 
-# PAHAI Lab
-
 **Persuasive and Affective Human–AI Interaction Laboratory**
 
-PAHAI Lab at Future University Hakodate conducts research on affective computing, human–AI interaction, persuasive technology, embodied AI, intelligent agents, serious games, and virtual and mixed reality.
+*A Global Laboratory for Human–AI Interaction*
 
-Our laboratory brings together students from Japan and overseas and encourages interdisciplinary research combining artificial intelligence, human behavior, interaction design, immersive media, and physiological sensing.
+PAHAI Lab at Future University Hakodate conducts interdisciplinary research on persuasive and affective human–AI interaction, affective computing, embodied agents, serious games, and virtual and mixed reality.
+
+The laboratory brings together students and researchers from diverse academic and cultural backgrounds and promotes international collaboration in human-centered artificial intelligence.
 
 ## Research Areas
 
