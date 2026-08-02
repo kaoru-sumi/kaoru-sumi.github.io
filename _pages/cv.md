@@ -1,12 +1,30 @@
 ---
-layout: cv
-permalink: /cv/
-title: CV
+layout: page
+title: Contact
+permalink: /contact/
 nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 6
 ---
+
+## Contact Information
+
+**Kaoru Sumi**  
+Professor  
+School of Systems Information Science  
+Future University Hakodate  
+
+116-2 Kamedanakano-cho, Hakodate, Hokkaido 041-8655, Japan
+
+**Email:** kaorus [at] fun.ac.jp
+
+## PAHAI Lab
+
+Persuasive and Affective Human–AI Interaction Laboratory
+
+PAHAI Lab welcomes inquiries related to academic collaboration, visiting research, student supervision, and joint research projects.
+
+## Access
+
+Future University Hakodate is located in Hakodate, Hokkaido, Japan.
+
+![Future University Hakodate](/assets/img/future_university_hakodate.jpg)
