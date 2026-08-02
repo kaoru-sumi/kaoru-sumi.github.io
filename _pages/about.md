@@ -29,7 +29,7 @@ latest_posts:
   limit: 3
 ---
 <p align="right">
-<a href="/ja/">🇯🇵 日本語</a>
+  <a href="/ja/">日本語 / Japanese</a>
 </p>
 
 I am a Professor at Future University Hakodate, Japan. My research focuses on affective computing, human–AI interaction, persuasive technology, embodied agents, and virtual and mixed reality.
