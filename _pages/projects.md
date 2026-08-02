@@ -5,6 +5,9 @@ permalink: /research/
 nav: true
 nav_order: 2
 ---
+<p align="right">
+  <a href="/ja/research/">日本語 / Japanese</a>
+</p>
 
 My research explores how intelligent and embodied technologies can understand human emotions and behavior, support learning and behavior change, and create meaningful interactions between humans and AI.
 
