@@ -5,7 +5,7 @@ description: Embodied conversational AI for affective and persuasive human–AI 
 img: assets/img/research/furhat_social_robot.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ## Furhat Social Robot
