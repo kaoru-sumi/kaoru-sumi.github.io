@@ -8,15 +8,6 @@ nav: false
   <a href="/research/">English</a>
 </p>
 
-<nav class="mb-4">
-  <a href="/ja/">ホーム</a> ｜
-  <a href="/ja/research/">研究</a> ｜
-  <a href="/publications/">Publications</a> ｜
-  <a href="/ja/lab/">PAHAI研究室</a> ｜
-  <a href="/ja/contact/">お問い合わせ</a> ｜
-  <a href="/research/">English</a>
-</nav>
-
 # 研究
 
 本研究室では，人とAIが自然に理解し合い，信頼関係を築き，共に生活・学習・仕事ができる未来のHuman–AI Interactionを研究しています．
