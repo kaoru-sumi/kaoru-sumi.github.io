@@ -4,6 +4,7 @@ title: 研究
 permalink: /ja/research/
 nav: false
 ---
+
 <p align="right">
   <a href="/research/">English</a>
 </p>
@@ -38,7 +39,7 @@ AI，ロボット，XR（VR・MR），感情コンピューティング，生体
 
 ## 研究スタイル
 
-研究室では，
+本研究室では，以下を組み合わせながら，人とAIのより良い関係を実現する研究を行っています．
 
 - システム開発
 - Unity・XRアプリケーション開発
@@ -47,10 +48,8 @@ AI，ロボット，XR（VR・MR），感情コンピューティング，生体
 - 心理評価
 - 生体情報・脳波計測
 
-を組み合わせながら，人とAIのより良い関係を実現する研究を行っています．
-
 ## 研究プロジェクト
 
-各研究テーマの詳細は，下記の英語版Research Projectsをご覧ください．
+各研究テーマの詳細は，英語版Researchページに掲載しています．
 
 [Research Projects](/research/)
