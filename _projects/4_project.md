@@ -1,12 +1,14 @@
 ---
 layout: page
 title: Phantom Sensations in Social VR
-description: Perceived bodily sensations induced by visual events in immersive virtual environments
+description: Visually induced bodily sensations in immersive virtual environments
 img: assets/img/research/phantom_sensations_social_vr.png
 importance: 4
 category: work
 related_publications: false
 ---
+
+*Experimental scene used to investigate visually induced phantom sensations in social VR.*
 
 ## Phantom Sensations in Social VR
 
@@ -26,4 +28,6 @@ The work examines how visual events, avatar embodiment, spatial presence, expect
 
 ### Research Approach
 
-Controlled VR scenarios are used to present visual events such as virtual contact, falling, thermal cues, and other interactions. Subjective reports are combined with behavioral, physiological, and neural measures to investigate the mechanisms underlying phantom sensations.
+Controlled VR scenarios are used to present visual events such as virtual contact, falling, slashing, thermal cues, and other interactions.
+
+Subjective reports are combined with behavioral, physiological, and neural measures to investigate the mechanisms underlying phantom sensations.
