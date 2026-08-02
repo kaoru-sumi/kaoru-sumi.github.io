@@ -35,7 +35,7 @@ AI，ロボット，XR（VR・MR），感情コンピューティング，生体
   <img
     src="/assets/img/pahai_lab_members.png"
     alt="PAHAI Lab members"
-    style="width:55%; max-width:750px; height:auto;"
+    style="width:45%; max-width:650px; height:auto;"
   >
 </p>
 
