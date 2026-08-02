@@ -2,7 +2,7 @@
 layout: page
 title: 研究
 permalink: /ja/research/
-nav: true
+nav: false
 nav_order: 2
 horizontal: false
 ---
