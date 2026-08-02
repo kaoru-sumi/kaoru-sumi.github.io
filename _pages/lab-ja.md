@@ -4,69 +4,78 @@ title: PAHAI研究室
 permalink: /ja/lab/
 nav: false
 ---
-[English version / 英語版はこちら](/lab/)
+
+<p align="right">
+  <a href="/lab/">English</a>
+</p>
 
 # PAHAI研究室
 
 **Persuasive and Affective Human–AI Interaction Laboratory**
 
-公立はこだて未来大学 PAHAI研究室では、感情コンピューティング、Human–AI Interaction、説得技術、身体性を持つAI、シリアスゲーム、VR・MRなどに関する研究を行っています。
+PAHAI研究室では，人とAIが自然に理解し，信頼し，協力できる未来のHuman–AI Interactionを研究しています．
 
-日本人学生と留学生が共に在籍し、人工知能、人間行動、インタラクションデザイン、没入型メディア、生体・神経情報計測を組み合わせた学際的な研究に取り組んでいます。
+AI，ロボット，XR（VR・MR），感情コンピューティング，生体情報計測などを組み合わせ，人に寄り添うインタラクティブシステムを開発しています．
 
 ## 研究分野
 
-- Persuasive and Affective Human–AI Interaction
+- Human–AI Interaction
+- Human–Agent Interaction
 - 感情コンピューティング
-- Human–AI Interaction・Human–Agent Interaction
-- 説得技術と行動変容
-- 身体性を持つAIとソーシャルエージェント
+- 身体性を持つAI（Embodied AI）
+- ソーシャルロボット
 - VR・MR・XR
-- シリアスゲームと感情学習
+- シリアスゲーム
 - 非言語コミュニケーション
 - 生体・神経情報計測
 
-## メンバー
+## 研究室メンバー
+
+<p align="center">
+  <img
+    src="/assets/img/pahai_lab_members.png"
+    alt="PAHAI Lab members"
+    style="width:55%; max-width:750px; height:auto;"
+  >
+</p>
 
 ### 博士後期課程
 
-#### 2年
+#### D2
 
-- Espulgar Candy Joyce Herminado
+- Espulgar Candy Joyce Herminado（フィリピン）
 
-#### 1年
+#### D1
 
-- Pakpoom Chaimook
-- Sandra Mae Famador
+- Pakpoom Chaimook（タイ）
+- Sandra Mae Famador（フィリピン）
 
-### 博士前期課程
+### 修士課程
 
-#### 2年
+#### M2
 
 - 太田 健 / Takeru Ohta
-- KIPRUTO Andrew Wanyonyi
+- KIPRUTO Andrew Wanyonyi（ケニア）
 - 嵯峨 京介 / Kyosuke Saga
 - 長澤 颯音 / Hayato Nagasawa
-- BINTI ZULKARNAIN Iffah Nurain
+- BINTI ZULKARNAIN Iffah Nurain（マレーシア）
 
-#### 2年・9月入学
+#### M2（9月入学）
 
-- 毛碩 / Mao Shuo
+- 毛碩 / Mao Shuo（中国）
 
-#### 1年
+#### M1
 
 - 鈴木 隼 / Shun Suzuki
 - 中野 大地 / Daichi Nakano
-- JOSEPH Mushfiqur Rahman
-- HOSSAIN Md. Ismail
+- JOSEPH Mushfiqur Rahman（バングラデシュ）
+- HOSSAIN Md. Ismail（バングラデシュ）
 
-#### 1年・9月入学
+#### M1（9月入学）
 
-- Md. Abdul Momin
+- Md. Abdul Momin（バングラデシュ）
 
-### 学部生
-
-#### 4年
+### 学部4年
 
 - 磯角 翔太 / Shota Isokado
 - 佐藤 光将 / Kosuke Sato
@@ -76,17 +85,20 @@ nav: false
 - 黒田 凌大 / Ryota Kuroda
 - 佐藤 陽翔 / Haruto Sato
 
-## 研究設備・技術
+## 卒業生
 
-- Meta Quest 2・Quest 3
-- Microsoft HoloLens 2
-- Furhatソーシャルロボット
-- ECG・EDA・EEG・心拍などの生体センサー
-- モーションキャプチャおよびカメラによる行動分析
-- Unityを用いたVR・MR開発環境
+これまでに，日本をはじめ，タイ，フィリピン，エジプト，インドネシア，台湾，中国，ケニア，マレーシア，バングラデシュなど，多様な国・地域から学生を受け入れてきました．
 
-## 研究室を希望する方へ
+また，フランス，メキシコ，台湾から短期特別研究学生を受け入れています．
 
-人間中心AI、感情コンピューティング、身体性を持つエージェント、XR、シリアスゲームなどに関心を持つ意欲的な学生を歓迎します。
+## 研究設備
 
-問い合わせの前に、本ウェブサイトの研究内容と研究業績をご確認ください。
+研究室では，Furhatソーシャルロボット，Mixed Reality，VR，生体センサ，脳波計測装置などを活用し，人とAIのインタラクションに関する実験を行っています．
+
+## 大学院進学を考えている方へ
+
+大学院進学や研究生を希望する方は，研究内容をご覧いただいたうえで，お気軽にお問い合わせください．
+
+研究プロジェクトの詳細は英語版Researchページに掲載しています．
+
+[Research Projects](/research/)
