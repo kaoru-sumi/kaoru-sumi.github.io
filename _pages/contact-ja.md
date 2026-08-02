@@ -9,8 +9,6 @@ nav: false
   <a href="/contact/">English</a>
 </p>
 
-# お問い合わせ
-
 ## 連絡先
 
 **角 薫**  
