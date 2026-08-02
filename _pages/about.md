@@ -43,7 +43,8 @@ My current research includes affective and persuasive agents, embodied AI, socia
 - **Upcoming Invited Talk:** TED-HRI Workshop at IEEE RO-MAN 2026, Kitakyushu, Japan, August 2026.
 - **General Chair:** Persuasive 2026, Hakodate, Japan, March 2026.
 - **Guest Editor:** Frontiers in AI, Research Topic on AI for Human Learning and Behavior Change.
-
+- **Awards:** Selected awards received by PAHAI Lab members and research projects. [View Awards](/awards/)
+  
 ## Research Interests
 
 - Affective Computing
