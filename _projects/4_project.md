@@ -39,6 +39,6 @@ Subjective reports are combined with behavioral, physiological, and neural measu
   *The 9th AIoT Behavior Transformation Research Meeting (BTI9)*, 2025. *(in Japanese)*
   **Best Presentation Award**
 
-- Kanta Kaga and Kaoru Sumi.
+- Sota Kaga and Kaoru Sumi.
   **Comparison of Phantom Sensation Induction and Physiological Responses in the Metaverse.**
   JSAI Special Interest Group on Knowledge and Skills Transfer, 2026. *(in Japanese)*
