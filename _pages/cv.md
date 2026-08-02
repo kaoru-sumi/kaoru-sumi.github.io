@@ -53,3 +53,5 @@ Future University Hakodate is located in Hakodate, Hokkaido, Japan.
     style="width: 45%; max-width: 650px; height: auto;"
   >
 </p>
+
+[Future University Hakodate Official Website](https://www.fun.ac.jp/en/)
