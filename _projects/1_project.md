@@ -25,7 +25,12 @@ One study used Furhat to investigate how Japanese middle school students respond
 - Social presence and embodiment
 - Cross-cultural human–agent interaction
 
-## Reference
+## Representative Publications
 
-Salem, Ahmed, and Kaoru Sumi. “Deception Detection in Educational AI: Challenges for Japanese Middle School Students in Interacting with Generative AI Robots.” *Frontiers in Artificial Intelligence*, Vol. 7, 2024.  
-[DOI: 10.3389/frai.2024.1493348](https://doi.org/10.3389/frai.2024.1493348)
+- Ahmed Salem and Kaoru Sumi. “Deception Detection in Educational AI: Challenges for Japanese Middle School Students in Interacting with Generative AI Robots.” *Frontiers in Artificial Intelligence*, Vol. 7, 2024.  
+  [DOI: 10.3389/frai.2024.1493348](https://doi.org/10.3389/frai.2024.1493348)
+
+- Ahmed Salem and Kaoru Sumi. “A Comparative Human–Robot Interaction Study between Face-Display and an Advanced Social Robot.” *Proceedings of IEEE COMPSAC 2024*, pp. 628–633, 2024.
+
+- Ahmed Salem and Kaoru Sumi. “Retro-Projected Virtual Agent: A Simple yet Advanced Social Robot.” *Theory and Practice of Computation*, 2024.  
+  [DOI: 10.2991/978-94-6463-388-7_7](https://doi.org/10.2991/978-94-6463-388-7_7)
