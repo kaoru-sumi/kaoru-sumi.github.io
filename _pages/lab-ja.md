@@ -4,12 +4,11 @@ title: PAHAI研究室
 permalink: /ja/lab/
 nav: false
 ---
+[English version / 英語版はこちら](/lab/)
 
 # PAHAI研究室
 
 **Persuasive and Affective Human–AI Interaction Laboratory**
-
-[English version](/lab/)
 
 公立はこだて未来大学 PAHAI研究室では、感情コンピューティング、Human–AI Interaction、説得技術、身体性を持つAI、シリアスゲーム、VR・MRなどに関する研究を行っています。
 
