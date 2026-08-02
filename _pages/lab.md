@@ -79,6 +79,12 @@ The laboratory also collaborates with Japanese game companies and interactive te
 - Nonverbal Communication
 - Physiological and Neural Sensing
 
+## Awards
+
+PAHAI Lab members and research projects have received awards at international conferences, academic societies, and student competitions.
+
+[View selected awards](/awards/)
+
 ## Current Members
 
 <p align="center">
