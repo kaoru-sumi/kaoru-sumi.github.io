@@ -5,7 +5,7 @@ description: Embodied agents situated in physical environments through mixed rea
 img: assets/img/research/mixed_reality_agent.png
 importance: 2
 category: work
-related_publications: true
+related_publications: false
 ---
 
 *Concept illustration of an MR agent providing context-aware support in a user’s living environment.*
