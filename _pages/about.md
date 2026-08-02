@@ -39,10 +39,12 @@ I investigate how intelligent agents and interactive systems can understand huma
 My current research includes affective and persuasive agents, embodied AI, social interaction in VR and MR, serious games, nonverbal communication, and physiological sensing.
 ## Highlights
 
-- **New Book:** *Affective Learning and Serious Games*, CRC Press / Taylor & Francis, published June 2, 2026.
-- **Upcoming Invited Talk:** TED-HRI Workshop at IEEE RO-MAN 2026, Kitakyushu, Japan, August 2026.
-- **General Chair:** Persuasive 2026, Hakodate, Japan, March 2026.
-- **Guest Editor:** Frontiers in AI, Research Topic on AI for Human Learning and Behavior Change.
+- **New Book:** [*Affective Learning and Serious Games*](https://www.routledge.com/Affective-Learning-and-Serious-Games/Sumi/p/book/9781041322627), CRC Press / Taylor & Francis, published June 2, 2026.
+- **Upcoming Invited Talk:** Invited Speaker at the [TED-HRI Workshop](https://sites.google.com/view/ted-hri/program?authuser=0), IEEE RO-MAN 2026, Kitakyushu, Japan, August 2026.
+- **General Chair:** [Persuasive 2026](https://2026.persuasivetech.org/), Hakodate, Japan, March 2026.
+- **Volume Editor:** [*Persuasive Technology: PERSUASIVE 2026 Proceedings*](https://link.springer.com/book/10.1007/978-3-032-19687-3), Springer LNCS 16476.
+- **Guest Editor:** [Next-Generation Persuasive Technologies for Human–AI Interaction and Behavior Change](https://www.frontiersin.org/research-topics/75786/next-generation-persuasive-technologies-for-human-ai-interaction-and-behavior-change), Frontiers in Artificial Intelligence.
+- **Guest Editor:** [Interactive Technologies for Behavior Change and Emotional Engagement](https://app.jove.com/methods-collections/3756), JoVE Methods Collection.
 - **Awards:** Selected awards received by PAHAI Lab members and research projects. [View Awards](/awards/)
   
 ## Research Interests
