@@ -5,7 +5,7 @@ description: A spherical avatar interface for remote communication and social pr
 img: assets/img/research/spherical_display.png
 importance: 5
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ## Spherical Display for Telepresence
