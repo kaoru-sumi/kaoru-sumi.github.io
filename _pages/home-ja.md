@@ -35,6 +35,7 @@ nav: false
 - 2026年3月，Persuasive 2026 General Chair
 - Frontiers in AI Research Topic Guest Editor
 - JoVE Methods Collection Guest Editor
+- - **受賞:** PAHAI研究室の学生・共同研究者による主な受賞を掲載しています．[受賞一覧を見る](/ja/awards/)
 
 ## PAHAI研究室
 
