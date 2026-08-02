@@ -15,42 +15,43 @@ PAHAI研究室では，人とAIが自然に理解し合い，信頼関係を築�
 
 AI，ロボット，XR（VR・MR），感情コンピューティング，生体情報計測などを組み合わせ，人に寄り添い，人の学習や行動変容を支援するインタラクティブシステムを開発しています．
 
-## 主な研究テーマ
+## 感情コンピューティングとHuman–AI Interaction
 
-- Human–AI Interaction
-- Human–Agent Interaction
-- 感情コンピューティング
-- 身体性を持つAI（Embodied AI）
-- Mixed Reality（MR）エージェント
-- ソーシャルロボット
-- 四足エージェント
-- ファントムセンス
-- 球体ディスプレイ
-- シリアスゲーム
-- 非言語コミュニケーション
-- 生体・神経情報計測
+人間の感情や非言語行動を認識・解釈し，それらに応答する計算手法とインタラクティブシステムを研究しています．
 
-## 研究スタイル
+## 身体性を持つAIとソーシャルエージェント
 
-- AI・機械学習
-- Unityによるシステム開発
-- VR・MRアプリケーション開発
-- ロボット・エージェント開発
-- ユーザ実験
-- 心理評価
-- 生体信号・脳波計測
+バーチャルエージェント，ロボット，身体性を持つAIが，外見，視線，ジェスチャー，対人距離，感情表現を通してどのようにコミュニケーションするかを研究しています．
 
-システムを開発するだけでなく，人がどのように感じ，行動し，学習し，AIを信頼するのかを実験によって明らかにすることを重視しています．
-{% if site.enable_project_categories and page.display_categories %} {% for category in page.display_categories %}
+## 説得技術と行動変容
+
+人の意欲，学習，ウェルビーイング，望ましい行動変容を支援するインタラクティブ技術を設計しています．
+
+## VR・MR・XR
+
+VR・MR・XR環境における社会的インタラクション，身体性，存在感，ファントムセンス，知的エージェントを研究しています．
+
+## シリアスゲームと感情学習
+
+感情，物語，知的エージェント，没入型メディアを組み合わせたシリアスゲームとインタラクティブ学習環境を開発・評価しています．
+
+## 非言語コミュニケーションと生体情報計測
+
+ジェスチャー，表情，姿勢，対人行動，ECG，EDA，EEGなどを分析し，感情的・社会的インタラクションを明らかにします．
+
+## 現在の研究トピック
+
+- 感情を理解し，説得や支援を行う身体性エージェント
+- Human–AI間の信頼と適応的な非言語行動
+- 学習，社会的支援，意思決定のためのMRエージェント
+- ソーシャルVRにおけるファントムセンスと身体性
+- シリアスゲームと感情学習
+- ジェスチャーと感情表現の文化比較
+- 没入型環境における生体情報計測
 
 ## 主な研究プロジェクト
-{{ category }}
-{% assign categorized_projects = site.projects | where: "category", category %} {% assign sorted_projects = categorized_projects | sort: "importance" %} {% if page.horizontal %}
-{% for project in sorted_projects %} {% include projects_horizontal.liquid %} {% endfor %}
-{% else %}
-{% for project in sorted_projects %} {% include projects.liquid %} {% endfor %}
-{% endif %} {% endfor %}
-{% else %}
+
+<div class="projects">
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
@@ -58,9 +59,9 @@ AI，ロボット，XR（VR・MR），感情コンピューティング，生体
 
 <div class="container">
   <div class="row row-cols-1 row-cols-md-2">
-  {% for project in sorted_projects %}
-    {% include projects_horizontal.liquid %}
-  {% endfor %}
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
   </div>
 </div>
 
@@ -73,3 +74,5 @@ AI，ロボット，XR（VR・MR），感情コンピューティング，生体
 </div>
 
 {% endif %}
+
+</div>
