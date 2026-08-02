@@ -79,6 +79,13 @@ Industry collaboration has also included major Japanese game companies and inter
 
 
 ## Current Members
+<p align="center">
+  <img
+    src="/assets/img/pahai_lab_members.jpg"
+    alt="PAHAI Lab members"
+    style="width: 75%; max-width: 1000px; height: auto;"
+  >
+</p>
 
 ### Doctoral Students
 
