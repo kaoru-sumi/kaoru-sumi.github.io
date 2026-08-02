@@ -14,6 +14,41 @@ PAHAI Lab at Future University Hakodate conducts interdisciplinary research on p
 
 The laboratory brings together students and researchers from diverse academic and cultural backgrounds and promotes international collaboration in human-centered artificial intelligence.
 
+## International Community
+
+PAHAI Lab has welcomed degree students and visiting researchers from a wide range of countries and regions．
+
+### Degree Students and Alumni
+
+🇯🇵 Japan  
+🇹🇭 Thailand  
+🇵🇭 Philippines  
+🇪🇬 Egypt  
+🇮🇩 Indonesia  
+🇹🇼 Taiwan  
+🇨🇳 China  
+🇰🇪 Kenya  
+🇲🇾 Malaysia  
+🇧🇩 Bangladesh  
+
+### Visiting Students
+
+🇫🇷 France  
+🇲🇽 Mexico  
+🇹🇼 Taiwan  
+
+## International Collaborations
+
+PAHAI Lab has conducted academic and industry collaborations across several countries and regions．
+
+- 🇨🇦 Canada
+- 🇺🇸 Florida，USA
+- 🇫🇷 France
+- 🇵🇭 Philippines
+- 🇹🇭 Thailand
+
+Industry collaboration has also included major Japanese game companies and interactive technology companies．
+
 ## Research Areas
 
 - Persuasive and Affective Human–AI Interaction
@@ -26,7 +61,6 @@ The laboratory brings together students and researchers from diverse academic an
 - Nonverbal Communication
 - Physiological and Neural Sensing
 
-## Members
 
 ## Members
 
