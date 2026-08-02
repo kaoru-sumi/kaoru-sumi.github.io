@@ -16,6 +16,7 @@ nav: false
 感情コンピューティング，Human–AI Interaction，Human–Agent Interaction，説得技術，VR・MR・XR，シリアスゲーム，感情学習を中心に研究しています．
 
 人間の感情，行動，身体性，非言語コミュニケーションを理解し，人に寄り添い，学習や行動変容を支援するAIおよびインタラクティブシステムの研究開発に取り組んでいます．
+[公立はこだて未来大学 教員紹介ページ](https://www.fun.ac.jp/faculty/sumi-kaoru/)
 
 ## 主な研究分野
 
