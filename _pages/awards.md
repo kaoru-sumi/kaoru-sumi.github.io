@@ -17,7 +17,7 @@ This page presents selected awards received by Kaoru Sumi, PAHAI Lab members, an
 
 **Shun Suzuki and Kaoru Sumi**  
 *Effects of a Peer Agent That Understands the Real-World Environment on Loneliness and Social Presence*  
-JSAI Special Interest Group on Language Sense Engineering, February 2026. *(in Japanese)*
+JSAI Special Interest Group on Language Sense Engineering, July 2026. *(in Japanese)*
 
 ## 2025
 
@@ -42,7 +42,7 @@ JSAI Special Interest Group on Language Sense Engineering, 2023. *(in Japanese)*
 
 **Toshiro Kashiwagi and Kaoru Sumi**  
 *A Telecommunication System for Sharing a Physical Space through Remote Participation as a Character Agent*  
-Interaction 2021, Information Processing Society of Japan, March 2021. *(in Japanese)*
+Interaction 2021, Information Processing Society of Japan, 2021. *(in Japanese)*
 
 ## 2020
 
@@ -70,17 +70,17 @@ Interaction 2021, Information Processing Society of Japan, March 2021. *(in Japa
 
 ### IEEE Brain Winner
 
-Brain–Computer Interface Hackathon at IEEE SMC 2018, October 2018.
+Brain–Computer Interface Hackathon at IEEE SMC 2018, 2018.
 
 ### First Place Winner
 
-Brain–Computer Interface Hackathon at IEEE SMC 2018, October 2018.
+Brain–Computer Interface Hackathon at IEEE SMC 2018, 2018.
 
 ### Student Presentation Award
 
 **Keigo Yabuki and Kaoru Sumi**  
 *Communication Learning Support System for Interacting with People with Autism Using a Humanoid Robot*  
-IPSJ Special Interest Group on Computers and the Humanities, January 2018. *(in Japanese)*
+IPSJ Special Interest Group on Computers and the Humanities, 2018. *(in Japanese)*
 
 ## 2017
 
@@ -102,7 +102,7 @@ Information Processing Society of Japan, Hokkaido Branch, 2016. *(in Japanese)*
 
 **Yuki Tsukamoto and Kaoru Sumi**  
 *A Pitching Training System Using Visual Effects*  
-Digital Games Research Association Japan Annual Conference, February 2016. *(in Japanese)*
+Digital Games Research Association Japan Annual Conference, 2016. *(in Japanese)*
 
 ### Media Magic Award
 
