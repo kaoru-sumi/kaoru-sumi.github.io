@@ -23,6 +23,25 @@ PAHAI研究室
 
 ## アクセス
 
+公立はこだて未来大学は，北海道函館市にあります．
+
+<div style="max-width: 850px; margin: 1.5rem auto;">
+  <iframe
+    src="https://www.google.com/maps?q=公立はこだて未来大学&output=embed"
+    width="100%"
+    height="400"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="公立はこだて未来大学の地図">
+  </iframe>
+</div>
+
+**公立はこだて未来大学**  
+〒041-8655  
+北海道函館市亀田中野町116番地2
+
 <p align="center">
   <img
     src="/assets/img/future_university_hakodate.jpg"
