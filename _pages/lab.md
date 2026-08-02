@@ -5,6 +5,7 @@ permalink: /lab/
 nav: true
 nav_order: 4
 ---
+[日本語版はこちら / Japanese version](/ja/lab/)
 
 **Persuasive and Affective Human–AI Interaction Laboratory**
 
@@ -13,6 +14,7 @@ nav_order: 4
 PAHAI Lab at Future University Hakodate conducts interdisciplinary research on persuasive and affective human–AI interaction, affective computing, embodied agents, serious games, and virtual and mixed reality.
 
 The laboratory brings together students and researchers from diverse academic and cultural backgrounds and promotes international collaboration in human-centered artificial intelligence.
+
 
 ## International Community
 
@@ -62,54 +64,52 @@ Industry collaboration has also included major Japanese game companies and inter
 - Physiological and Neural Sensing
 
 
-## Members
-
-[日本語版はこちら / Japanese version](/ja/lab/)
+## Current Members
 
 ### Doctoral Students
 
 #### Second Year
 
-- Candy Joyce Herminado Espulgar
+- Candy Joyce Herminado Espulgar — 🇵🇭 Philippines
 
 #### First Year
 
-- Pakpoom Chaimook
-- Sandra Mae Famador
+- Pakpoom Chaimook — 🇹🇭 Thailand
+- Sandra Mae Famador — 🇵🇭 Philippines
 
 ### Master’s Students
 
 #### Second Year
 
-- Takeru Ohta (太田 健)
-- Andrew Wanyonyi Kipruto
-- Kyosuke Saga (嵯峨 京介)
-- Hayato Nagasawa (長澤 颯音)
-- Iffah Nurain Binti Zulkarnain
+- Takeru Ohta — 🇯🇵 Japan
+- Andrew Wanyonyi Kipruto — 🇰🇪 Kenya
+- Kyosuke Saga — 🇯🇵 Japan
+- Hayato Nagasawa — 🇯🇵 Japan
+- Iffah Nurain Binti Zulkarnain — 🇲🇾 Malaysia
 
-#### Second Year, September Intake
+#### Second Year，September Intake
 
-- Mao Shuo (毛碩)
+- Mao Shuo — 🇨🇳 China
 
 #### First Year
 
-- Shun Suzuki (鈴木 隼)
-- Daichi Nakano (中野 大地)
-- Mushfiqur Rahman Joseph
-- Md. Ismail Hossain
+- Shun Suzuki — 🇯🇵 Japan
+- Daichi Nakano — 🇯🇵 Japan
+- Mushfiqur Rahman Joseph — 🇧🇩 Bangladesh
+- Md．Ismail Hossain — 🇧🇩 Bangladesh
 
-#### First Year, September Intake
+#### First Year，September Intake
 
-- Md. Abdul Momin
+- Md．Abdul Momin — 🇧🇩 Bangladesh
 
 ### Undergraduate Students
 
 #### Fourth Year
 
-- Shota Isokado (磯角 翔太)
-- Kosuke Sato (佐藤 光将)
-- Haruta Sugawara (菅原 温太)
-- Yuta Abe (阿部 優太)
-- Satoru Kimura (木村 了)
-- Ryota Kuroda (黒田 凌大)
-- Haruto Sato (佐藤 陽翔)
+- Shota Isokado — 🇯🇵 Japan
+- Kosuke Sato — 🇯🇵 Japan
+- Haruta Sugawara — 🇯🇵 Japan
+- Yuta Abe — 🇯🇵 Japan
+- Satoru Kimura — 🇯🇵 Japan
+- Ryota Kuroda — 🇯🇵 Japan
+- Haruto Sato — 🇯🇵 Japan
