@@ -95,7 +95,7 @@ The laboratory also collaborates with Japanese game companies and interactive te
   <img
     src="/assets/img/pahai_lab_members.png"
     alt="PAHAI Lab members"
-    style="width:60%; max-width:850px; height:auto;"
+    style="width:45%; max-width:650px; height:auto;"
   >
 </p>
 
