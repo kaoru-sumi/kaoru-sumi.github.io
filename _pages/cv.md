@@ -5,6 +5,9 @@ permalink: /contact/
 nav: true
 nav_order: 6
 ---
+<p align="right">
+  <a href="/ja/contact/">日本語 / Japanese</a>
+</p>
 
 ## Contact Information
 
