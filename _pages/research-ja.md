@@ -32,8 +32,6 @@ AI，ロボット，XR（VR・MR），感情コンピューティング，生体
 
 ## 研究スタイル
 
-本研究室では，以下を組み合わせながら研究を進めています．
-
 - AI・機械学習
 - Unityによるシステム開発
 - VR・MRアプリケーション開発
@@ -43,83 +41,17 @@ AI，ロボット，XR（VR・MR），感情コンピューティング，生体
 - 生体信号・脳波計測
 
 システムを開発するだけでなく，人がどのように感じ，行動し，学習し，AIを信頼するのかを実験によって明らかにすることを重視しています．
+{% if site.enable_project_categories and page.display_categories %} {% for category in page.display_categories %}
 
 ## 主な研究プロジェクト
-
-以下は現在進めている代表的な研究プロジェクトです．
-各プロジェクトの詳細は英語ですが，研究内容や代表論文をご覧いただけます．
-
-<div class="projects">
-
-{% if site.enable_project_categories and page.display_categories %}
-
-  {% for category in page.display_categories %}
-
-    <h2 class="category">{{ category }}</h2>
-
-    {% assign categorized_projects = site.projects
-      | where: "category", category %}
-
-    {% assign sorted_projects = categorized_projects
-      | sort: "importance" %}
-
-    {% if page.horizontal %}
-
-      <div class="container">
-        <div class="row row-cols-1">
-
-          {% for project in sorted_projects %}
-            {% include projects_horizontal.liquid %}
-          {% endfor %}
-
-        </div>
-      </div>
-
-    {% else %}
-
-      <div class="grid">
-
-        {% for project in sorted_projects %}
-          {% include projects.liquid %}
-        {% endfor %}
-
-      </div>
-
-    {% endif %}
-
-  {% endfor %}
-
+{{ category }}
+{% assign categorized_projects = site.projects | where: "category", category %} {% assign sorted_projects = categorized_projects | sort: "importance" %} {% if page.horizontal %}
+{% for project in sorted_projects %} {% include projects_horizontal.liquid %} {% endfor %}
+{% else %}
+{% for project in sorted_projects %} {% include projects.liquid %} {% endfor %}
+{% endif %} {% endfor %}
 {% else %}
 
-  {% assign sorted_projects = site.projects | sort: "importance" %}
-
-  {% if page.horizontal %}
-
-    <div class="container">
-      <div class="row row-cols-1">
-
-        {% for project in sorted_projects %}
-          {% include projects_horizontal.liquid %}
-        {% endfor %}
-
-      </div>
-    </div>
-
-  {% else %}
-
-    <div class="grid">
-
-      {% for project in sorted_projects %}
-        {% include projects.liquid %}
-      {% endfor %}
-
-    </div>
-
-  {% endif %}
-
-{% endif %}
-
-</div>
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
 {% if page.horizontal %}
