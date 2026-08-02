@@ -4,15 +4,10 @@ title: ホーム
 permalink: /ja/
 nav: false
 ---
-
-<nav class="mb-4">
-  <a href="/ja/">ホーム</a> ｜
-  <a href="/ja/research/">研究</a> ｜
-  <a href="/publications/">Publications</a> ｜
-  <a href="/ja/lab/">PAHAI研究室</a> ｜
-  <a href="/ja/contact/">お問い合わせ</a> ｜
+<p align="right">
   <a href="/">English</a>
-</nav>
+</p>
+
 
 # 角 薫
 
