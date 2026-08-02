@@ -44,7 +44,20 @@ AI，ロボット，XR（VR・MR），感情コンピューティング，生体
 
 ## 主な研究プロジェクト
 
-以下は現在進めている代表的な研究プロジェクトです．
-各プロジェクトの詳細は英語ですが，研究内容や代表論文をご覧いただけます．
+{% if site.enable_project_categories and page.display_categories %} {% for category in page.display_categories %}
+{{ category }}
+{% assign categorized_projects = site.projects | where: "category", category %} {% assign sorted_projects = categorized_projects | sort: "importance" %} {% if page.horizontal %}
+{% for project in sorted_projects %} {% include projects_horizontal.liquid %} {% endfor %}
+{% else %}
+{% for project in sorted_projects %} {% include projects.liquid %} {% endfor %}
+{% endif %} {% endfor %}
+{% else %}
 
-{% include projects.liquid %}
+{% assign sorted_projects = site.projects | sort: "importance" %}
+
+{% if page.horizontal %}
+
+{% for project in sorted_projects %} {% include projects_horizontal.liquid %} {% endfor %}
+{% else %}
+{% for project in sorted_projects %} {% include projects.liquid %} {% endfor %}
+{% endif %} {% endif %}
