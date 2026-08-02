@@ -29,3 +29,30 @@ The work examines how narrative, virtual environments, embodied agents, feedback
 Interactive systems are designed and evaluated with learners in order to examine how emotional experience and system behavior influence engagement, understanding, and learning outcomes.
 
 The research combines system development, behavioral observation, questionnaires, interviews, and physiological sensing when appropriate.
+
+## Representative Publications and Awards
+
+- Kaoru Sumi (Ed.).
+  **Affective Learning and Serious Games.**
+  CRC Press / Taylor & Francis, 2026.
+  DOI: 10.1201/9781003782735
+
+- Kaoru Sumi and Shusuke Sato.
+  **Experiences of Game-Based Learning and Reviewing History of the Experience Using Player's Emotions.**
+  *Frontiers in Artificial Intelligence*, Vol. 5, 2022.
+  DOI: 10.3389/frai.2022.874106
+
+- Ryoma Tanabe and Kaoru Sumi.
+  **Empathy-Driven Persuasion: A Serious Game for Anti-Bullying Education via First-Person Perpetrator Experience.**
+  In *Persuasive Technology: PERSUASIVE 2025 Satellite Events*, Springer, 2025.
+  DOI: 10.1007/978-3-031-97177-8_4
+
+- Thomas James Z. Tiam-Lee and Kaoru Sumi.
+  **Analysis and Prediction of Student Emotions while Doing Programming Exercises.**
+  In *Intelligent Tutoring Systems (ITS 2019)*, Springer, 2019.
+  **Best Full Paper Award**
+
+- Shusuke Sato and Kaoru Sumi.
+  **A Serious Game for Reviewing Learning History with Players' Emotions.**
+  *International Conference on Computers in Education (ICCE 2020)*, 2020.
+  **Best Technical Paper Award**
