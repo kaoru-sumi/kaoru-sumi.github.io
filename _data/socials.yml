@@ -1,10 +1,12 @@
-cv_pdf: /assets/pdf/Kaoru_Sumi_CV.pdf
-
-orcid_id: 0000-0002-0514-1510
-scholar_userid: 6D0WgUMAAAAJ
-linkedin_username: kaoru-sumi-38862110
-
 custom_social:
   logo: /assets/img/researchmap.png
   title: researchmap
   url: https://researchmap.jp/kaorusumi?lang=en
+
+scholar_userid: 6D0WgUMAAAAJ
+
+orcid_id: 0000-0002-0514-1510
+
+linkedin_username: kaoru-sumi-38862110
+
+cv_pdf: /assets/pdf/Kaoru_Sumi_CV.pdf
