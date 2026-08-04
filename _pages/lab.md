@@ -94,7 +94,7 @@ PAHAI Lab members and research projects have received awards at international co
 - Ryota Kuroda — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
 - Haruto Sato — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
 
-## Research Facilities
+## Research Environment
 
 PAHAI Lab uses social robots, VR and MR headsets, physiological sensors, EEG devices, and other interactive technologies to conduct research on human–AI interaction.
 
@@ -112,7 +112,7 @@ If you are considering joining the laboratory as an undergraduate researcher, gr
 
 ---
 
-## International Research Environment
+## International Community
 
 PAHAI Lab has welcomed degree students, visiting students, and researchers from a wide range of countries and regions.
 
