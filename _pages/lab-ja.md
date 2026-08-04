@@ -87,7 +87,7 @@ PAHAI研究室の学生・共同研究者は，国際会議，学会研究会，
 - <img src="/assets/img/flags/jp.svg" style="width:16px;"> 黒田 凌大 / Ryota Kuroda
 - <img src="/assets/img/flags/jp.svg" style="width:16px;"> 佐藤 陽翔 / Haruto Sato
 
-## 研究設備
+## 研究環境
 
 研究室では，Furhatソーシャルロボット，VR・MR機器，生体センサ，脳波計測装置などを活用し，人とAIのインタラクションに関する研究と実験を行っています．
 
