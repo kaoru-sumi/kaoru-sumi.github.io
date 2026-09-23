@@ -68,4 +68,13 @@ h2 > a[href$="/news/"]::after {
   content: "Recent Activities";
   font-size: 2rem;
 }
+
+h2 > a[href$="/publications/"] {
+  font-size: 0;
+}
+
+h2 > a[href$="/publications/"]::after {
+  content: "Selected Publications";
+  font-size: 2rem;
+}
 </style>
