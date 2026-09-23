@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications listed in reverse chronological order.
+description: Recent and selected publications.
 nav: true
 nav_order: 3
 ---
@@ -11,12 +11,22 @@ nav_order: 3
 
 <!-- Bibsearch Feature -->
 
-Publications are listed in reverse chronological order. Use the search box below to find publications by title, author, venue, or year.
+Publications are organized into recent publications and selected earlier works. For a complete publication record, please see my [ORCID profile](https://orcid.org/0000-0002-0514-1510) and [official Future University Hakodate faculty page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/).
 
 {% include bib_search.liquid %}
 
+## Recent Publications
+
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[year>=2024] %}
+
+</div>
+
+## Selected Earlier Publications
+
+<div class="publications">
+
+{% bibliography --query @*[selected=true && year<2024] %}
 
 </div>
