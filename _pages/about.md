@@ -42,7 +42,7 @@ My current research includes affective and persuasive agents, embodied AI, socia
 ## Highlights
 
 - **New Book:** [*Affective Learning and Serious Games*](https://www.routledge.com/Affective-Learning-and-Serious-Games/Sumi/p/book/9781041322627), CRC Press / Taylor & Francis, published June 2, 2026.
-- **Upcoming Invited Talk:** Invited Speaker at the [TED-HRI Workshop](https://sites.google.com/view/ted-hri/program?authuser=0), IEEE RO-MAN 2026, Kitakyushu, Japan, August 2026.
+- **Invited Speaker:** [TED-HRI Workshop](https://sites.google.com/view/ted-hri/program?authuser=0), IEEE RO-MAN 2026, Kitakyushu, Japan, August 2026.
 - **General Chair:** [Persuasive 2026](https://2026.persuasivetech.org/), Hakodate, Japan, March 2026.
 - **Volume Editor:** [*Persuasive Technology: PERSUASIVE 2026 Proceedings*](https://link.springer.com/book/10.1007/978-3-032-19687-3), Springer LNCS 16476.
 - **Guest Editor:** [Next-Generation Persuasive Technologies for Human–AI Interaction and Behavior Change](https://www.frontiersin.org/research-topics/75786/next-generation-persuasive-technologies-for-human-ai-interaction-and-behavior-change), Frontiers in Artificial Intelligence.
