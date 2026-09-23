@@ -146,3 +146,14 @@ PAHAI研究室では，これまで世界各国・地域から多くの学生・
 - <img src="/assets/img/flags/tw.svg" style="width:16px;"> 台湾
 
 国内外から意欲ある学生・研究者を歓迎しています．
+
+### 国際共同研究
+
+- <img src="/assets/img/flags/fr.svg" style="width:16px;"> フランス
+- <img src="/assets/img/flags/ph.svg" style="width:16px;"> フィリピン
+- <img src="/assets/img/flags/th.svg" style="width:16px;"> タイ
+- <img src="/assets/img/flags/ca.svg" style="width:16px;"> カナダ
+- <img src="/assets/img/flags/us.svg" style="width:16px;"> アメリカ
+- <img src="/assets/img/flags/my.svg" style="width:16px;"> マレーシア
+
+PAHAI研究室では，国内外の大学・研究機関・企業と共同研究を進めています．
