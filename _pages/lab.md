@@ -157,11 +157,12 @@ A major feature of the laboratory is that members with diverse cultural and acad
 
 PAHAI Lab has conducted academic and industry collaborations across several countries and regions.
 
-- <img src="/assets/img/flags/ca.svg" alt="Canada" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Canada
-- <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> United States
 - <img src="/assets/img/flags/fr.svg" alt="France" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> France
 - <img src="/assets/img/flags/ph.svg" alt="Philippines" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Philippines
 - <img src="/assets/img/flags/th.svg" alt="Thailand" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Thailand
+- <img src="/assets/img/flags/ca.svg" alt="Canada" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Canada
+- <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> United States
+- <img src="/assets/img/flags/my.svg" alt="Malaysia" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Malaysia
 
 The laboratory also collaborates with Japanese game companies and interactive technology companies.
 
