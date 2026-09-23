@@ -132,7 +132,7 @@ A major feature of the laboratory is that members with diverse cultural and acad
   <small>Click the map to view a larger version.</small>
 </p>
 
-### Degree Students and Alumni
+### Countries and Regions of Current and Former Degree Students
 
 - <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Japan
 - <img src="/assets/img/flags/th.svg" alt="Thailand" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Thailand
@@ -145,8 +145,10 @@ A major feature of the laboratory is that members with diverse cultural and acad
 - <img src="/assets/img/flags/my.svg" alt="Malaysia" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Malaysia
 - <img src="/assets/img/flags/bd.svg" alt="Bangladesh" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Bangladesh
 
-### Visiting Students
+### Research Students, Short-term Research, and Exchange
 
+- <img src="/assets/img/flags/in.svg" alt="India" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> India
+- <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> United States
 - <img src="/assets/img/flags/fr.svg" alt="France" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> France
 - <img src="/assets/img/flags/mx.svg" alt="Mexico" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Mexico
 - <img src="/assets/img/flags/tw.svg" alt="Taiwan" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Taiwan
@@ -156,7 +158,7 @@ A major feature of the laboratory is that members with diverse cultural and acad
 PAHAI Lab has conducted academic and industry collaborations across several countries and regions.
 
 - <img src="/assets/img/flags/ca.svg" alt="Canada" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Canada
-- <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Florida, United States
+- <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> United States
 - <img src="/assets/img/flags/fr.svg" alt="France" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> France
 - <img src="/assets/img/flags/ph.svg" alt="Philippines" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Philippines
 - <img src="/assets/img/flags/th.svg" alt="Thailand" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Thailand
