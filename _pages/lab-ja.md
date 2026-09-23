@@ -43,11 +43,11 @@ PAHAI研究室の学生・共同研究者は，国際会議，学会研究会，
 
 ### 博士後期課程
 
-#### D2
+#### D3
 
 - <img src="/assets/img/flags/ph.svg" style="width:16px;"> Espulgar Candy Joyce Herminado（フィリピン）
 
-#### D1
+#### D2
 
 - <img src="/assets/img/flags/th.svg" style="width:16px;"> Pakpoom Chaimook（タイ）
 - <img src="/assets/img/flags/ph.svg" style="width:16px;"> Sandra Mae Famador（フィリピン）
@@ -124,7 +124,7 @@ PAHAI研究室では，これまで世界各国・地域から多くの学生・
 <small>クリックすると拡大表示されます．</small>
 </p>
 
-### 卒業生・修了生の出身国・地域
+### これまで正規課程に在籍した学生の出身国・地域
 
 - <img src="/assets/img/flags/jp.svg" style="width:16px;"> 日本
 - <img src="/assets/img/flags/th.svg" style="width:16px;"> タイ
@@ -139,8 +139,9 @@ PAHAI研究室では，これまで世界各国・地域から多くの学生・
 
 ### 短期研究・交流
 
-- <img src="/assets/img/flags/fr.svg" style="width:16px;"> フランス
+- <img src="/assets/img/flags/in.svg" style="width:16px;"> インド
 - <img src="/assets/img/flags/mx.svg" style="width:16px;"> メキシコ
+- <img src="/assets/img/flags/fr.svg" style="width:16px;"> フランス
 - <img src="/assets/img/flags/tw.svg" style="width:16px;"> 台湾
 
 国内外から意欲ある学生・研究者を歓迎しています．
