@@ -69,7 +69,7 @@ PAHAI Lab members and research projects have received awards at international co
 
 #### Second Year, September Intake
 
-- Mao Shuo — <img src="/assets/img/flags/cn.svg" alt="China" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> China
+- Md. Abdul Momin — <img src="/assets/img/flags/bd.svg" alt="Bangladesh" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Bangladesh
 
 #### First Year
 
@@ -80,7 +80,7 @@ PAHAI Lab members and research projects have received awards at international co
 
 #### First Year, September Intake
 
-- Md. Abdul Momin — <img src="/assets/img/flags/bd.svg" alt="Bangladesh" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Bangladesh
+- Wang Zhiwei — <img src="/assets/img/flags/cn.svg" alt="China" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> China
 
 ### Undergraduate Students
 
