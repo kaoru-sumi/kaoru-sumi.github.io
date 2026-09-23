@@ -137,9 +137,10 @@ PAHAI研究室では，これまで世界各国・地域から多くの学生・
 - <img src="/assets/img/flags/my.svg" style="width:16px;"> マレーシア
 - <img src="/assets/img/flags/bd.svg" style="width:16px;"> バングラデシュ
 
-### 短期研究・交流
+### 研究生・短期研究・交流
 
 - <img src="/assets/img/flags/in.svg" style="width:16px;"> インド
+- <img src="/assets/img/flags/us.svg" style="width:16px;"> アメリカ
 - <img src="/assets/img/flags/mx.svg" style="width:16px;"> メキシコ
 - <img src="/assets/img/flags/fr.svg" style="width:16px;"> フランス
 - <img src="/assets/img/flags/tw.svg" style="width:16px;"> 台湾
