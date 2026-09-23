@@ -9,19 +9,25 @@ nav_order: 3
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
+Publications are organized into a recent book and book chapters, recent publications, and selected earlier works.
 
-Publications are organized into a recent book and book chapters, recent publications, and selected earlier works. For a complete publication record, please see my [ORCID profile](https://orcid.org/0000-0002-0514-1510) and [official Future University Hakodate faculty page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/).
+For a complete publication record, please see my [ORCID profile](https://orcid.org/0000-0002-0514-1510) and [official Future University Hakodate faculty page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/).
 
 {% include bib_search.liquid %}
 
-## Book and Book Chapters
+## Book
 
 <div class="publications">
 
-{% bibliography --query @book[year=2026] %}
+{% bibliography --query @book[category=book2026] %}
 
-{% bibliography --query @inbook[booktitle="Affective Learning and Serious Games"] %}
+</div>
+
+## Book Chapters
+
+<div class="publications">
+
+{% bibliography --query @inbook[category=book2026] %}
 
 </div>
 
@@ -29,7 +35,7 @@ Publications are organized into a recent book and book chapters, recent publicat
 
 <div class="publications">
 
-{% bibliography --query @*[year>=2024] %}
+{% bibliography --query @*[year>=2024 && category!=book2026] %}
 
 </div>
 
