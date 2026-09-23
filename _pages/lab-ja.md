@@ -64,7 +64,7 @@ PAHAI研究室の学生・共同研究者は，国際会議，学会研究会，
 
 #### M2（9月入学）
 
-- <img src="/assets/img/flags/cn.svg" style="width:16px;"> 毛碩 / Mao Shuo（中国）
+- <img src="/assets/img/flags/bd.svg" style="width:16px;"> Md. Abdul Momin（バングラデシュ）
 
 #### M1
 
@@ -74,8 +74,7 @@ PAHAI研究室の学生・共同研究者は，国際会議，学会研究会，
 - <img src="/assets/img/flags/bd.svg" style="width:16px;"> HOSSAIN Md. Ismail（バングラデシュ）
 
 #### M1（9月入学）
-
-- <img src="/assets/img/flags/bd.svg" style="width:16px;"> Md. Abdul Momin（バングラデシュ）
+- <img src="/assets/img/flags/cn.svg" style="width:16px;"> 王 智偉 / Mao Shuo（中国）
 
 ### 学部4年
 
