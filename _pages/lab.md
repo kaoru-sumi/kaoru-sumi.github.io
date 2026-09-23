@@ -48,11 +48,11 @@ PAHAI Lab members and research projects have received awards at international co
 
 ### Doctoral Students
 
-#### Second Year
+#### Third Year
 
 - Candy Joyce Herminado Espulgar — <img src="/assets/img/flags/ph.svg" alt="Philippines" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Philippines
 
-#### First Year
+#### Second Year
 
 - Pakpoom Chaimook — <img src="/assets/img/flags/th.svg" alt="Thailand" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Thailand
 - Sandra Mae Famador — <img src="/assets/img/flags/ph.svg" alt="Philippines" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Philippines
