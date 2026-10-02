@@ -20,7 +20,7 @@ The work examines how embodied agents can support learning, social interaction, 
 
 - Shun Suzuki and Kaoru Sumi.
   **Effects of a Context-Aware Peer Agent That Understands the Physical Environment on Loneliness and Social Presence.**
-  JSAI Special Interest Group on Knowledge and Skills Transfer, 2026. *(in Japanese)*
+  JSAI Special Interest Group on Language Sense Engineering, 2026. *(in Japanese)*
   **JSAI SIG Excellent Research Award**
 
 - Kaoru Sumi and Rio Harada.
