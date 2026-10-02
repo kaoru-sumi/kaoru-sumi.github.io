@@ -27,7 +27,7 @@ The work examines how species, body shape, movement, emotional expression, and s
 
 **Rio Harada and Kaoru Sumi.**  
 “Persuasion through Motions and Emotional Expressions of Pet-Like Artifacts.”  
-JSAI Special Interest Group on Knowledge and Skills Transfer, 2023. *(in Japanese)*  
+JSAI Special Interest Group on Language Sense Engineering, 2023. *(in Japanese)*  
 **JSAI SIG Excellent Research Award**
 
 **Rio Harada and Kaoru Sumi.**  
