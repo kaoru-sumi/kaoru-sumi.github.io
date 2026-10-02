@@ -31,6 +31,9 @@ nav: false
 
 ## 最近の活動
 
+- **論文受理：** 2026年9月30日，Ahmed SalemとKaoru Sumiの論文「Effects of Robot Personality and Facial Appearance on Embarrassment in HRI」がJournal of Visualized Experiments（JoVE）に受理されました．
+- **国際会議論文採択：** 2026年，Daichi NakanoとKaoru Sumiの論文「The Impact of Nonverbal Information Visualization on Dialogue and Perceived Understanding in the Metaverse」が2026 IEEE International Symposium on Emerging Metaverse (ISEMV 2026)にFull Paperとして採択されました．
+- **国際会議論文採択：** 2026年，Shuo MaoとKaoru Sumiの論文「Emotion-Adaptive Music Generation in Games: Comparing Dynamic and Real-Time AI-Generated Music」が15th EAI International Conference: ArtsIT, Interactivity & Game Creation (EAI ArtsIT 2026)に採択されました．
 - **新刊書籍：** 2026年6月，CRC Press / Taylor & Francisより，[_Affective Learning and Serious Games_](https://www.routledge.com/Affective-Learning-and-Serious-Games/Sumi/p/book/9781041322627)を刊行しました．
 - **招待講演：** 2026年8月，IEEE RO-MAN 2026の[TED-HRI Workshop](https://sites.google.com/view/ted-hri/program?authuser=0)にて招待講演を行いました．
 - **国際会議General Chair：** 2026年3月，函館で開催された[Persuasive 2026](https://2026.persuasivetech.org/)のGeneral Chairを務めました．
