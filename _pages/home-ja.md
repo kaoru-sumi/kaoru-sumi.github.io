@@ -32,7 +32,7 @@ nav: false
 ## 最近の活動
 
 - **新刊書籍：** 2026年6月，CRC Press / Taylor & Francisより，[_Affective Learning and Serious Games_](https://www.routledge.com/Affective-Learning-and-Serious-Games/Sumi/p/book/9781041322627)を刊行しました．
-- **招待講演：** 2026年8月，IEEE RO-MAN 2026の[TED-HRI Workshop](https://sites.google.com/view/ted-hri/program?authuser=0)にて招待講演を行います．
+- **招待講演：** 2026年8月，IEEE RO-MAN 2026の[TED-HRI Workshop](https://sites.google.com/view/ted-hri/program?authuser=0)にて招待講演を行いました．
 - **国際会議General Chair：** 2026年3月，函館で開催された[Persuasive 2026](https://2026.persuasivetech.org/)のGeneral Chairを務めました．
 - **国際会議論文集：** Springer LNCS 16476，[_Persuasive Technology: PERSUASIVE 2026 Proceedings_](https://link.springer.com/book/10.1007/978-3-032-19687-3)のVolume Editorを務めました．
 - **Guest Editor：** Frontiers in Artificial IntelligenceのResearch Topic，[“Next-Generation Persuasive Technologies for Human–AI Interaction and Behavior Change”](https://www.frontiersin.org/research-topics/75786/next-generation-persuasive-technologies-for-human-ai-interaction-and-behavior-change)．
