@@ -41,4 +41,4 @@ Subjective reports are combined with behavioral, physiological, and neural measu
 
 - Sota Kaga and Kaoru Sumi.
   **Comparison of Phantom Sensation Induction and Physiological Responses in the Metaverse.**
-  JSAI Special Interest Group on Knowledge and Skills Transfer, 2026. *(in Japanese)*
+  JSAI Special Interest Group on Language Sense Engineering, 2026. *(in Japanese)*
