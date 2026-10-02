@@ -73,3 +73,10 @@
     font-size: 0.58rem;
   }
 }
+
+@media (min-width: 576px) {
+  .profile {
+    width: 22% !important;
+    max-width: 210px;
+  }
+}
