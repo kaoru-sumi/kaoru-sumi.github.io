@@ -5,6 +5,7 @@ permalink: /contact/
 nav: true
 nav_order: 6
 ---
+
 <p align="right">
   <a href="/ja/contact/">日本語 / Japanese</a>
 </p>
@@ -14,7 +15,7 @@ nav_order: 6
 **Kaoru Sumi**  
 Professor  
 School of Systems Information Science  
-Future University Hakodate  
+Future University Hakodate
 
 116-2 Kamedanakano-cho, Hakodate, Hokkaido 041-8655, Japan
 

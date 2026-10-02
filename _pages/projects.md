@@ -5,12 +5,12 @@ permalink: /research/
 nav: true
 nav_order: 2
 ---
+
 <p align="right">
   <a href="/ja/research/">日本語 / Japanese</a>
 </p>
 
 My research explores how intelligent and embodied technologies can understand human emotions and behavior, support learning and behavior change, and create meaningful interactions between humans and AI.
-
 
 ## Affective Computing and Human–AI Interaction
 
@@ -45,6 +45,7 @@ We analyze gesture, facial expression, posture, interpersonal behavior, ECG, EDA
 - Serious games and affective learning
 - Cross-cultural analysis of gesture and emotion
 - Physiological sensing in immersive environments
+
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
