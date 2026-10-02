@@ -9,7 +9,7 @@ nav_order: 3
 
 <!-- _pages/publications.md -->
 
-Publications are organized into a recent book and book chapters, recent publications, and selected earlier works.
+Publications are organized into a recent book and book chapters, edited conference proceedings, recent publications, and selected earlier works.
 
 For a complete publication record, please see my [ORCID profile](https://orcid.org/0000-0002-0514-1510) and [official Future University Hakodate faculty page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/).
 
@@ -31,11 +31,19 @@ For a complete publication record, please see my [ORCID profile](https://orcid.o
 
 </div>
 
+## Edited Conference Proceedings
+
+<div class="publications">
+
+{% bibliography --query @proceedings --style assets/csl/edited-proceedings.csl --template {{reference}} <a href="https://doi.org/{{entry.doi}}">DOI</a> %}
+
+</div>
+
 ## Recent Publications
 
 <div class="publications">
 
-{% bibliography --query @*[year>=2024 && category!=book2026] %}
+{% bibliography --query !@proceedings[year>=2024 && category!=book2026] %}
 
 </div>
 
