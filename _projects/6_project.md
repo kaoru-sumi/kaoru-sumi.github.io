@@ -55,4 +55,4 @@ The research combines system development, behavioral observation, questionnaires
 - Shusuke Sato and Kaoru Sumi.
   **A Serious Game for Reviewing Learning History with Players' Emotions.**
   *International Conference on Computers in Education (ICCE 2020)*, 2020.
-  **Best Technical Paper Award**
+  **Best Technical Design Paper Award**
