@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-*Experimental scene used to investigate visually induced phantom sensations in social VR.*
+_Experimental scene used to investigate visually induced phantom sensations in social VR._
 
 ## Phantom Sensations in Social VR
 
@@ -36,9 +36,9 @@ Subjective reports are combined with behavioral, physiological, and neural measu
 
 - Temma Saito and Kaoru Sumi.
   **Investigating Phantom Sensation in the Metaverse.**
-  *The 9th AIoT Behavior Transformation Research Meeting (BTI9)*, 2025. *(in Japanese)*
+  _The 9th AIoT Behavior Transformation Research Meeting (BTI9)_, 2025. _(in Japanese)_
   **Best Presentation Award**
 
 - Sota Kaga and Kaoru Sumi.
   **Comparison of Phantom Sensation Induction and Physiological Responses in the Metaverse.**
-  JSAI Special Interest Group on Language Sense Engineering, 2026. *(in Japanese)*
+  JSAI Special Interest Group on Language Sense Engineering, 2026. _(in Japanese)_

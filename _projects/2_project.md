@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-*Concept illustration of an MR agent providing context-aware support in a user’s living environment.*
+_Concept illustration of an MR agent providing context-aware support in a user’s living environment._
 
 ## Mixed Reality Agents
 
@@ -20,10 +20,10 @@ The work examines how embodied agents can support learning, social interaction, 
 
 - Shun Suzuki and Kaoru Sumi.
   **Effects of a Context-Aware Peer Agent That Understands the Physical Environment on Loneliness and Social Presence.**
-  JSAI Special Interest Group on Language Sense Engineering, 2026. *(in Japanese)*
+  JSAI Special Interest Group on Language Sense Engineering, 2026. _(in Japanese)_
   **JSAI SIG Excellent Research Award**
 
 - Kaoru Sumi and Rio Harada.
   **Designing Persuasive Interactions with Pet-Type Virtual Agents: Effects of Emotion and Context in Mixed Reality.**
-  *Human Factors in Design, Engineering, and Computing*, AHFE Open Access, Vol. 199, 2025.
+  _Human Factors in Design, Engineering, and Computing_, AHFE Open Access, Vol. 199, 2025.
   DOI: 10.54941/ahfe1006912

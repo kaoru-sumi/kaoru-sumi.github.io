@@ -27,22 +27,22 @@ The work examines how species, body shape, movement, emotional expression, and s
 
 **Rio Harada and Kaoru Sumi.**  
 “Persuasion through Motions and Emotional Expressions of Pet-Like Artifacts.”  
-JSAI Special Interest Group on Language Sense Engineering, 2023. *(in Japanese)*  
+JSAI Special Interest Group on Language Sense Engineering, 2023. _(in Japanese)_  
 **JSAI SIG Excellent Research Award**
 
 **Rio Harada and Kaoru Sumi.**  
 “Persuasive Technology through Behavior and Emotion with Pet-Type Artifacts.”  
-In *Persuasive Technology: 19th International Conference, PERSUASIVE 2024*, Lecture Notes in Computer Science, Vol. 14636, Springer, 2024.  
+In _Persuasive Technology: 19th International Conference, PERSUASIVE 2024_, Lecture Notes in Computer Science, Vol. 14636, Springer, 2024.  
 [DOI: 10.1007/978-3-031-58226-4_12](https://doi.org/10.1007/978-3-031-58226-4_12)
 
 **Kaoru Sumi and Rio Harada.**  
 “Designing Persuasive Interactions with Pet-Type Virtual Agents: Effects of Emotion and Context in Mixed Reality.”  
-In *Human Factors in Design, Engineering, and Computing*, AHFE Open Access, Vol. 199, 2025.  
+In _Human Factors in Design, Engineering, and Computing_, AHFE Open Access, Vol. 199, 2025.  
 [DOI: 10.54941/ahfe1006912](https://doi.org/10.54941/ahfe1006912)
 
 **Kaoru Sumi.**  
 “Pet-Type Artifact That Promotes Behavior Change through Emotional Expression.”  
-In *Affective Learning and Serious Games*, CRC Press, 2026.  
+In _Affective Learning and Serious Games_, CRC Press, 2026.  
 [DOI: 10.1201/9781003782735-6](https://doi.org/10.1201/9781003782735-6)
 
-*Concept image of an animal-like embodied agent used in virtual and mixed reality research.*
+_Concept image of an animal-like embodied agent used in virtual and mixed reality research._
