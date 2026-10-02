@@ -39,11 +39,11 @@ People in the physical environment can interact with the avatar through speech a
 
 - Yoshiki Ishihara and Kaoru Sumi.
   **Avatar Communication through a Spherical Display while Assuming Another Person’s Identity.**
-  JSAI Special Interest Group on Knowledge and Skills Transfer, 2023. *(in Japanese)*
+  JSAI Special Interest Group on Language Sense Engineering, 2023. *(in Japanese)*
 
 - Shingo Nishiura and Kaoru Sumi.
   **Comparison of Communication through Cooperative Games Using a Spherical Display and a Head-Mounted Display.**
-  JSAI Special Interest Group on Knowledge and Skills Transfer, 2023. *(in Japanese)*
+  JSAI Special Interest Group on Language Sense Engineering, 2023. *(in Japanese)*
 
 - Yoshiki Ishihara and Kaoru Sumi.
   **Communication through a Virtual Avatar Presented on a Spherical Display.**
