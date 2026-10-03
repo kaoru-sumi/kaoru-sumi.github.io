@@ -2,6 +2,8 @@
 layout: page
 title: Spherical Display for Telepresence
 description: A spherical avatar interface for remote communication and social presence
+title_ja: テレプレゼンスのための球体ディスプレイ
+description_ja: 遠隔コミュニケーションと相手の存在感を支える球体アバターインタフェース
 img: assets/img/research/spherical_display.png
 importance: 5
 category: work

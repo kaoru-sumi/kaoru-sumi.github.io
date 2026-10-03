@@ -2,6 +2,8 @@
 layout: page
 title: Furhat Social Robot
 description: Embodied conversational AI for affective and persuasive human–AI interaction
+title_ja: Furhatソーシャルロボット
+description_ja: 感情や説得を伴う人とAIのインタラクションを探る身体性対話AI
 img: assets/img/research/furhat_social_robot.png
 importance: 1
 category: work

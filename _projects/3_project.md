@@ -2,6 +2,8 @@
 layout: page
 title: Animal-like Embodied Agents
 description: Quadruped virtual agents for affective and persuasive interaction
+title_ja: 動物型の身体性エージェント
+description_ja: 感情表現や説得的なインタラクションを行う四足歩行の仮想エージェント
 img: assets/img/research/animal_embodied_agent.png
 importance: 3
 category: work

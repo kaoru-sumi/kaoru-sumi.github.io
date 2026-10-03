@@ -2,6 +2,8 @@
 layout: page
 title: Mixed Reality Agents
 description: Embodied agents situated in physical environments through mixed reality
+title_ja: 複合現実（MR）エージェント
+description_ja: 複合現実を通じて実空間に存在し，人と関わる身体性エージェント
 img: assets/img/research/mixed_reality_agent.png
 importance: 2
 category: work

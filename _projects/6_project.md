@@ -2,6 +2,8 @@
 layout: page
 title: Serious Games and Affective Learning
 description: Interactive systems that support learning through emotion, engagement, and meaningful experience
+title_ja: シリアスゲームと感情学習
+description_ja: 感情，学習への関与，有意義な体験を通して学びを支える対話型システム
 importance: 6
 category: work
 related_publications: false

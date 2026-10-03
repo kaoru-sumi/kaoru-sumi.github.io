@@ -52,27 +52,23 @@ VR・MR・XR環境における社会的インタラクション，身体性，�
 ## 主な研究プロジェクト
 
 <div class="projects">
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-{% if page.horizontal %}
-
-<div class="container">
-  <div class="row row-cols-1 row-cols-md-2">
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+      <div class="col">
+        <a href="{{ project.url | relative_url }}" hreflang="en">
+          <div class="card h-100 hoverable">
+            {% if project.img %}
+              {% include figure.liquid loading="eager" path=project.img sizes="250px" alt=project.title_ja class="card-img-top" %}
+            {% endif %}
+            <div class="card-body">
+              <h2 class="card-title">{{ project.title_ja | escape }}</h2>
+              <p class="card-text">{{ project.description_ja | escape }}</p>
+              <p class="card-text"><small>詳細を見る（英語）</small></p>
+            </div>
+          </div>
+        </a>
+      </div>
     {% endfor %}
   </div>
-</div>
-
-{% else %}
-
-<div class="row row-cols-1 row-cols-md-3">
-  {% for project in sorted_projects %}
-    {% include projects.liquid %}
-  {% endfor %}
-</div>
-
-{% endif %}
-
 </div>

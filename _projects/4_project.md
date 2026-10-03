@@ -2,6 +2,8 @@
 layout: page
 title: Phantom Sensations in Social VR
 description: Visually induced bodily sensations in immersive virtual environments
+title_ja: ソーシャルVRにおけるファントムセンス
+description_ja: 没入型仮想環境で視覚刺激によって生じる身体感覚
 img: assets/img/research/phantom_sensations_social_vr.png
 importance: 4
 category: work
