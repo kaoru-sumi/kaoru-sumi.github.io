@@ -10,6 +10,14 @@ nav: false
   <a href="/lab/">English</a>
 </p>
 
+<nav aria-label="日本語ページ" style="display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin-bottom: 1.5rem; font-size: 0.9rem;">
+  {% for item in site.data.ja_navigation %}
+    <a href="{{ item.url | relative_url }}" hreflang="{{ item.lang }}"{% if page.url == item.url %} aria-current="page"{% endif %}>
+      {% if page.url == item.url %}<strong>{{ item.title }}</strong>{% else %}{{ item.title }}{% endif %}
+    </a>
+  {% endfor %}
+</nav>
+
 PAHAI研究室では，人とAIが自然に理解し，信頼し，協力できる未来のHuman–AI Interactionを研究しています．
 
 AI，ロボット，XR（VR・MR），感情コンピューティング，生体情報計測などを組み合わせ，人に寄り添うインタラクティブシステムを開発しています．

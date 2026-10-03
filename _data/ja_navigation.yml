@@ -1,0 +1,23 @@
+- title: ホーム
+  url: /ja/
+  lang: ja
+
+- title: 研究
+  url: /ja/research/
+  lang: ja
+
+- title: PAHAI研究室
+  url: /ja/lab/
+  lang: ja
+
+- title: 受賞
+  url: /ja/awards/
+  lang: ja
+
+- title: お問い合わせ
+  url: /ja/contact/
+  lang: ja
+
+- title: 研究業績（英語）
+  url: /publications/
+  lang: en
