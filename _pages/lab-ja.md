@@ -1,5 +1,6 @@
 ---
 layout: page
+description: 公立はこだて未来大学のPAHAI研究室を紹介します。人とAIのインタラクションを中心に、研究分野、メンバー、研究環境、国際交流、研究室配属・大学院進学の情報を掲載しています。
 title: PAHAI研究室
 permalink: /ja/lab/
 nav: false

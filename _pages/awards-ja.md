@@ -1,5 +1,6 @@
 ---
 layout: page
+description: 角薫およびPAHAI研究室の学生・共同研究者による主な受賞を紹介します。国際会議、学会研究会、学生コンテストなどでの受賞を年別に掲載しています。
 title: 受賞
 permalink: /ja/awards/
 nav: false
