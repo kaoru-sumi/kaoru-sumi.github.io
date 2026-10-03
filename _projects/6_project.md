@@ -32,7 +32,7 @@ The research combines system development, behavioral observation, questionnaires
 
 ## Representative Publications and Awards
 
-- Kaoru Sumi (Ed.).
+- Kaoru Sumi.
   **Affective Learning and Serious Games.**
   CRC Press / Taylor & Francis, 2026.
   DOI: 10.1201/9781003782735
