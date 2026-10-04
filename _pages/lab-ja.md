@@ -56,47 +56,47 @@ PAHAI研究室の学生・共同研究者は，国際会議，学会研究会，
 
 #### D3
 
-- <img src="/assets/img/flags/ph.svg" style="width:16px;"> Espulgar Candy Joyce Herminado（フィリピン）
+- <img src="/assets/img/flags/ph.svg" alt="" style="width:16px;"> Espulgar Candy Joyce Herminado（フィリピン）
 
 #### D2
 
-- <img src="/assets/img/flags/th.svg" style="width:16px;"> Pakpoom Chaimook（タイ）
-- <img src="/assets/img/flags/ph.svg" style="width:16px;"> Sandra Mae Famador（フィリピン）
+- <img src="/assets/img/flags/th.svg" alt="" style="width:16px;"> Pakpoom Chaimook（タイ）
+- <img src="/assets/img/flags/ph.svg" alt="" style="width:16px;"> Sandra Mae Famador（フィリピン）
 
 ### 修士課程
 
 #### M2
 
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 太田 健 / Takeru Ohta
-- <img src="/assets/img/flags/ke.svg" style="width:16px;"> KIPRUTO Andrew Wanyonyi（ケニア）
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 嵯峨 京介 / Kyosuke Saga
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 長澤 颯音 / Hayato Nagasawa
-- <img src="/assets/img/flags/my.svg" style="width:16px;"> BINTI ZULKARNAIN Iffah Nurain（マレーシア）
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 太田 健 / Takeru Ohta
+- <img src="/assets/img/flags/ke.svg" alt="" style="width:16px;"> KIPRUTO Andrew Wanyonyi（ケニア）
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 嵯峨 京介 / Kyosuke Saga
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 長澤 颯音 / Hayato Nagasawa
+- <img src="/assets/img/flags/my.svg" alt="" style="width:16px;"> BINTI ZULKARNAIN Iffah Nurain（マレーシア）
 
 #### M2（9月入学）
 
-- <img src="/assets/img/flags/bd.svg" style="width:16px;"> Md. Abdul Momin（バングラデシュ）
+- <img src="/assets/img/flags/bd.svg" alt="" style="width:16px;"> Md. Abdul Momin（バングラデシュ）
 
 #### M1
 
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 鈴木 隼 / Shun Suzuki
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 中野 大地 / Daichi Nakano
-- <img src="/assets/img/flags/bd.svg" style="width:16px;"> JOSEPH Mushfiqur Rahman（バングラデシュ）
-- <img src="/assets/img/flags/bd.svg" style="width:16px;"> HOSSAIN Md. Ismail（バングラデシュ）
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 鈴木 隼 / Shun Suzuki
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 中野 大地 / Daichi Nakano
+- <img src="/assets/img/flags/bd.svg" alt="" style="width:16px;"> JOSEPH Mushfiqur Rahman（バングラデシュ）
+- <img src="/assets/img/flags/bd.svg" alt="" style="width:16px;"> HOSSAIN Md. Ismail（バングラデシュ）
 
 #### M1（9月入学）
 
-- <img src="/assets/img/flags/cn.svg" style="width:16px;"> 王 智偉 / Wang Zhiwei（中国）
+- <img src="/assets/img/flags/cn.svg" alt="" style="width:16px;"> 王 智偉 / Wang Zhiwei（中国）
 
 ### 学部4年
 
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 磯角 翔太 / Shota Isokado
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 佐藤 光将 / Kosuke Sato
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 菅原 温太 / Haruta Sugawara
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 阿部 優太 / Yuta Abe
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 木村 了 / Satoru Kimura
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 黒田 凌大 / Ryota Kuroda
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 佐藤 陽翔 / Haruto Sato
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 磯角 翔太 / Shota Isokado
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 佐藤 光将 / Kosuke Sato
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 菅原 温太 / Haruta Sugawara
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 阿部 優太 / Yuta Abe
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 木村 了 / Satoru Kimura
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 黒田 凌大 / Ryota Kuroda
+- <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 佐藤 陽翔 / Haruto Sato
 
 ## 研究環境
 
@@ -138,34 +138,34 @@ PAHAI研究室では，これまで世界各国・地域から多くの学生・
 
 ### これまで正規課程に在籍した学生の出身国・地域
 
-- <img src="/assets/img/flags/jp.svg" style="width:16px;"> 日本
-- <img src="/assets/img/flags/th.svg" style="width:16px;"> タイ
-- <img src="/assets/img/flags/ph.svg" style="width:16px;"> フィリピン
-- <img src="/assets/img/flags/eg.svg" style="width:16px;"> エジプト
-- <img src="/assets/img/flags/id.svg" style="width:16px;"> インドネシア
-- <img src="/assets/img/flags/tw.svg" style="width:16px;"> 台湾
-- <img src="/assets/img/flags/cn.svg" style="width:16px;"> 中国
-- <img src="/assets/img/flags/ke.svg" style="width:16px;"> ケニア
-- <img src="/assets/img/flags/my.svg" style="width:16px;"> マレーシア
-- <img src="/assets/img/flags/bd.svg" style="width:16px;"> バングラデシュ
+- <img src="/assets/img/flags/jp.svg" alt="" style="width:16px;"> 日本
+- <img src="/assets/img/flags/th.svg" alt="" style="width:16px;"> タイ
+- <img src="/assets/img/flags/ph.svg" alt="" style="width:16px;"> フィリピン
+- <img src="/assets/img/flags/eg.svg" alt="" style="width:16px;"> エジプト
+- <img src="/assets/img/flags/id.svg" alt="" style="width:16px;"> インドネシア
+- <img src="/assets/img/flags/tw.svg" alt="" style="width:16px;"> 台湾
+- <img src="/assets/img/flags/cn.svg" alt="" style="width:16px;"> 中国
+- <img src="/assets/img/flags/ke.svg" alt="" style="width:16px;"> ケニア
+- <img src="/assets/img/flags/my.svg" alt="" style="width:16px;"> マレーシア
+- <img src="/assets/img/flags/bd.svg" alt="" style="width:16px;"> バングラデシュ
 
 ### 研究生・短期研究・交流
 
-- <img src="/assets/img/flags/in.svg" style="width:16px;"> インド
-- <img src="/assets/img/flags/us.svg" style="width:16px;"> アメリカ
-- <img src="/assets/img/flags/mx.svg" style="width:16px;"> メキシコ
-- <img src="/assets/img/flags/fr.svg" style="width:16px;"> フランス
-- <img src="/assets/img/flags/tw.svg" style="width:16px;"> 台湾
+- <img src="/assets/img/flags/in.svg" alt="" style="width:16px;"> インド
+- <img src="/assets/img/flags/us.svg" alt="" style="width:16px;"> アメリカ
+- <img src="/assets/img/flags/mx.svg" alt="" style="width:16px;"> メキシコ
+- <img src="/assets/img/flags/fr.svg" alt="" style="width:16px;"> フランス
+- <img src="/assets/img/flags/tw.svg" alt="" style="width:16px;"> 台湾
 
 国内外から意欲ある学生・研究者を歓迎しています．
 
 ### 国際共同研究
 
-- <img src="/assets/img/flags/fr.svg" style="width:16px;"> フランス
-- <img src="/assets/img/flags/ph.svg" style="width:16px;"> フィリピン
-- <img src="/assets/img/flags/th.svg" style="width:16px;"> タイ
-- <img src="/assets/img/flags/ca.svg" style="width:16px;"> カナダ
-- <img src="/assets/img/flags/us.svg" style="width:16px;"> アメリカ
-- <img src="/assets/img/flags/my.svg" style="width:16px;"> マレーシア
+- <img src="/assets/img/flags/fr.svg" alt="" style="width:16px;"> フランス
+- <img src="/assets/img/flags/ph.svg" alt="" style="width:16px;"> フィリピン
+- <img src="/assets/img/flags/th.svg" alt="" style="width:16px;"> タイ
+- <img src="/assets/img/flags/ca.svg" alt="" style="width:16px;"> カナダ
+- <img src="/assets/img/flags/us.svg" alt="" style="width:16px;"> アメリカ
+- <img src="/assets/img/flags/my.svg" alt="" style="width:16px;"> マレーシア
 
 PAHAI研究室では，国内外の大学・研究機関・企業と共同研究を進めています．
