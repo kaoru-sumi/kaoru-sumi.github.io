@@ -18,7 +18,10 @@ giscus:
   category_id: DIC_kwDOExample
 YAML
 
-bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
+bash test/prepare_demo_site.sh "${tmp_dir}/source"
+bundle exec jekyll build --source "${tmp_dir}/source" \
+  --config "_config.yml,test/fixtures/demo-site/config.yml,${tmp_dir}/source/demo-excludes.yml,${tmp_override}" \
+  -d "${tmp_site}" >/dev/null
 
 distill_page="${tmp_site}/blog/2021/distill/index.html"
 

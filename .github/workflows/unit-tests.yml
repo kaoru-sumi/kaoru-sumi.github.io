@@ -76,6 +76,9 @@ jobs:
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
 
+      - name: Run production content integration test
+        run: bash test/integration_production_content.sh
+
       - name: Run page language integration test
         run: bash test/integration_page_language.sh
 
