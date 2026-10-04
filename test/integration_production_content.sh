@@ -15,7 +15,7 @@ require 'nokogiri'
 require 'uri'
 require 'jekyll'
 
-root = ARGV.fetch(0)
+root = File.expand_path(ARGV.fetch(0))
 forbidden = %r{\A/(?:blog|books|teaching|teachings|people|plugins|repositories|test|_posts|_books|_teachings)(?:/|\z)|\A/_pages/(?:dropdown|about_einstein)}
 sitemap = Nokogiri::XML(File.read(File.join(root, 'sitemap.xml'))) { |c| c.strict }
 paths = sitemap.xpath('//*[local-name()="loc"]').map { |node| URI(node.text).path }
