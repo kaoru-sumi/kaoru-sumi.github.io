@@ -41,7 +41,7 @@ Read [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md#failure-modes-that-produce-no
 
 1. **Features fail silently.** A feature renders only when its gem is loaded _and_ its flag is on _and_ the page opts in. Otherwise the Liquid tag emits an empty string — no warning, no error.
 2. **`Gemfile` and `_config.yml` are two lists that must agree.** A plugin in only one of them is inert. Adding or removing a plugin means editing both. Repo dirs use hyphens (`al-folio-core`); gem/plugin ids use underscores (`al_folio_core`).
-3. **This repo's effective baseurl is `/al-folio`.** `_config.yml` already sets it, so a plain `bundle exec jekyll build` is correct — that is what `deploy.yml`, `broken-links-site.yml` and `axe.yml` run. Passing `--baseurl /al-folio` is redundant but harmless; blanking the baseurl out is what renders the site unstyled with broken links. Dev server is at `http://localhost:4000/al-folio/`.
+3. **This personal site is served at the domain root, with an empty baseurl.** Use `bundle exec jekyll build` without a baseurl override, as in `.github/workflows/deploy.yml`; use `JEKYLL_ENV=production` to match its build environment. The dev server is at `http://localhost:4000/`. See [site URLs and test-only baseurl overrides](docs/ARCHITECTURE.md#3-site-urls-and-test-only-baseurl-overrides) for the source of truth, Docker URLs, and the separate visual-test harness.
 
 ## Validated local command set
 
@@ -52,25 +52,27 @@ bundle install
 npm ci
 npm run lint:prettier
 npm run lint:style-contract
-bundle exec jekyll build --baseurl /al-folio
+JEKYLL_ENV=production bundle exec jekyll build
 bash test/integration_comments.sh
 bash test/integration_plugin_toggles.sh
 bash test/integration_distill.sh
 bash test/integration_bootstrap_compat.sh
 bash test/integration_upgrade_cli.sh
 bash test/integration_css_minify.sh
+# Optional upstream visual harness: uses /al-folio, not the deployed site URL.
+# Stop any root-path dev server on port 4000 before running it.
 npx playwright install chromium webkit
 npm run test:visual
 bundle exec al-folio upgrade audit
 bundle exec al-folio upgrade overrides audit
 bundle exec al-folio upgrade report
 docker compose up -d
-curl -fsS http://127.0.0.1:8080/al-folio/ >/dev/null
+curl -fsS http://127.0.0.1:8080/ >/dev/null
 docker compose logs --tail=80
 docker compose down
 ```
 
-All six `test/integration_*.sh` scripts are gated by `unit-tests.yml`; run the ones your change touches. Docker note: v1 uses `/srv/jekyll/bin/entry_point.sh` and serves from container-local `/tmp/_site` to avoid host bind-mount write deadlocks.
+The integration scripts gated by `.github/workflows/unit-tests.yml` include the six plugin checks above plus page-language, proceedings, and Schema.org checks; run the ones your change touches. Deploy also checks generated page languages. Visual tests use an explicit test-only baseurl and do not validate the production URL. Docker note: v1 uses `/srv/jekyll/bin/entry_point.sh` and serves from container-local `/tmp/_site` to avoid host bind-mount write deadlocks.
 
 ## Before you open a PR
 
