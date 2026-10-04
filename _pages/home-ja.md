@@ -20,7 +20,7 @@ nav: false
   {% endfor %}
 </nav>
 
-# 角 薫
+<h2 id="角-薫" style="font-size: 2.5rem;">角 薫</h2>
 
 公立はこだて未来大学　システム情報科学部　教授
 
