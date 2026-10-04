@@ -31,11 +31,10 @@ Jekyll::Hooks.register :pages, :post_render do |page|
   next unless pair.all? { |url| page.site.pages.any? { |candidate| candidate.url == url } }
 
   # Use the same absolute_url filter as core's canonical link (url + baseurl).
-  links = Liquid::Template.parse(<<~HTML).render!(
-    { 'en_url' => pair[0], 'ja_url' => pair[1] }, registers: { site: page.site }
-  )
+  template = Liquid::Template.parse(<<~HTML)
     <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url | escape }}">
     <link rel="alternate" hreflang="ja" href="{{ ja_url | absolute_url | escape }}">
   HTML
+  links = template.render!({ 'en_url' => pair[0], 'ja_url' => pair[1] }, registers: { site: page.site })
   page.output = page.output.sub(%r{</head>}i) { "#{links}</head>" }
 end
