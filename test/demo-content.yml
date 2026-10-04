@@ -1,0 +1,15 @@
+# Test-only opt-in for the retained al-folio demo fixtures.
+# Never add this configuration to a deployment build.
+# Explicit includes override the corresponding production exclusions.
+include:
+  - _pages
+  - _posts
+  - _books
+  - _teachings
+  - _pages/profiles.md
+  - _pages/teaching.md
+  - _pages/blog.md
+  - _pages/plugins.md
+  - _pages/repositories.md
+  - _pages/books.md
+  - _pages/dropdown.md
