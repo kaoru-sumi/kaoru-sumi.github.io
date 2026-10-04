@@ -1,15 +1,26 @@
 # Test-only opt-in for the retained al-folio demo fixtures.
 # Never add this configuration to a deployment build.
-# Explicit includes override the corresponding production exclusions.
-include:
-  - _pages
-  - _posts
-  - _books
-  - _teachings
-  - _pages/profiles.md
-  - _pages/teaching.md
-  - _pages/blog.md
-  - _pages/plugins.md
-  - _pages/repositories.md
-  - _pages/books.md
-  - _pages/dropdown.md
+# Replace the production exclusion list, retaining all non-demo exclusions.
+exclude:
+  - test/
+  - AGENTS.md
+  - al-folio-upgrade-report.md
+  - bin/
+  - CLAUDE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - _pages/about_einstein.md
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - gems/
+  - migrations/
+  - vendor
