@@ -9,4 +9,5 @@ orcid_id: 0000-0002-0514-1510
 
 linkedin_username: kaoru-sumi-38862110
 
-cv_pdf: /assets/pdf/Kaoru_Sumi_CV.pdf
+# Keep the CV PDF link in _pages/about.md: core's sameAs generator treats
+# cv_pdf as a custom profile without a .url and otherwise emits null.

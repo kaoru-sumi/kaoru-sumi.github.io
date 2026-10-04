@@ -77,6 +77,9 @@ jobs:
       - name: Run proceedings editor integration test 📚
         run: bash test/integration_proceedings.sh
 
+      - name: Run Schema.org integration test
+        run: bash test/integration_schema.sh
+
       - name: Run comments integration test 🧪
         run: bash test/integration_comments.sh
 
