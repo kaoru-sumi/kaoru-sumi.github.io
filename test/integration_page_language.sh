@@ -16,8 +16,9 @@ fi
 bundle exec ruby - "${site_dir}" <<'RUBY'
 require 'nokogiri'
 require 'yaml'
+require 'date'
 
-config = YAML.load_file('_config.yml')
+config = YAML.load_file('_config.yml', permitted_classes: [Date, Time])
 abort 'The site-wide language must remain English' unless config['lang'] == 'en'
 
 japanese_paths = %w[ja/index.html ja/research/index.html ja/lab/index.html ja/awards/index.html ja/contact/index.html]
