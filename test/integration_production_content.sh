@@ -22,6 +22,10 @@ paths = sitemap.xpath('//*[local-name()="loc"]').map { |node| URI(node.text).pat
 leaked = paths.grep(forbidden)
 abort "Demo URLs in sitemap: #{leaked.join(', ')}" unless leaked.empty?
 
+%w[assets/plotly/demo.html assets/html/relativity.html assets/jupyter/blog.ipynb assets/json/resume.json assets/json/table_data.json].each do |path|
+  abort "Demo asset published: #{path}" if File.exist?(File.join(root, path))
+end
+
 files = Dir.glob(File.join(root, '**', '*')).select { |path| File.file?(path) }
 leaked_files = files.select { |path| ('/' + path.delete_prefix(root + '/')).match?(forbidden) }
 abort "Demo files published: #{leaked_files.join(', ')}" unless leaked_files.empty?
@@ -34,6 +38,13 @@ site.read
   docs = site.collections.fetch(name).docs
   abort "Missing #{name} source documents" if docs.empty?
   docs.each do |doc|
+    if name == 'news' && doc.data['inline']
+      rendered = site.find_converter_instance(Jekyll::Converters::Markdown).convert(doc.content)
+      expected_text = Nokogiri::HTML.fragment(rendered).text.gsub(/\s+/, ' ').strip
+      news_text = Nokogiri::HTML(File.read(File.join(root, 'news/index.html'))).text.gsub(/\s+/, ' ')
+      abort "Inline news missing: #{doc.relative_path}" unless news_text.include?(expected_text)
+      next
+    end
     abort "Missing output for #{doc.relative_path}" unless File.file?(doc.destination(root))
     required << doc.url
   end

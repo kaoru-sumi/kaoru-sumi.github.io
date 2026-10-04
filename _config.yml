@@ -28,10 +28,6 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
-# Theme
-# -----------------------------------------------------------------------------
-
-# -----------------------------------------------------------------------------
 # al-folio API (v1.x)
 # -----------------------------------------------------------------------------
 
@@ -633,20 +629,5 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# No external/sample resume data is used by this research site.
+jekyll_get_json: []

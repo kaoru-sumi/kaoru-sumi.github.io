@@ -23,3 +23,6 @@ repo_trophies:
 external_services:
   github_readme_stats_url: https://github-stats-extended.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
+jekyll_get_json:
+  - data: resume
+    json: assets/json/resume.json
