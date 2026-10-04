@@ -1,5 +1,7 @@
 ---
 layout: page
+lang: ja
+og_locale: ja_JP
 description: PAHAI研究室の研究紹介。感情コンピューティング、身体性を持つAI、説得技術、VR・MR、シリアスゲームを通じて、人の学習や行動変容を支援する技術を探究します。
 title: 研究
 permalink: /ja/research/
