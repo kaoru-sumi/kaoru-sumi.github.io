@@ -11,6 +11,8 @@ on:
       - "**.html"
       - "**.js"
       - "**.liquid"
+      - "_plugins/**"
+      - "test/integration_page_language.sh"
       - "**/*.md"
       - "**.yml"
       - "Gemfile"
@@ -38,6 +40,8 @@ on:
       - "**.html"
       - "**.js"
       - "**.liquid"
+      - "_plugins/**"
+      - "test/integration_page_language.sh"
       - "**/*.md"
       - "**.yml"
       - "Gemfile"
@@ -97,6 +101,8 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
+      - name: Verify generated page languages
+        run: bash test/integration_page_language.sh _site
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

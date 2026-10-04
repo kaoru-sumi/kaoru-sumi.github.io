@@ -1,5 +1,7 @@
 ---
 layout: page
+lang: ja
+og_locale: ja_JP
 description: 公立はこだて未来大学教授・角薫の公式サイト。感情コンピューティング、人とAIのインタラクション、説得技術、XR、シリアスゲームの研究と活動を紹介します。
 title: ホーム
 permalink: /ja/

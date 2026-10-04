@@ -1,5 +1,7 @@
 ---
 layout: page
+lang: ja
+og_locale: ja_JP
 description: 公立はこだて未来大学教授・角薫とPAHAI研究室へのお問い合わせ。メールアドレス、所在地、大学へのアクセス情報を掲載しています。
 title: お問い合わせ
 permalink: /ja/contact/
