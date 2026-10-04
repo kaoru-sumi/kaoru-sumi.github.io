@@ -64,5 +64,13 @@ markers = /a post with plotly\.js|555 your office number|123 your address street
 files.select { |path| path.match?(/\.(html|json|xml)$/) && !path.include?('/assets/') }.each do |path|
   abort "Sample text in #{path}" if File.read(path).match?(markers)
 end
+search_indexes = files.grep(/\.html$/).flat_map do |path|
+  Nokogiri::HTML(File.read(path)).css('script').map(&:text).select { |text| text.include?('ninja.data') }
+end
+abort 'Search indexes missing' if search_indexes.empty?
+search_indexes.each do |text|
+  abort 'Real search navigation missing' unless text.include?('nav-research') && text.include?('nav-publications')
+  abort 'Demo search entry remains' if text.match?(%r{/(?:people|teaching|teachings|blog|plugins|repositories|books)/}) || text.match?(/id:\s*["']post-/)
+end
 puts "Production content checks passed: #{paths.size} sitemap URLs; 0 demo URLs/files; 0 feed entries; #{required.uniq.size} real URLs preserved."
 RUBY
