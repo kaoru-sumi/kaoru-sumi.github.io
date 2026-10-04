@@ -143,7 +143,7 @@ jobs:
           axe --chrome-path "$CHROME_PATH" --chromedriver-path "$CHROMEDRIVER_PATH" \
             "http://127.0.0.1:8080$PAGE_PATH" --chrome-options="--headless,--no-sandbox" --load-delay=1500 --exit
       - name: Verify missing alt is rejected
-        if: matrix.page == '/'
+        if: ${{ !cancelled() && matrix.page == '/' && steps.chrome.outcome == 'success' }}
         env:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
           CHROMEDRIVER_PATH: ${{ steps.chrome.outputs.chromedriver-path }}
