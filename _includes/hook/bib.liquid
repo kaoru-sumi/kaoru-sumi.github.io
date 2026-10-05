@@ -1,0 +1,49 @@
+{% comment %}
+Enrich publication display with fuller bibliographic information.
+This hook overrides the compact default periodical line from al-folio.
+{% endcomment %}
+
+{% assign details = '' %}
+
+{% if entry.type == 'article' %}
+  {% capture details %}<em>{{ entry.journal }}</em>{% endcapture %}
+  {% if entry.volume %}
+    {% capture details %}{{ details }} {{ entry.volume }}{% endcapture %}
+  {% endif %}
+  {% if entry.number %}
+    {% capture details %}{{ details }}({{ entry.number }}){% endcapture %}
+  {% endif %}
+  {% if entry.pages %}
+    {% capture details %}{{ details }}, {{ entry.pages }}{% endcapture %}
+  {% endif %}
+{% elsif entry.type == 'inproceedings' or entry.type == 'incollection' or entry.type == 'inbook' %}
+  {% if entry.booktitle %}
+    {% capture details %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+  {% endif %}
+  {% if entry.series %}
+    {% capture details %}{{ details }}, {{ entry.series }}{% endcapture %}
+  {% endif %}
+  {% if entry.volume %}
+    {% capture details %}{{ details }}, vol. {{ entry.volume }}{% endcapture %}
+  {% endif %}
+  {% if entry.pages %}
+    {% capture details %}{{ details }}, pp. {{ entry.pages }}{% endcapture %}
+  {% endif %}
+  {% if entry.publisher %}
+    {% capture details %}{{ details }}, {{ entry.publisher }}{% endcapture %}
+  {% endif %}
+{% elsif entry.type == 'book' %}
+  {% if entry.publisher %}
+    {% capture details %}{{ entry.publisher }}{% endcapture %}
+  {% endif %}
+{% endif %}
+
+{% if entry.location %}
+  {% capture details %}{{ details }}, {{ entry.location }}{% endcapture %}
+{% endif %}
+
+{% if entry.additional_info %}
+  {% capture details %}{{ details }}, {{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+{% endif %}
+
+{% assign entrytype = details %}
