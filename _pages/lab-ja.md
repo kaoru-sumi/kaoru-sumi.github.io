@@ -95,6 +95,11 @@ PAHAI研究室の学生・共同研究者は，国際会議，学会研究会，
 - <img src="/assets/img/flags/us.svg" alt="" style="width:16px;"> Herman Remy（アメリカ）
 - <img src="/assets/img/flags/us.svg" alt="" style="width:16px;"> John Pena（アメリカ）
 
+### 2026年の特別研究学生・短期研究
+
+- <img src="/assets/img/flags/mx.svg" alt="" style="width:16px;"> Antonio Rivera Pérez（メキシコ，2026年6月）
+- <img src="/assets/img/flags/in.svg" alt="" style="width:16px;"> Taran Shetty（インド，2026年11月予定）
+
 ### 学部4年
 
 - <img src="/assets/img/flags/jp.svg" alt="日本" style="width:16px;"> 磯角 翔太 / Shota Isokado
