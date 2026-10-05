@@ -84,6 +84,11 @@ PAHAI Lab members and research projects have received awards at international co
 
 - Wang Zhiwei — <img src="/assets/img/flags/cn.svg" alt="China" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> China
 
+### Research Students
+
+- Herman Remy — <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
+- John Pena — <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
+
 ### Undergraduate Students
 
 #### Fourth Year
