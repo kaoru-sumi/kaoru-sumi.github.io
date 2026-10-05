@@ -37,7 +37,7 @@ For a complete publication record, please see my [ORCID profile](https://orcid.o
 
 <div class="publications">
 
-{% bibliography --query @proceedings --style assets/csl/edited-proceedings.csl --template {{reference}} <a href="https://doi.org/{{entry.doi}}">DOI</a> %}
+{% bibliography --query @proceedings --style assets/csl/edited-proceedings.csl --template {{reference}} <div class="links"><a href="https://doi.org/{{entry.doi}}" class="btn btn-sm z-depth-0" role="button">DOI</a></div> %}
 
 </div>
 
