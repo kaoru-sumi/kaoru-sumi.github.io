@@ -1,20 +1,29 @@
 {% comment %}
-Enrich publication display with fuller bibliographic information.
+Enrich publication display with consistent, citation-friendly bibliographic information.
 This hook overrides the compact default periodical line from al-folio.
 {% endcomment %}
 
 {% assign details = '' %}
+{% assign entrymonth = '' %}
+{% assign display_publisher = entry.publisher %}
+{% if display_publisher contains 'Springer' %}
+  {% assign display_publisher = 'Springer' %}
+{% endif %}
 
 {% if entry.type == 'article' %}
   {% capture details %}<em>{{ entry.journal }}</em>{% endcapture %}
   {% if entry.volume %}
-    {% capture details %}{{ details }} {{ entry.volume }}{% endcapture %}
+    {% capture details %}{{ details }}, vol. {{ entry.volume }}{% endcapture %}
   {% endif %}
   {% if entry.number %}
-    {% capture details %}{{ details }}({{ entry.number }}){% endcapture %}
+    {% capture details %}{{ details }}, no. {{ entry.number }}{% endcapture %}
   {% endif %}
   {% if entry.pages %}
-    {% capture details %}{{ details }}, {{ entry.pages }}{% endcapture %}
+    {% if entry.pages contains '-' or entry.pages contains '–' %}
+      {% capture details %}{{ details }}, pp. {{ entry.pages }}{% endcapture %}
+    {% else %}
+      {% capture details %}{{ details }}, Article {{ entry.pages }}{% endcapture %}
+    {% endif %}
   {% endif %}
 {% elsif entry.type == 'inproceedings' or entry.type == 'incollection' or entry.type == 'inbook' %}
   {% if entry.booktitle %}
@@ -29,12 +38,12 @@ This hook overrides the compact default periodical line from al-folio.
   {% if entry.pages %}
     {% capture details %}{{ details }}, pp. {{ entry.pages }}{% endcapture %}
   {% endif %}
-  {% if entry.publisher %}
-    {% capture details %}{{ details }}, {{ entry.publisher }}{% endcapture %}
+  {% if display_publisher %}
+    {% capture details %}{{ details }}, {{ display_publisher }}{% endcapture %}
   {% endif %}
 {% elsif entry.type == 'book' %}
-  {% if entry.publisher %}
-    {% capture details %}{{ entry.publisher }}{% endcapture %}
+  {% if display_publisher %}
+    {% capture details %}{{ display_publisher }}{% endcapture %}
   {% endif %}
 {% endif %}
 
@@ -44,6 +53,10 @@ This hook overrides the compact default periodical line from al-folio.
 
 {% if entry.additional_info %}
   {% capture details %}{{ details }}, {{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+{% endif %}
+
+{% if entry.doi == blank and entry.isbn %}
+  {% capture details %}{{ details }}, ISBN {{ entry.isbn }}{% endcapture %}
 {% endif %}
 
 {% assign entrytype = details %}
