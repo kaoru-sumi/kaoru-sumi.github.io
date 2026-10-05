@@ -14,20 +14,22 @@ nav_order: 4
 
 _A Global Laboratory for Human–AI Interaction_
 
-PAHAI Lab at Future University Hakodate conducts interdisciplinary research on persuasive and affective human–AI interaction, affective computing, embodied AI, serious games, and virtual and mixed reality.
+PAHAI Lab explores how humans and AI can understand each other’s emotions and intentions, build appropriate trust, and collaborate naturally in changing situations.
 
-The laboratory welcomes students and researchers from diverse academic and cultural backgrounds and actively promotes international collaboration in human-centered artificial intelligence.
+We study how AI agents, robots, and immersive environments can respond to human emotions, nonverbal behavior, and physiological signals to support learning, decision-making, behavior change, communication, and social connection.
+
+Our research combines generative AI and large language models, embodied AI, social agents and robots, VR/MR/XR, affective computing, and physiological sensing. We place particular emphasis on building working interactive systems and evaluating them through user studies.
 
 ## Research Areas
 
-- Persuasive and Affective Human–AI Interaction
-- Human–AI and Human–Agent Interaction
+- Human–AI Interaction and Human–Agent Interaction
 - Affective Computing
 - Embodied AI and Social Agents
 - Persuasive Technology and Behavior Change
-- Virtual, Mixed, and Extended Reality
+- Generative AI and Conversational Agents
+- VR, MR, XR, and Metaverse Interaction
+- Nonverbal and Multimodal Interaction
 - Serious Games and Affective Learning
-- Nonverbal Communication
 - Physiological and Neural Sensing
 
 ## Awards
@@ -96,13 +98,19 @@ PAHAI Lab members and research projects have received awards at international co
 
 ## Research Environment
 
-PAHAI Lab uses social robots, VR and MR headsets, physiological sensors, EEG devices, and other interactive technologies to conduct research on human–AI interaction.
+PAHAI Lab uses Furhat social robots, VR and MR headsets, generative AI and large language models, physiological sensors, EEG devices, and other interactive technologies to build research systems that allow people to experience new forms of human–AI interaction.
 
-Students develop interactive systems and conduct user studies using these research facilities.
+Students are encouraged to participate in the full research process, from idea development and system design to implementation, user studies, and data analysis. Rather than simply applying existing AI or XR tools, we aim to create new forms of interaction and experimentally investigate how people feel, behave, and build relationships with AI.
+
+Student projects are encouraged to develop toward presentations and publications in areas such as Human–AI Interaction, Affective Computing, VR/MR, Persuasive Technology, and related fields.
 
 ## For Prospective Students
 
-PAHAI Lab welcomes students who are interested in AI, robotics, VR/MR, affective computing, games, and human–AI interaction.
+PAHAI Lab welcomes students who want to go beyond using AI and instead design, build, and evaluate new forms of human–AI interaction.
+
+The lab is particularly suitable for students interested in programming, interactive system development, user studies, multimodal data analysis, robotics, VR/MR, affective computing, generative AI, and serious games.
+
+Research topics are developed by connecting each student’s interests with ongoing work in Human–AI Interaction, embodied AI, emotion and nonverbal behavior, Persuasive Technology, XR, and affective learning. Research meetings and supervision can be conducted in English, and international students are active members of the laboratory.
 
 If you are considering joining the laboratory as an undergraduate researcher, graduate student, research student, or international applicant, please visit my official Future University Hakodate faculty page for detailed information on admission, application requirements, scholarships, and required documents.
 
@@ -114,9 +122,9 @@ If you are considering joining the laboratory as an undergraduate researcher, gr
 
 ## International Community
 
-PAHAI Lab has welcomed degree students, visiting students, and researchers from a wide range of countries and regions.
+PAHAI Lab brings together Japanese and international students and maintains active research collaborations with universities and research institutions overseas. We have welcomed degree students, research students, short-term visiting students, and researchers from countries and regions across Asia, Europe, and North America.
 
-A major feature of the laboratory is that members with diverse cultural and academic backgrounds work together on research in human-centered artificial intelligence.
+A major feature of the laboratory is that members with different cultural and academic backgrounds discuss research questions together, build systems collaboratively, and communicate their findings internationally.
 
 <p align="center">
   <a href="/assets/img/global_pahai_network.png" target="_blank">
