@@ -2,7 +2,7 @@
 layout: page
 lang: ja
 og_locale: ja_JP
-description: 公立はこだて未来大学のPAHAI研究室を紹介します。人とAIのインタラクションを中心に、研究分野、メンバー、研究環境、国際交流、研究室配属・大学院進学の情報を掲載しています。
+description: 公立はこだて未来大学のPAHAI研究室を紹介します。人とAIのインタラクションを中心に、研究分野、メンバー、研究環境、研究室配属・大学院進学の情報を掲載しています。
 title: PAHAI研究室
 permalink: /ja/lab/
 nav: false
@@ -122,58 +122,18 @@ AI，ロボット，VR・MR，ゲーム，感情コンピューティング，Hu
 - [研究プロジェクトを見る](/ja/research/)
 - [お問い合わせ](/ja/contact/)
 
+## こんな学生に向いています
+
+- AIやVR・MRを使って，実際に動くシステムを作ってみたい
+- 人の感情や行動，コミュニケーションの仕組みに興味がある
+- 生成AI，ロボット，ゲーム，XRなどを研究につなげてみたい
+- 自分で考えたアイデアを実装し，ユーザ実験で確かめてみたい
+- 学会発表や大学院進学にも挑戦してみたい
+
 ---
 
-## 国際的な研究コミュニティ
+## 研究室の多様性と交流
 
-PAHAI研究室では，日本人学生と留学生がともに研究に取り組み，海外の大学・研究機関とも継続的に共同研究を進めています．これまでアジア，ヨーロッパ，北米など多くの国・地域から，正規学生，研究生，短期研究学生，研究者を受け入れてきました．
+PAHAI研究室には，日本人学生に加えて留学生や海外からの研究者も在籍・訪問しており，さまざまな背景を持つメンバーが一緒に研究しています．
 
-異なる文化的背景や専門分野を持つメンバーが，同じ研究テーマについて議論し，システムを開発し，国際的に研究成果を発信することを，本研究室の大きな特徴の一つとしています．
-
-<p align="center">
-  <a href="/assets/img/global_pahai_network.png" target="_blank">
-    <img
-      src="/assets/img/global_pahai_network.png"
-      alt="Global PAHAI Network"
-      style="width:65%; max-width:900px; height:auto; cursor:zoom-in;"
-    >
-  </a>
-</p>
-
-<p align="center">
-<small>クリックすると拡大表示されます．</small>
-</p>
-
-### これまで正規課程に在籍した学生の出身国・地域
-
-- <img src="/assets/img/flags/jp.svg" alt="" style="width:16px;"> 日本
-- <img src="/assets/img/flags/th.svg" alt="" style="width:16px;"> タイ
-- <img src="/assets/img/flags/ph.svg" alt="" style="width:16px;"> フィリピン
-- <img src="/assets/img/flags/eg.svg" alt="" style="width:16px;"> エジプト
-- <img src="/assets/img/flags/id.svg" alt="" style="width:16px;"> インドネシア
-- <img src="/assets/img/flags/tw.svg" alt="" style="width:16px;"> 台湾
-- <img src="/assets/img/flags/cn.svg" alt="" style="width:16px;"> 中国
-- <img src="/assets/img/flags/ke.svg" alt="" style="width:16px;"> ケニア
-- <img src="/assets/img/flags/my.svg" alt="" style="width:16px;"> マレーシア
-- <img src="/assets/img/flags/bd.svg" alt="" style="width:16px;"> バングラデシュ
-
-### 研究生・短期研究・交流
-
-- <img src="/assets/img/flags/in.svg" alt="" style="width:16px;"> インド
-- <img src="/assets/img/flags/us.svg" alt="" style="width:16px;"> アメリカ
-- <img src="/assets/img/flags/mx.svg" alt="" style="width:16px;"> メキシコ
-- <img src="/assets/img/flags/fr.svg" alt="" style="width:16px;"> フランス
-- <img src="/assets/img/flags/tw.svg" alt="" style="width:16px;"> 台湾
-
-国内外から意欲ある学生・研究者を歓迎しています．
-
-### 国際共同研究
-
-- <img src="/assets/img/flags/fr.svg" alt="" style="width:16px;"> フランス
-- <img src="/assets/img/flags/ph.svg" alt="" style="width:16px;"> フィリピン
-- <img src="/assets/img/flags/th.svg" alt="" style="width:16px;"> タイ
-- <img src="/assets/img/flags/ca.svg" alt="" style="width:16px;"> カナダ
-- <img src="/assets/img/flags/us.svg" alt="" style="width:16px;"> アメリカ
-- <img src="/assets/img/flags/my.svg" alt="" style="width:16px;"> マレーシア
-
-PAHAI研究室では，国内外の大学・研究機関・企業と共同研究を進めています．
+海外の大学や研究機関との共同研究も行っていますが，日本語で研究を進めたい学生も安心して参加できます．
