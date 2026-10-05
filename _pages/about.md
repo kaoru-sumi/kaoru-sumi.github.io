@@ -77,7 +77,7 @@ h2 > a[href$="/publications/"] {
 }
 
 h2 > a[href$="/publications/"]::after {
-  content: "Selected Publications";
+  content: "Featured Publications";
   font-size: 2rem;
 }
 </style>
