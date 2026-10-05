@@ -24,7 +24,6 @@
         <text variable="publisher"/>
         <date variable="issued"><date-part name="year"/></date>
       </group>
-      <text variable="DOI" prefix="https://doi.org/" display="block"/>
     </layout>
   </bibliography>
 </style>
