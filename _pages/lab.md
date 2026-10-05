@@ -84,16 +84,6 @@ PAHAI Lab members and research projects have received awards at international co
 
 - Wang Zhiwei — <img src="/assets/img/flags/cn.svg" alt="China" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> China
 
-### Research Students
-
-- Herman Remy — <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
-- John Pena — <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
-
-### Special Research Students and Short-term Research in 2026
-
-- Antonio Rivera Pérez — <img src="/assets/img/flags/mx.svg" alt="Mexico" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Mexico (June 2026)
-- Taran Shetty — <img src="/assets/img/flags/in.svg" alt="India" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> India (November 2026, planned)
-
 ### Undergraduate Students
 
 #### Fourth Year
@@ -105,6 +95,16 @@ PAHAI Lab members and research projects have received awards at international co
 - Satoru Kimura — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
 - Ryota Kuroda — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
 - Haruto Sato — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+
+### Research Students
+
+- Herman Remy — <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
+- John Pena — <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
+
+### Special Research Students and Short-term Research in 2026
+
+- Antonio Rivera Pérez — <img src="/assets/img/flags/mx.svg" alt="Mexico" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Mexico (June 2026)
+- Taran Shetty — <img src="/assets/img/flags/in.svg" alt="India" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> India (November 2026, planned)
 
 ## Research Environment
 
