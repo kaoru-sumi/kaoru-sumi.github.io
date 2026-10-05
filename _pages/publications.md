@@ -9,6 +9,8 @@ nav_order: 3
 
 <!-- _pages/publications.md -->
 
+The home page highlights a small set of representative works as **Featured Publications**. This page provides recent publications together with a broader selection of earlier work.
+
 Publications are organized into a recent book and book chapters, edited conference proceedings, recent publications, and selected earlier works.
 
 For a complete publication record, please see my [ORCID profile](https://orcid.org/0000-0002-0514-1510) and [official Future University Hakodate faculty page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/).
