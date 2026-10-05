@@ -21,7 +21,7 @@
       <group delimiter=", " display="block">
         <text variable="collection-title"/>
         <text variable="volume" prefix="vol. "/>
-        <text variable="publisher"/>
+        <text value="Springer"/>
         <date variable="issued"><date-part name="year"/></date>
       </group>
     </layout>
