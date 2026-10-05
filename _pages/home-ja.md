@@ -42,6 +42,7 @@ nav: false
 
 ## 最近の活動
 
+- **Open Lab：** 2026年10月19日午後，公立はこだて未来大学でPAHAI研究室のOpen Labを開催します．学生が研究システムやデモを紹介します．
 - **論文受理：** 2026年9月30日，Ahmed SalemとKaoru Sumiの論文「Effects of Robot Personality and Facial Appearance on Embarrassment in HRI」がJournal of Visualized Experiments（JoVE）に受理されました．
 - **国際会議論文採択：** 2026年，Daichi NakanoとKaoru Sumiの論文「The Impact of Nonverbal Information Visualization on Dialogue and Perceived Understanding in the Metaverse」が2026 IEEE International Symposium on Emerging Metaverse (ISEMV 2026)にFull Paperとして採択されました．
 - **国際会議論文採択：** 2026年，Shuo MaoとKaoru Sumiの論文「Emotion-Adaptive Music Generation in Games: Comparing Dynamic and Real-Time AI-Generated Music」が15th EAI International Conference: ArtsIT, Interactivity & Game Creation (EAI ArtsIT 2026)に採択されました．
