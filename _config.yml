@@ -404,6 +404,7 @@ filtered_bibtex_keywords:
     poster,
     preview,
     selected,
+    featured,
     slides,
     supp,
     video,
