@@ -12,9 +12,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 bundle install                                # ruby gems
-bundle exec jekyll serve                      # dev server → http://localhost:4000/al-folio/  (NOTE baseurl)
-bundle exec jekyll build --baseurl /al-folio  # production-style build to _site/
-bash test/integration_distill.sh              # run ONE integration test (any of the six in test/)
+bundle exec jekyll serve                      # dev server → http://localhost:4000/
+JEKYLL_ENV=production bundle exec jekyll build # match Deploy build to _site/
+bash test/integration_distill.sh              # run ONE integration test (see unit-tests.yml)
 npm run test:visual:update                    # refresh playwright snapshots after intentional UI change
 bundle exec al-folio upgrade apply --safe     # deterministic codemods (font-weight-* → font-*, remote→local URLs)
 bundle exec al-folio upgrade overrides diff <path>    # then `overrides accept <path>` to acknowledge an override
@@ -29,7 +29,7 @@ bundle exec al-folio upgrade overrides diff <path>    # then `overrides accept <
 
 ## Docker serving model (v1-specific)
 
-`docker compose up -d` bind-mounts the repo to `/srv/jekyll` and runs `bin/entry_point.sh`, which serves with `--force_polling --destination /tmp/_site`. The build output deliberately goes to **container-local `/tmp/_site`, not the bind-mounted `_site`** — writing `_site` back across the host bind mount caused write deadlocks. The container also `inotifywait`s `_config.yml` and restarts Jekyll on change (config edits aren't hot-reloaded by `--watch`). Verify with the `/al-folio` baseurl: `curl -fsS http://127.0.0.1:8080/al-folio/`. `docker-compose-slim.yml` pulls a prebuilt `:slim` image instead of building locally.
+`docker compose up -d` bind-mounts the repo to `/srv/jekyll` and runs `bin/entry_point.sh`, which serves with `--force_polling --destination /tmp/_site`. The build output deliberately goes to **container-local `/tmp/_site`, not the bind-mounted `_site`** — writing `_site` back across the host bind mount caused write deadlocks. The container also `inotifywait`s `_config.yml` and restarts Jekyll on change (config edits aren't hot-reloaded by `--watch`). The entry point reads `_config.yml` without a baseurl override. Verify with `curl -fsS http://127.0.0.1:8080/`; see [site URLs and test-only baseurl overrides](docs/ARCHITECTURE.md#3-site-urls-and-test-only-baseurl-overrides). `docker-compose-slim.yml` pulls a prebuilt `:slim` image instead of building locally.
 
 ## CI gates and the style contract
 
@@ -37,8 +37,8 @@ bundle exec al-folio upgrade overrides diff <path>    # then `overrides accept <
 
 Other gates:
 
-- `unit-tests.yml` — style contract plus all six `test/integration_*.sh` scripts (`comments`, `plugin_toggles`, `distill`, `bootstrap_compat`, `upgrade_cli`, `css_minify`).
-- `visual-regression.yml` — Playwright on chromium + webkit, diffing the candidate build against a `v0.16.3` baseline worktree served on `:4100` via `BASELINE_URL`.
+- `unit-tests.yml` — style contract plus page-language, proceedings, Schema.org, and the six `test/integration_*.sh` scripts (`comments`, `plugin_toggles`, `distill`, `bootstrap_compat`, `upgrade_cli`, `css_minify`).
+- `visual-regression.yml` — Playwright on chromium + webkit, diffing the candidate build against a `v0.16.3` baseline worktree served on `:4100` via `BASELINE_URL`. This harness explicitly serves both builds under `/al-folio`; it is not a production URL check. Stop an existing root-path server on `:4000` before using the local harness, which may reuse that port.
 - `upgrade-check.yml` — `bundle exec al-folio upgrade audit`.
 - `prettier.yml` — Prettier with `@shopify/prettier-plugin-liquid` and `printWidth: 150`. Run `npm run lint:prettier` before pushing; `npx prettier . --write` fixes.
 - `update-tocs.yml` — regenerates `<!--ts-->…<!--te-->` blocks in changed root and `docs/` Markdown files. If you add or rename a heading, expect a follow-up auto-commit on `main`.
