@@ -6,7 +6,7 @@ const repoRoot = path.resolve(__dirname, "../..");
 const webServer = process.env.NO_WEBSERVER
   ? undefined
   : {
-      command: "bundle exec jekyll serve --config _config.yml,test/demo-content.yml --host 127.0.0.1 --port 4000 --baseurl /al-folio --quiet",
+      command: "bash test/serve_demo_site.sh",
       cwd: repoRoot,
       url: "http://127.0.0.1:4000/al-folio/",
       reuseExistingServer: !process.env.CI,
