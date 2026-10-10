@@ -44,6 +44,7 @@ My current research includes affective and persuasive agents, embodied AI, socia
 
 ## Highlights
 
+- **Upcoming Keynote:** [IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/), Hyderabad, India, October 29–31, 2026.
 - **New Book:** [_Affective Learning and Serious Games_](https://www.routledge.com/Affective-Learning-and-Serious-Games/Sumi/p/book/9781041322627), CRC Press / Taylor & Francis, published June 2, 2026.
 - **Invited Speaker:** [TED-HRI Workshop](https://sites.google.com/view/ted-hri/program?authuser=0), IEEE RO-MAN 2026, Kitakyushu, Japan, August 2026.
 - **General Chair:** [Persuasive 2026](https://2026.persuasivetech.org/), Hakodate, Japan, March 2026.
