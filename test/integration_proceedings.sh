@@ -31,7 +31,8 @@ abort "Missing full editor names: #{text}" unless
   text.include?('Kaoru Sumi, Raian Ali, and Roberto Legaspi')
 abort "Missing editor role: #{text}" unless text.match?(/\(eds?\.\)/i)
 abort 'Missing proceedings title' unless text.include?('Persuasive Technology')
-abort 'Missing DOI' unless text.include?('10.1007/978-3-032-19687-3')
+abort 'Missing proceedings DOI link' unless
+  nodes.first.ancestors('li').first.css('a').any? { |a| a['href'] == 'https://doi.org/10.1007/978-3-032-19687-3' }
 
 # Ensure the exclusion query does not lose any other recent publications.
 bib.query('@*[year>=2024 && category!=book2026]').each do |item|
@@ -49,6 +50,7 @@ abort 'Online publication date must be recorded separately' unless
 paper_nodes = page.css("[id='#{paper_key}']")
 abort 'Satellite paper must appear exactly once' unless paper_nodes.length == 1
 paper_text = paper_nodes.first.text.gsub(/\s+/, ' ').strip
+puts "Rendered satellite paper: #{paper_text}"
 [
   'Designing Persuasive Social Robots: Modulating Embarrassment Through Personality and Appearance',
   'Ahmed Salem', 'Kaoru Sumi', '2027',
@@ -61,6 +63,5 @@ abort 'Missing satellite paper DOI link' unless
   paper_nodes.first.css('a').any? { |a| a['href'] == 'https://doi.org/10.1007/978-3-032-27235-5_13' }
 abort 'Satellite paper incorrectly appears in edited proceedings' unless
   paper_nodes.first.xpath("preceding::h2[@id][1]").first&.[]('id') == 'recent-publications'
-puts "Rendered satellite paper: #{paper_text}"
 puts 'Proceedings editor and satellite paper integration test passed.'
 RUBY
