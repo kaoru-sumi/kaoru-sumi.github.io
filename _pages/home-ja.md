@@ -42,6 +42,7 @@ nav: false
 
 ## 最近の活動
 
+- **IEEE Computer Society Distinguished Visitor：** 2026～2028年のIEEE Computer Society Distinguished Visitorに選出されました．IEEE，コンピューティング分野，技術コミュニティへの貢献が評価されたものです．[公式プロフィール](https://www.computer.org/profiles/kaoru-sumi)
 - **基調講演：** 2026年10月29～31日にインド・ハイデラバードで開催される[IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/)にて基調講演を行います．
 - **オープンラボ：** 2026年10月19日午後，公立はこだて未来大学でPAHAI研究室のオープンラボを開催します．学生が研究システムやデモを紹介します．
 - **論文受理：** 2026年9月30日，Ahmed SalemとKaoru Sumiの論文「Effects of Robot Personality and Facial Appearance on Embarrassment in HRI」がJournal of Visualized Experiments（JoVE）に受理されました．
