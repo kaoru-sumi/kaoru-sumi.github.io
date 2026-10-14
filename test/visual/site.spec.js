@@ -1,3 +1,5 @@
+const fs = require("node:fs/promises");
+const path = require("node:path");
 const { test, expect } = require("@playwright/test");
 
 const routes = [
@@ -13,6 +15,11 @@ const routes = [
   { path: "/ja/awards/", heading: "受賞", lang: "ja" },
   { path: "/ja/contact/", heading: "お問い合わせ", lang: "ja" },
 ];
+
+const reviewScreenshots = {
+  desktop: { "/": "01-desktop-home-english.png", "/ja/": "02-desktop-home-japanese.png", "/publications/": "03-desktop-publications.png" },
+  mobile: { "/": "04-mobile-home-english.png" },
+};
 
 async function preparePage(page, theme = "light") {
   await page.addInitScript((value) => localStorage.setItem("theme", value), theme);
@@ -112,10 +119,15 @@ for (const theme of ["light", "dark"]) {
       expect(failedAssets, "Broken site-owned resources").toEqual([]);
 
       // Review artifacts, not an automatic comparison with an unrelated upstream demo.
-      await testInfo.attach("rendered-page", {
-        body: await page.screenshot({ fullPage: true, animations: "disabled" }),
-        contentType: "image/png",
-      });
+      const screenshot = await page.screenshot({ fullPage: true, animations: "disabled" });
+      await testInfo.attach("rendered-page", { body: screenshot, contentType: "image/png" });
+      // Keep the user-facing review set small and separate from traces and the full HTML report.
+      const reviewName = theme === "light" && reviewScreenshots[testInfo.project.name]?.[route.path];
+      if (reviewName) {
+        const reviewDirectory = path.resolve(__dirname, "../../output/site-review");
+        await fs.mkdir(reviewDirectory, { recursive: true });
+        await fs.writeFile(path.join(reviewDirectory, reviewName), screenshot);
+      }
     });
   }
 }

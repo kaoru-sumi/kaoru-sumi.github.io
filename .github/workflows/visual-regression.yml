@@ -102,6 +102,15 @@ jobs:
           retention-days: 14
           if-no-files-found: ignore
 
+      - name: Upload selected review screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-review-screenshots
+          path: output/site-review/*.png
+          retention-days: 14
+          if-no-files-found: ignore
+
       - name: Upload build and test log
         if: always()
         uses: actions/upload-artifact@v4
