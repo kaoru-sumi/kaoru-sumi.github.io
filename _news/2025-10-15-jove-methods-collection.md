@@ -2,6 +2,7 @@
 layout: post
 date: 2025-10-15 12:00:00+0900
 inline: true
+sitemap: false
 related_posts: false
 ---
 

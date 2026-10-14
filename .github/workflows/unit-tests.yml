@@ -11,6 +11,9 @@ on:
       - "Gemfile.lock"
       - "_config.yml"
       - "_data/**"
+      - "_bibliography/**"
+      - "_includes/**"
+      - "_news/**"
       - "_pages/**"
       - "_plugins/**"
       - "_posts/**"
@@ -30,6 +33,9 @@ on:
       - "Gemfile.lock"
       - "_config.yml"
       - "_data/**"
+      - "_bibliography/**"
+      - "_includes/**"
+      - "_news/**"
       - "_pages/**"
       - "_plugins/**"
       - "_posts/**"
@@ -69,18 +75,23 @@ jobs:
         run: npm ci
 
       - name: Run style contract lint 🧷
-        run: npm run lint:style-contract
+        run: |
+          npm run lint:style-contract
+          npm run test:style-contract
 
       - name: Install build prerequisites 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
 
-      - name: Verify production content exclusions
+      - name: Run production content integration test
         run: bash test/integration_production_content.sh
 
       - name: Run page language integration test
         run: bash test/integration_page_language.sh
+
+      - name: Run site accessibility structure integration test
+        run: bash test/integration_site_accessibility.sh
 
       - name: Run proceedings editor integration test 📚
         run: bash test/integration_proceedings.sh

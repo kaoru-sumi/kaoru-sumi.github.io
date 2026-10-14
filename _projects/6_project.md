@@ -44,7 +44,7 @@ The research combines system development, behavioral observation, questionnaires
   _Frontiers in Artificial Intelligence_, Vol. 5, 2022.
   DOI: 10.3389/frai.2022.874106
 
-- Ryoma Tanabe and Kaoru Sumi.
+- Kaoru Sumi and Ryoma Tanabe.
   **Empathy-Driven Persuasion: A Serious Game for Anti-Bullying Education via First-Person Perpetrator Experience.**
   In _Persuasive Technology: PERSUASIVE 2025 Satellite Events_, Springer, 2025.
   DOI: 10.1007/978-3-031-97177-8_4
@@ -55,6 +55,7 @@ The research combines system development, behavioral observation, questionnaires
   **Best Full Paper Award**
 
 - Shusuke Sato and Kaoru Sumi.
-  **A Serious Game for Reviewing Learning History with Players' Emotions.**
-  _International Conference on Computers in Education (ICCE 2020)_, 2020.
+  **Story Generation System Using Player’s Emotions for Review in Gamed-Based Learning.**
+  _International Conference on Computers in Education (ICCE 2020)_, pp. 406–415, 2020.
+  [Conference paper](https://library.apsce.net/index.php/ICCE/article/view/3953)
   **Best Technical Design Paper Award**

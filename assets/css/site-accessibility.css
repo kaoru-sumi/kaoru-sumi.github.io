@@ -1,0 +1,11 @@
+/* Keep inline links recognizable without relying on color alone. */
+main p a:not(.btn):not(.badge),
+main li a:not(.btn):not(.badge),
+main td a:not(.btn):not(.badge),
+main .news a:not(.btn):not(.badge),
+footer a,
+footer.fixed-bottom a:hover,
+footer.fixed-bottom a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}

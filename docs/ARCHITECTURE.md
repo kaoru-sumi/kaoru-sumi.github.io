@@ -9,7 +9,7 @@ This is the **authoritative** description of how the `al-folio` v1 starter and i
   - [Failure modes that produce no error message](#failure-modes-that-produce-no-error-message)
     - [1. Features fail silently when the gem or the flag is missing](#1-features-fail-silently-when-the-gem-or-the-flag-is-missing)
     - [2. Gemfile and \_config.yml are two lists that must agree](#2-gemfile-and-_configyml-are-two-lists-that-must-agree)
-    - [3. This repo's effective baseurl is /al-folio](#3-this-repos-effective-baseurl-is-al-folio)
+    - [3. Site URLs and test-only baseurl overrides](#3-site-urls-and-test-only-baseurl-overrides)
   - [Wrapper to tag to gem delegation](#wrapper-to-tag-to-gem-delegation)
   - [How feature gems ship their assets](#how-feature-gems-ship-their-assets)
   - [The v1 config contract](#the-v1-config-contract)
@@ -61,16 +61,30 @@ Plugin activation requires **two edits, in two files**:
 
 A gem present in only one of them is inert. In the `Gemfile` only, Jekyll never loads it; in `plugins:` only, Bundler never installs it. Adding **or removing** a plugin means editing both. Note the spelling difference: repo directories use hyphens (`al-folio-core`), gem and plugin ids use underscores (`al_folio_core`).
 
-### 3. This repo's effective baseurl is `/al-folio`
+### 3. Site URLs and test-only baseurl overrides
 
-The demo site is published as a **project page** at `https://alshedivat.github.io/al-folio/`, so `_config.yml` already sets `baseurl: /al-folio`. A plain build therefore picks it up — `deploy.yml`, `broken-links-site.yml` and `axe.yml` all run `bundle exec jekyll build` with no flag. What matters is that the _effective_ baseurl stays `/al-folio`; passing it explicitly is redundant but harmless, and the command set spells it out so the served path is unambiguous:
+This repository is Kaoru Sumi's **personal GitHub Pages site**, published at `https://kaoru-sumi.github.io/`. The source of truth is `_config.yml` (`url: https://kaoru-sumi.github.io`, with `baseurl:` empty but present) together with `.github/workflows/deploy.yml`. Deploy sets `JEKYLL_ENV=production` and runs `bundle exec jekyll build` without a baseurl override, then checks generated page languages and purges unused CSS before publishing `_site`.
+
+For normal site validation, preserve that configuration:
 
 ```bash
-bundle exec jekyll build --baseurl /al-folio
-bundle exec jekyll serve            # http://localhost:4000/al-folio/  (note the path)
+JEKYLL_ENV=production bundle exec jekyll build
+bundle exec jekyll serve            # http://localhost:4000/
 ```
 
-What breaks the site is **blanking the baseurl out** — build with an empty baseurl and every asset and internal link resolves one path segment too high. The Docker entry point serves under `/al-folio` too. A build that "works" but renders unstyled is almost always a baseurl mismatch. In **your own** site this is different: personal and organization sites (`username.github.io`) must leave `baseurl` **empty but present**; project sites set `baseurl: /<project-name>/`. See [FAQ](FAQ.md#my-webpage-works-locally-but-after-deploying-it-is-not-displayed-correctly-css-and-js-are-not-loaded-properly-how-do-i-fix-that).
+Do not add `--baseurl /al-folio` to normal builds or change the published configuration to satisfy an upstream test harness. That override generates asset and internal-link paths for a subdirectory that this site does not use.
+
+| Context                             | Effective baseurl and URL                                                     | Reason                                                                                                                                                                                                                                          |
+| ----------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Deploy and normal local build/serve | Empty; public `https://kaoru-sumi.github.io/`, local `http://localhost:4000/` | Reads this site's `_config.yml` without a baseurl override.                                                                                                                                                                                     |
+| Docker development                  | Empty; `http://127.0.0.1:8080/`                                               | `docker-compose.yml` runs `bin/entry_point.sh`, which reads `_config.yml` and serves to container-local `/tmp/_site` without a baseurl override. Neither Compose file configures an `/al-folio` prefix; the slim variant uses a prebuilt image. |
+| Broken-link and axe workflows       | Empty                                                                         | `broken-links-site.yml` and `axe.yml` explicitly set an empty baseurl in their temporary CI configuration before building.                                                                                                                      |
+| Research-site browser checks        | Empty; `http://127.0.0.1:4000/`                                               | `test/visual/playwright.config.js` checks the production configuration on desktop/mobile in light/dark mode. No upstream Git tag or demo overlay is used.                                                                                       |
+| Optional upstream diagnostics       | `/al-folio`; candidate `http://127.0.0.1:4000/al-folio/`                      | `test/visual/upstream.playwright.config.js` uses the isolated demo helper. Any parity baseline must be prepared explicitly.                                                                                                                     |
+
+The default browser suite tests this personal site's root URLs and produces screenshots for review, not pixel-diff approvals. It refuses to reuse an existing server, avoiding accidental validation of a stale build. See [browser check instructions](../test/visual/README.md) for optional upstream diagnostics and a deliberate already-running-server mode.
+
+For other sites created from this template, choose `url` and `baseurl` for the actual deployment: personal/organization sites leave `baseurl` empty but present; project sites use their project subdirectory. See [FAQ](FAQ.md#my-webpage-works-locally-but-after-deploying-it-is-not-displayed-correctly-css-and-js-are-not-loaded-properly-how-do-i-fix-that).
 
 ## Wrapper to tag to gem delegation
 
@@ -129,7 +143,7 @@ bundle exec al-folio upgrade overrides accept <path>
 
 **In this starter repo** (`alshedivat/al-folio` itself): those directories must not exist. `npm run lint:style-contract` fails the build if the starter contains `_includes/`, `_layouts/`, `_sass/`, `_scripts/`, `assets/tailwind/`, `tailwind.config.js`, `assets/webfonts/`, or icon-font artifacts. This is the automated enforcement of the thin-starter boundary and applies to contributions to al-folio, **not** to user sites.
 
-> **Note for maintainers:** `test/style_contract.js` and `unit-tests.yml` ship to every site created from this template, so a user who adds a perfectly legal local override will see the starter's own contract check fail in their fork. Whether to re-scope that check to the upstream repo only is an open maintainer decision; it is deliberately unchanged here.
+> **This site:** `test/style_contract.js` explicitly permits the two reviewed bibliography files while rejecting unreviewed overrides. The gem-owned `selected_papers.liquid` override is tracked in `.al-folio-overrides.yml`; `hook/bib.liquid` is a site extension hook. The inactive former `assets/css/main.scss` is preserved under `docs/reference/` rather than published as raw source.
 
 ## Bootstrap compatibility is opt-in and time-boxed
 
@@ -151,7 +165,7 @@ gem "al_folio_core", path: "../al-folio-core"     # or git: / branch:
 
 ```bash
 bundle install
-bundle exec jekyll build --baseurl /al-folio
+JEKYLL_ENV=production bundle exec jekyll build
 ```
 
 Revert the `Gemfile` to the pinned released version before committing — the pins in `Gemfile` are starter wiring and `test/style_contract.js` asserts some of them.
