@@ -39,21 +39,22 @@ bib.query('@*[year>=2024 && category!=book2026]').each do |item|
   abort "Publication missing or duplicated: #{item.key}" unless
     page.css("[id='#{item.key}']").length == 1
 end
-# Springer cites the Satellite Events paper as 2027 despite its 2026 online date.
-# Verify the generated page, since future-year entries must remain visible.
-paper_key = 'Salem_2027_Designing_Persuasive_Social_Robots'
+# Keep the site display year separate from the actual online publication date.
+# Verify the generated citation, not only its source metadata.
+paper_key = 'Salem_2026_Designing_Persuasive_Social_Robots'
 paper = bib[paper_key]
-abort 'Satellite paper must use the official citation year' unless
-  paper.type == :inproceedings && paper[:year].to_s == '2027'
+abort 'Satellite paper must use the intended site publication year' unless
+  paper.type == :inproceedings && paper[:year].to_s == '2026'
 abort 'Online publication date must be recorded separately' unless
   paper[:note].to_s == 'First online: 2 September 2026'
 paper_nodes = page.css("[id='#{paper_key}']")
 abort 'Satellite paper must appear exactly once' unless paper_nodes.length == 1
 paper_text = paper_nodes.first.text.gsub(/\s+/, ' ').strip
 puts "Rendered satellite paper: #{paper_text}"
+abort 'Outdated satellite paper year remains visible' if paper_text.include?('2027')
 [
   'Designing Persuasive Social Robots: Modulating Embarrassment Through Personality and Appearance',
-  'Ahmed Salem', 'Kaoru Sumi', '2027',
+  'Ahmed Salem', 'Kaoru Sumi', '2026',
   'Persuasive Technology. PERSUASIVE 2026 Satellite Events', '2896'
 ].each do |expected|
   abort "Missing satellite paper metadata: #{expected}" unless paper_text.include?(expected)

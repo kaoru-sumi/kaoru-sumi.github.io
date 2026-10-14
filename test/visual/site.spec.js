@@ -35,7 +35,7 @@ async function openPage(page, path) {
 
 for (const theme of ["light", "dark"]) {
   for (const route of routes) {
-    test(`${route.path} passes render and accessibility smoke checks (${theme})`, async ({ page, baseURL }, testInfo) => {
+    test(`${route.path} passes render and accessibility smoke checks (${theme})`, async ({ page, baseURL, isMobile }, testInfo) => {
       const failedAssets = [];
       const siteOrigin = new URL(baseURL).origin;
       page.on("response", (response) => {
@@ -65,8 +65,22 @@ for (const theme of ["light", "dark"]) {
       // These are basic accessibility regressions, not a replacement for an axe/manual audit.
       await expect(main.locator("img:not([alt])")).toHaveCount(0);
       await expect(main.locator('iframe:not([title]), iframe[title=""]')).toHaveCount(0);
+      // Collapsed mobile-menu controls are intentionally absent from the accessibility tree.
+      // Check their names only while the menu is open, then restore the normal page render.
+      const navigationToggle = page.getByRole("button", { name: "Toggle navigation", exact: true });
+      if (isMobile) {
+        await navigationToggle.click();
+        await expect(navigationToggle).toHaveAttribute("aria-expanded", "true");
+      }
+      await expect(page.locator("#search-toggle")).toBeVisible();
       await expect(page.locator("#search-toggle")).toHaveAccessibleName(/search/i);
+      await expect(page.locator("#light-toggle")).toBeVisible();
       await expect(page.locator("#light-toggle")).toHaveAccessibleName(/theme/i);
+      if (isMobile) {
+        await page.keyboard.press("Escape");
+        await expect(navigationToggle).toHaveAttribute("aria-expanded", "false");
+        await expect(page.locator("#search-toggle")).toBeHidden();
+      }
 
       // Force below-the-fold local images to load before checking and capturing the page.
       await main.locator("img").evaluateAll((images) => images.forEach((image) => (image.loading = "eager")));
