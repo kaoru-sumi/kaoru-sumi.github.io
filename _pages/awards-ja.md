@@ -22,6 +22,15 @@ nav: false
 
 角薫およびPAHAI研究室の学生・共同研究者による主な受賞を掲載しています．
 
+## 国際的な選出・顕彰
+
+### IEEE Computer Society Distinguished Visitor（2026–2028年）
+
+**角薫**  
+IEEE Computer SocietyのDistinguished Visitorに選出．任期は2026～2028年．[IEEE Computer Society公式プロフィール](https://www.computer.org/profiles/kaoru-sumi)．
+
+## 研究・発表に関する受賞
+
 ## 2026年
 
 ### 人工知能学会研究会優秀賞

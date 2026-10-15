@@ -11,6 +11,15 @@ nav: false
 
 This page presents selected awards received by Kaoru Sumi, PAHAI Lab members, and co-authored research projects.
 
+## Professional Recognition
+
+### IEEE Computer Society Distinguished Visitor (2026–2028)
+
+**Kaoru Sumi**  
+Selected as an IEEE Computer Society Distinguished Visitor for the 2026–2028 term. [Official IEEE Computer Society Profile](https://www.computer.org/profiles/kaoru-sumi).
+
+## Research and Presentation Awards
+
 ## 2026
 
 ### JSAI SIG Excellent Research Award
