@@ -32,7 +32,7 @@ JSAI Special Interest Group on Language Sense Engineering, July 2026. _(in Japan
 
 ### Best Presentation Award
 
-**Temma Saito and Kaoru Sumi**  
+**Tenma Saito and Kaoru Sumi**  
 _Investigating Phantom Sensation in the Metaverse_  
 The 9th AIoT Behavior Transformation Research Meeting (BTI9), March 2025. _(in Japanese)_
 
