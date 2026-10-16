@@ -105,6 +105,8 @@ jobs:
         run: bash test/integration_production_content.sh _site
       - name: Verify generated page languages
         run: bash test/integration_page_language.sh _site
+      - name: Verify generated proceedings and satellite paper
+        run: bash test/integration_proceedings.sh _site
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
