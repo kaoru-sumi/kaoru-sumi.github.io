@@ -45,7 +45,7 @@ Future University Hakodate
 
 Persuasive and Affective Human–AI Interaction Laboratory
 
-PAHAI Lab welcomes inquiries related to academic collaboration, visiting research, student supervision, and joint research projects.
+For new inquiries about collaboration, visiting research, or student supervision, please contact the **Sumi Lab Office** at [kaorulab.office@gmail.com](mailto:kaorulab.office@gmail.com).
 
 ## Access
 
