@@ -130,6 +130,8 @@ If you are considering joining the laboratory as an undergraduate researcher, gr
 
 For new inquiries about graduate study, research-student (kenkyusei), internship or postdoctoral opportunities, or research collaboration, please contact the lab office.
 
+Student inquiries and follow-up correspondence should remain with the Sumi Lab Office unless Prof. Kaoru Sumi explicitly asks you to contact her directly.
+
 Replies are prepared with AI assistance and reviewed by Prof. Kaoru Sumi.
 
 Prospective Master's and PhD students should first review the [research themes, application requirements, required documents, and funding information on the official faculty page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/), then complete the [Prospective Student Application Form](https://forms.gle/zrAUEejKb1Axz6FR7).
@@ -140,7 +142,7 @@ Applications received by the 20th of each month are normally reviewed by the end
 
 For university admission procedures or inquiries about other laboratories, please use the [official admissions page](https://www.fun.ac.jp/en/admission/admission-graduate-school/international-student-gs/).
 
-For existing collaborations and ongoing correspondence, please continue to contact Prof. Kaoru Sumi at **kaorus [at] fun.ac.jp**.
+Existing research collaborators may continue to contact Prof. Kaoru Sumi directly at **kaorus [at] fun.ac.jp**.
 
 - [Official Future University Hakodate Faculty Page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/)
 - [Research Projects](/research/)

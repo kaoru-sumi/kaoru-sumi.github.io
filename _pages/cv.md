@@ -16,6 +16,8 @@ nav_order: 6
 
 For new inquiries about graduate study, research-student (kenkyusei), internship or postdoctoral opportunities, or research collaboration, please contact the lab office.
 
+Student inquiries and follow-up correspondence should remain with the Sumi Lab Office unless Prof. Kaoru Sumi explicitly asks you to contact her directly.
+
 Replies are prepared with AI assistance and reviewed by Prof. Kaoru Sumi.
 
 ### Prospective Master's and PhD Students
@@ -28,9 +30,9 @@ Applications received by the 20th of each month are normally reviewed by the end
 
 For university admission procedures or inquiries about other laboratories, please use the [official admissions page](https://www.fun.ac.jp/en/admission/admission-graduate-school/international-student-gs/).
 
-## Existing Collaborations and Ongoing Correspondence
+## Existing Research Collaborators
 
-For existing collaborations and ongoing correspondence, please continue to contact Prof. Kaoru Sumi at the university address below.
+Existing research collaborators may continue to contact Prof. Kaoru Sumi directly at the university address below.
 
 **Kaoru Sumi**  
 Professor  
