@@ -80,10 +80,20 @@ _Classification of Emotions in Programming from Face and Log Features Using Repr
 
 ### IEEE Brain Winner
 
+**Kaoru Sumi, Keigo Yabuki, Thomas James Tiam-Lee, Abdelkader Nasreddine Belkacem, Quentin Ferre, Shogo Hirai, and Teruto Endo**  
+_A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface_  
 Brain–Computer Interface Hackathon at IEEE SMC 2018, 2018.
 
 ### First Place Winner
 
+**Kaoru Sumi, Keigo Yabuki, Thomas James Tiam-Lee, Abdelkader Nasreddine Belkacem, Quentin Ferre, Shogo Hirai, and Teruto Endo**  
+_A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface_  
+Brain–Computer Interface Hackathon at IEEE SMC 2018, 2018.
+
+### BR41N.IO SfN Winner
+
+**Kaoru Sumi, Keigo Yabuki, Thomas James Tiam-Lee, Abdelkader Nasreddine Belkacem, Quentin Ferre, Shogo Hirai, and Teruto Endo**  
+_A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface_  
 Brain–Computer Interface Hackathon at IEEE SMC 2018, 2018.
 
 ### Student Presentation Award
