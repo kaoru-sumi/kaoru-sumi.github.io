@@ -89,10 +89,20 @@ AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 
 ### IEEE Brain Winner
 
+**角薫，矢吹渓悟，Thomas James Tiam-Lee，Abdelkader Nasreddine Belkacem，Quentin Ferre，Shogo Hirai，Teruto Endo**  
+“A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface”  
 Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
 
 ### 1st Place Winner
 
+**角薫，矢吹渓悟，Thomas James Tiam-Lee，Abdelkader Nasreddine Belkacem，Quentin Ferre，Shogo Hirai，Teruto Endo**  
+“A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface”  
+Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
+
+### BR41N.IO SfN Winner
+
+**角薫，矢吹渓悟，Thomas James Tiam-Lee，Abdelkader Nasreddine Belkacem，Quentin Ferre，Shogo Hirai，Teruto Endo**  
+“A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface”  
 Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
 
 ### 学生発表賞
