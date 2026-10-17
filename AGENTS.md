@@ -1,8 +1,19 @@
-# Agent Guidelines for al-folio (v1.x)
+# Agent Guidelines for Kaoru Sumi's Research Site
 
 **This file is the authoritative entry point for coding agents working in this repo.** Read it before making any change. It is intentionally short and tool-neutral; it links to the one place each longer-form fact lives.
 
 `al-folio` v1.x is a **thin Jekyll starter, not a theme**. This repo owns starter wiring, example content, docs, and cross-plugin tests. All runtime — layouts, includes, Sass, Liquid tags, filters, feature JS — lives in versioned gems published under [`al-org-dev`](https://github.com/al-org-dev).
+
+## This personal site
+
+This repository is Kaoru Sumi's research site, not the upstream starter itself.
+The existing bibliography overrides `_includes/hook/bib.liquid` and
+`_includes/selected_papers.liquid` are explicitly allowed by the site style contract.
+Other copied runtime files remain prohibited unless deliberately reviewed and
+tracked with the upgrade override audit described below.
+The deployed site uses the root URL (`baseurl: ""`), not `/al-folio`.
+The default browser checks exercise the real bilingual site; inherited upstream
+demo checks are optional diagnostics documented in [test/visual/README.md](test/visual/README.md).
 
 ## Route your change
 
@@ -31,7 +42,7 @@ Find your change on the left; edit only what is on the right.
 _layouts/   _includes/   _sass/   _scripts/   assets/tailwind/   tailwind.config.js   assets/webfonts/
 ```
 
-`npm run lint:style-contract` fails CI when any of them exists here, and it also rejects `build:css` / `build:tailwind` npm scripts. Do not add a starter-local Tailwind or CSS build pipeline.
+`npm run lint:style-contract` fails CI when unreviewed files exist there (the two bibliography overrides above are allowed), and it also rejects `build:css` / `build:tailwind` npm scripts. Do not add a starter-local Tailwind or CSS build pipeline.
 
 This restriction applies to **this repo only**. A user's own site created from this template _may_ legally shadow gem-owned files — see [local overrides: your site vs. this repo](docs/ARCHITECTURE.md#local-overrides-your-site-vs-this-repo).
 
@@ -41,7 +52,7 @@ Read [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md#failure-modes-that-produce-no
 
 1. **Features fail silently.** A feature renders only when its gem is loaded _and_ its flag is on _and_ the page opts in. Otherwise the Liquid tag emits an empty string — no warning, no error.
 2. **`Gemfile` and `_config.yml` are two lists that must agree.** A plugin in only one of them is inert. Adding or removing a plugin means editing both. Repo dirs use hyphens (`al-folio-core`); gem/plugin ids use underscores (`al_folio_core`).
-3. **This repo's effective baseurl is `/al-folio`.** `_config.yml` already sets it, so a plain `bundle exec jekyll build` is correct — that is what `deploy.yml`, `broken-links-site.yml` and `axe.yml` run. Passing `--baseurl /al-folio` is redundant but harmless; blanking the baseurl out is what renders the site unstyled with broken links. Dev server is at `http://localhost:4000/al-folio/`.
+3. **This site's effective baseurl is empty.** A plain `bundle exec jekyll build` uses the production root URL. Do not pass `--baseurl /al-folio` for production or the default browser checks; that path is only for optional upstream demo diagnostics. The dev server is at `http://localhost:4000/`.
 
 ## Validated local command set
 
@@ -52,20 +63,21 @@ bundle install
 npm ci
 npm run lint:prettier
 npm run lint:style-contract
-bundle exec jekyll build --baseurl /al-folio
+npm run test:style-contract
+bundle exec jekyll build
 bash test/integration_comments.sh
 bash test/integration_plugin_toggles.sh
 bash test/integration_distill.sh
 bash test/integration_bootstrap_compat.sh
 bash test/integration_upgrade_cli.sh
 bash test/integration_css_minify.sh
-npx playwright install chromium webkit
+npx playwright install chromium
 npm run test:visual
 bundle exec al-folio upgrade audit
 bundle exec al-folio upgrade overrides audit
 bundle exec al-folio upgrade report
 docker compose up -d
-curl -fsS http://127.0.0.1:8080/al-folio/ >/dev/null
+curl -fsS http://127.0.0.1:8080/ >/dev/null
 docker compose logs --tail=80
 docker compose down
 ```

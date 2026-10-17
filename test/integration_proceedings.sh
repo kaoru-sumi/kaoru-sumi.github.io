@@ -26,7 +26,10 @@ abort "Missing full editor names: #{text}" unless
   text.include?('Kaoru Sumi, Raian Ali, and Roberto Legaspi')
 abort "Missing editor role: #{text}" unless text.match?(/\(eds?\.\)/i)
 abort 'Missing proceedings title' unless text.include?('Persuasive Technology')
-abort 'Missing DOI' unless text.include?('10.1007/978-3-032-19687-3')
+item = nodes.first.ancestors('li').first
+abort 'Missing DOI link' unless item && item.css('a').any? { |link|
+  link['href'] == 'https://doi.org/10.1007/978-3-032-19687-3'
+}
 
 # Ensure the exclusion query does not lose any other recent publications.
 bib.query('@*[year>=2024 && category!=book2026]').each do |item|
