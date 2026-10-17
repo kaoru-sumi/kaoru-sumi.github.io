@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Check either the actual deployment output or a fresh production build.
 if [[ $# -gt 0 ]]; then
   site_dir="$1"
 else
@@ -11,56 +10,67 @@ else
   JEKYLL_ENV=production bundle exec jekyll build -d "${site_dir}" >/dev/null
 fi
 
-python3 - "${site_dir}" <<'PY'
-from pathlib import Path
-import re
-import sys
-from urllib.parse import urlparse
-import xml.etree.ElementTree as ET
+bundle exec ruby - "${site_dir}" <<'RUBY'
+require 'nokogiri'
+require 'uri'
+require 'jekyll'
 
-site = Path(sys.argv[1])
-demo_roots = ('people', 'teaching', 'teachings', 'blog', 'plugins', 'repositories', 'books', 'dropdown')
-for root in demo_roots:
-    assert not (site / root).exists(), f'Demo route generated: /{root}/'
-for root in ('_posts', '_books', '_teachings', 'test'):
-    assert not (site / root).exists(), f'Fixture source published: {root}'
+root = File.expand_path(ARGV.fetch(0))
+forbidden = %r{\A/(?:blog|books|teaching|teachings|people|plugins|repositories|test|_posts|_books|_teachings)(?:/|\z)|\A/_pages/(?:dropdown|about_einstein)}
+sitemap = Nokogiri::XML(File.read(File.join(root, 'sitemap.xml'))) { |c| c.strict }
+paths = sitemap.xpath('//*[local-name()="loc"]').map { |node| URI(node.text).path }
+leaked = paths.grep(forbidden)
+abort "Demo URLs in sitemap: #{leaked.join(', ')}" unless leaked.empty?
 
-required = ('index.html', 'research/index.html', 'lab/index.html', 'publications/index.html',
-            'news/index.html', 'ja/index.html', 'ja/research/index.html', 'ja/lab/index.html',
-            'ja/awards/index.html', 'ja/contact/index.html')
-for path in required:
-    assert (site / path).is_file(), f'Real page missing: {path}'
-assert list((site / 'projects').rglob('index.html')), 'Research project pages missing'
+%w[assets/plotly/demo.html assets/html/relativity.html assets/jupyter/blog.ipynb assets/json/resume.json assets/json/table_data.json].each do |path|
+  abort "Demo asset published: #{path}" if File.exist?(File.join(root, path))
+end
 
-sitemap = ET.parse(site / 'sitemap.xml')
-urls = [node.text for node in sitemap.iter() if node.tag.endswith('}loc')]
-assert urls, 'Empty sitemap'
-for url in urls:
-    parts = urlparse(url).path.strip('/').split('/')
-    assert not any(root in parts for root in demo_roots), f'Demo in sitemap: {url}'
+files = Dir.glob(File.join(root, '**', '*')).select { |path| File.file?(path) }
+leaked_files = files.select { |path| ('/' + path.delete_prefix(root + '/')).match?(forbidden) }
+abort "Demo files published: #{leaked_files.join(', ')}" unless leaked_files.empty?
 
-# al_search embeds its index as ninja.data in each HTML page.
-search_indexes = []
-for path in site.rglob('*.html'):
-    search_indexes.extend((path, match.group(1)) for match in re.finditer(
-        r'<script[^>]*>(.*?)</script>', path.read_text(), re.S)
-        if 'ninja.data' in match.group(1))
-assert search_indexes, 'Generated inline search index missing'
-markers = ('a post with plotly.js', 'google-gemini-update-flash-ai-assistant',
-           '555 your office number', '123 your address street', 'test@gmail.com',
-           'The Godfather', 'Introduction to Machine Learning', 'Data Science Fundamentals')
-for path, content in search_indexes:
-    assert 'nav-research' in content and 'nav-publications' in content, f'Real search navigation missing: {path}'
-    assert not re.search(r'id:\s*["\']post-', content), f'Sample post in search index: {path}'
-    for marker in markers:
-        assert marker.lower() not in content.lower(), f'Demo search content in {path}: {marker}'
-    assert not re.search(r'/(?:people|teaching|teachings|blog|plugins|repositories|books)/', content), f'Demo URL in {path}'
+required = %w[/ /ja/ /research/ /ja/research/ /lab/ /ja/lab/ /awards/ /ja/awards/ /contact/ /ja/contact/ /publications/ /news/]
+# Verify every real research project and news document, not just the landing pages.
+site = Jekyll::Site.new(Jekyll.configuration('source' => Dir.pwd, 'destination' => root, 'quiet' => true))
+site.read
+%w[news projects].each do |name|
+  docs = site.collections.fetch(name).docs
+  abort "Missing #{name} source documents" if docs.empty?
+  docs.each do |doc|
+    if name == 'news' && doc.data['inline']
+      rendered = site.find_converter_instance(Jekyll::Converters::Markdown).convert(doc.content)
+      expected_text = Nokogiri::HTML.fragment(rendered).text.gsub(/\s+/, ' ').strip
+      news_text = Nokogiri::HTML(File.read(File.join(root, 'news/index.html'))).text.gsub(/\s+/, ' ')
+      abort "Inline news missing: #{doc.relative_path}" unless news_text.include?(expected_text)
+      next
+    end
+    abort "Missing output for #{doc.relative_path}" unless File.file?(doc.destination(root))
+    required << doc.url
+  end
+end
+required.uniq.each do |url|
+  abort "Real content absent from sitemap: #{url}" unless paths.include?(url)
+  next unless url.end_with?('/')
+  abort "Missing real page: #{url}" unless File.file?(File.join(root, url.sub(%r{\A/}, ''), 'index.html'))
+end
 
-# Feeds and generated HTML must not retain external/demo post content either.
-for path in [*site.rglob('*.html'), site / 'feed.xml']:
-    if path.is_file():
-        content = path.read_text()
-        for marker in markers[:5]:
-            assert marker.lower() not in content.lower(), f'Demo content in {path}: {marker}'
-print(f'Production content checks passed: routes, {len(urls)} sitemap URLs, {len(search_indexes)} inline search indexes, real pages and projects')
-PY
+feed = Nokogiri::XML(File.read(File.join(root, 'feed.xml'))) { |c| c.strict }
+abort 'Sample posts remain in feed' unless feed.xpath('//*[local-name()="entry"]').empty?
+abort 'Incorrect feed title' unless feed.at_xpath('/*[local-name()="feed"]/*[local-name()="title"]').text == 'Kaoru Sumi'
+
+# Search output and generated HTML must also be free of demo titles/placeholders.
+markers = /a post with plotly\.js|555 your office number|123 your address street|test@gmail\.com|Google Gemini|Lorem ipsum dolor sit amet/i
+files.select { |path| path.match?(/\.(html|json|xml)$/) && !path.include?('/assets/') }.each do |path|
+  abort "Sample text in #{path}" if File.read(path).match?(markers)
+end
+search_indexes = files.grep(/\.html$/).flat_map do |path|
+  Nokogiri::HTML(File.read(path)).css('script').map(&:text).select { |text| text.include?('ninja.data') }
+end
+abort 'Search indexes missing' if search_indexes.empty?
+search_indexes.each do |text|
+  abort 'Real search navigation missing' unless text.include?('nav-research') && text.include?('nav-publications')
+  abort 'Demo search entry remains' if text.match?(%r{/(?:people|teaching|teachings|blog|plugins|repositories|books)/}) || text.match?(/id:\s*["']post-/)
+end
+puts "Production content checks passed: #{paths.size} sitemap URLs; 0 demo URLs/files; 0 feed entries; #{required.uniq.size} real URLs preserved."
+RUBY
