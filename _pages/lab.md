@@ -126,7 +126,9 @@ If you are considering joining the laboratory as an undergraduate researcher, gr
 
 ### New Inquiries and Applications
 
-**Sumi Lab Office:** [kaorulab.office@gmail.com](mailto:kaorulab.office@gmail.com)
+**Sumi Lab Office:** kaorulab.office [at] gmail.com
+
+Replace [at] with @ when sending email.
 
 For new inquiries about graduate study, research-student (kenkyusei), internship or postdoctoral opportunities, or research collaboration, please contact the lab office.
 

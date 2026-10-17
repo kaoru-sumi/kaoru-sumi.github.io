@@ -130,7 +130,9 @@ AI，ロボット，VR・MR，ゲーム，感情コンピューティング，Hu
 
 ### 新規のお問い合わせ・応募
 
-**研究室窓口：** [kaorulab.office@gmail.com](mailto:kaorulab.office@gmail.com)
+**研究室窓口：** kaorulab.office [at] gmail.com
+
+メール送信時は [at] を @ に置き換えてください．
 
 大学院進学・研究生・インターン・ポスドク・新規の共同研究に関するお問い合わせはこちらへお願いします．
 
