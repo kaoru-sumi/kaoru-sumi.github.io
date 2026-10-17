@@ -65,7 +65,22 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+// This is Kaoru Sumi's site, not the upstream starter. Keep the two reviewed
+// bibliography overrides without turning off the remaining ownership checks.
+const siteOverrides = new Set(["_includes/hook/bib.liquid", "_includes/selected_papers.liquid"]);
+const inspectOverrides = (directory) => {
+  if (!exists(directory)) return;
+  for (const entry of fs.readdirSync(path.join(root, directory), { withFileTypes: true })) {
+    const relativePath = `${directory}/${entry.name}`;
+    if (entry.isDirectory()) inspectOverrides(relativePath);
+    else if (!siteOverrides.has(relativePath)) {
+      failures.push(`Unreviewed site override: \`${relativePath}\`. Review and track it before allowing it.`);
+    }
+  }
+};
+inspectOverrides("_includes");
+
+for (const forbiddenPath of ["_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }
@@ -89,9 +104,9 @@ for (const requiredPath of ["test/visual", "test/integration_plugin_toggles.sh",
 }
 
 if (failures.length > 0) {
-  console.error("Starter style contract check failed:");
+  console.error("Site style contract check failed:");
   failures.forEach((message) => console.error(`- ${message}`));
   process.exit(1);
 }
 
-console.log("Starter style contract check passed.");
+console.log("Site style contract check passed (two reviewed bibliography overrides allowed).");

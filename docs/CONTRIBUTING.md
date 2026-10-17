@@ -70,12 +70,12 @@ bundle install
 npm ci
 npm run lint:prettier
 npm run lint:style-contract
-bundle exec jekyll build --baseurl /al-folio
+JEKYLL_ENV=production bundle exec jekyll build
 ```
 
-The `--baseurl /al-folio` flag matters: the demo site is published as a project page, and building without it produces an unstyled site with broken links.
+Use the configured empty baseurl for this personal site, matching Deploy. The upstream visual harness has a separate test-only prefix; see [site URLs and test-only baseurl overrides](ARCHITECTURE.md#3-site-urls-and-test-only-baseurl-overrides).
 
-If your change touches plugin wiring or feature behavior, run the integration tests it affects. All six are gated by `unit-tests.yml`:
+If your change touches plugin wiring or feature behavior, run the integration tests it affects. The six plugin checks below are gated by `unit-tests.yml`, alongside page-language, proceedings, and Schema.org checks:
 
 ```bash
 bash test/integration_comments.sh

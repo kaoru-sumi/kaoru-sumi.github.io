@@ -12,7 +12,8 @@ on:
       - "**.js"
       - "**.liquid"
       - "_plugins/**"
-      - "test/integration_page_language.sh"
+      - "test/integration_*.sh"
+      - "test/integration_site_links.py"
       - "**/*.md"
       - "**.yml"
       - "Gemfile"
@@ -41,7 +42,8 @@ on:
       - "**.js"
       - "**.liquid"
       - "_plugins/**"
-      - "test/integration_page_language.sh"
+      - "test/integration_*.sh"
+      - "test/integration_site_links.py"
       - "**/*.md"
       - "**.yml"
       - "Gemfile"
@@ -101,10 +103,16 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
-      - name: Verify production content exclusions
+      - name: Verify production content excludes demos
         run: bash test/integration_production_content.sh _site
       - name: Verify generated page languages
         run: bash test/integration_page_language.sh _site
+      - name: Verify generated proceedings and satellite paper
+        run: bash test/integration_proceedings.sh _site
+      - name: Verify site accessibility structure
+        run: bash test/integration_site_accessibility.sh _site
+      - name: Verify local links and assets
+        run: python3 test/integration_site_links.py _site
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

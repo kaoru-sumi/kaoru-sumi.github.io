@@ -3,6 +3,7 @@ layout: post
 # News posting date; the exact acceptance date is not specified.
 date: 2026-10-04
 inline: true
+sitemap: false
 related_posts: false
 ---
 

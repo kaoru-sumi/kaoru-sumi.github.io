@@ -52,59 +52,59 @@ PAHAI Lab members and research projects have received awards at international co
 
 #### Third Year
 
-- Candy Joyce Herminado Espulgar — <img src="/assets/img/flags/ph.svg" alt="Philippines" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Philippines
+- Candy Joyce Herminado Espulgar — <img src="/assets/img/flags/ph.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Philippines
 
 #### Second Year
 
-- Pakpoom Chaimook — <img src="/assets/img/flags/th.svg" alt="Thailand" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Thailand
-- Sandra Mae Famador — <img src="/assets/img/flags/ph.svg" alt="Philippines" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Philippines
+- Pakpoom Chaimook — <img src="/assets/img/flags/th.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Thailand
+- Sandra Mae Famador — <img src="/assets/img/flags/ph.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Philippines
 
 ### Master’s Students
 
 #### Second Year
 
-- Takeru Ohta — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Andrew Wanyonyi Kipruto — <img src="/assets/img/flags/ke.svg" alt="Kenya" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Kenya
-- Kyosuke Saga — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Hayato Nagasawa — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Iffah Nurain Binti Zulkarnain — <img src="/assets/img/flags/my.svg" alt="Malaysia" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Malaysia
+- Takeru Ohta — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Andrew Wanyonyi Kipruto — <img src="/assets/img/flags/ke.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Kenya
+- Kyosuke Saga — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Hayato Nagasawa — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Iffah Nurain Binti Zulkarnain — <img src="/assets/img/flags/my.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Malaysia
 
 #### Second Year, September Intake
 
-- Md. Abdul Momin — <img src="/assets/img/flags/bd.svg" alt="Bangladesh" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Bangladesh
+- Md. Abdul Momin — <img src="/assets/img/flags/bd.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Bangladesh
 
 #### First Year
 
-- Shun Suzuki — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Daichi Nakano — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Mushfiqur Rahman Joseph — <img src="/assets/img/flags/bd.svg" alt="Bangladesh" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Bangladesh
-- Md. Ismail Hossain — <img src="/assets/img/flags/bd.svg" alt="Bangladesh" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Bangladesh
+- Shun Suzuki — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Daichi Nakano — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Mushfiqur Rahman Joseph — <img src="/assets/img/flags/bd.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Bangladesh
+- Md. Ismail Hossain — <img src="/assets/img/flags/bd.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Bangladesh
 
 #### First Year, September Intake
 
-- Wang Zhiwei — <img src="/assets/img/flags/cn.svg" alt="China" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> China
+- Wang Zhiwei — <img src="/assets/img/flags/cn.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> China
 
 ### Undergraduate Students
 
 #### Fourth Year
 
-- Shota Isokado — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Kosuke Sato — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Haruta Sugawara — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Yuta Abe — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Satoru Kimura — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Ryota Kuroda — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
-- Haruto Sato — <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Shota Isokado — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Kosuke Sato — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Haruta Sugawara — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Yuta Abe — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Satoru Kimura — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Ryota Kuroda — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
+- Haruto Sato — <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Japan
 
 ### Research Students
 
-- Herman Remy — <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
-- John Pena — <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
+- Herman Remy — <img src="/assets/img/flags/us.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
+- John Pena — <img src="/assets/img/flags/us.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> United States
 
 ### Special Research Students and Short-term Research in 2026
 
-- Antonio Rivera Pérez — <img src="/assets/img/flags/mx.svg" alt="Mexico" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Mexico (June 2026)
-- Taran Shetty — <img src="/assets/img/flags/in.svg" alt="India" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> India (November 2026, planned)
+- Antonio Rivera Pérez — <img src="/assets/img/flags/mx.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Mexico (June 2026)
+- Taran Shetty — <img src="/assets/img/flags/in.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> India (November 2026, planned)
 
 ## Research Environment
 
@@ -170,35 +170,35 @@ A major feature of the laboratory is that members with different cultural and ac
 
 ### Countries and Regions of Current and Former Degree Students
 
-- <img src="/assets/img/flags/jp.svg" alt="Japan" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Japan
-- <img src="/assets/img/flags/th.svg" alt="Thailand" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Thailand
-- <img src="/assets/img/flags/ph.svg" alt="Philippines" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Philippines
-- <img src="/assets/img/flags/eg.svg" alt="Egypt" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Egypt
-- <img src="/assets/img/flags/id.svg" alt="Indonesia" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Indonesia
-- <img src="/assets/img/flags/tw.svg" alt="Taiwan" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Taiwan
-- <img src="/assets/img/flags/cn.svg" alt="China" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> China
-- <img src="/assets/img/flags/ke.svg" alt="Kenya" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Kenya
-- <img src="/assets/img/flags/my.svg" alt="Malaysia" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Malaysia
-- <img src="/assets/img/flags/bd.svg" alt="Bangladesh" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Bangladesh
+- <img src="/assets/img/flags/jp.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Japan
+- <img src="/assets/img/flags/th.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Thailand
+- <img src="/assets/img/flags/ph.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Philippines
+- <img src="/assets/img/flags/eg.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Egypt
+- <img src="/assets/img/flags/id.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Indonesia
+- <img src="/assets/img/flags/tw.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Taiwan
+- <img src="/assets/img/flags/cn.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> China
+- <img src="/assets/img/flags/ke.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Kenya
+- <img src="/assets/img/flags/my.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Malaysia
+- <img src="/assets/img/flags/bd.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Bangladesh
 
 ### Research Students, Short-term Research, and Exchange
 
-- <img src="/assets/img/flags/in.svg" alt="India" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> India
-- <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> United States
-- <img src="/assets/img/flags/fr.svg" alt="France" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> France
-- <img src="/assets/img/flags/mx.svg" alt="Mexico" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Mexico
-- <img src="/assets/img/flags/tw.svg" alt="Taiwan" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Taiwan
+- <img src="/assets/img/flags/in.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> India
+- <img src="/assets/img/flags/us.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> United States
+- <img src="/assets/img/flags/fr.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> France
+- <img src="/assets/img/flags/mx.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Mexico
+- <img src="/assets/img/flags/tw.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Taiwan
 
 ### International Collaborations
 
 PAHAI Lab has conducted academic and industry collaborations across several countries and regions.
 
-- <img src="/assets/img/flags/fr.svg" alt="France" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> France
-- <img src="/assets/img/flags/ph.svg" alt="Philippines" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Philippines
-- <img src="/assets/img/flags/th.svg" alt="Thailand" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Thailand
-- <img src="/assets/img/flags/ca.svg" alt="Canada" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Canada
-- <img src="/assets/img/flags/us.svg" alt="United States" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> United States
-- <img src="/assets/img/flags/my.svg" alt="Malaysia" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Malaysia
+- <img src="/assets/img/flags/fr.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> France
+- <img src="/assets/img/flags/ph.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Philippines
+- <img src="/assets/img/flags/th.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Thailand
+- <img src="/assets/img/flags/ca.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Canada
+- <img src="/assets/img/flags/us.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> United States
+- <img src="/assets/img/flags/my.svg" alt="" style="width:16px; height:auto; vertical-align:-2px; margin-right:5px;"> Malaysia
 
 The laboratory also collaborates with Japanese game companies and interactive technology companies.
 
