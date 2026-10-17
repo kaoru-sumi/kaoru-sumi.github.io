@@ -12,13 +12,13 @@ Use this skill when a user asks an agent to create, configure, or personalize a 
    - `_data/*.yml`
    - `_pages`, `_posts`, `_projects`, `_news`, `_teachings`, `_bibliography`
    - local `_includes`, `_layouts`, and `_sass` overrides only when config/content cannot express the change
-5. Run validation before handing work back:
+5. Read the site URL/baseurl and Deploy workflow before validation. For this personal site, keep the configured empty baseurl; do not copy the upstream visual harness's test-only `/al-folio` override. See `docs/ARCHITECTURE.md#3-site-urls-and-test-only-baseurl-overrides`. Run validation before handing work back:
 
 ```bash
 npm ci
 npm run lint:prettier
 bundle exec al-folio upgrade audit --no-fail
-bundle exec jekyll build --baseurl /al-folio
+JEKYLL_ENV=production bundle exec jekyll build
 ```
 
 ## Routing
