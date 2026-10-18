@@ -20,6 +20,12 @@ nav: false
   {% endfor %}
 </nav>
 
+<img
+  src="/assets/img/kaoru_sumi_profile.jpg"
+  alt="角薫"
+  style="float:right; width:180px; max-width:38%; height:auto; margin:0 0 1rem 1.5rem; border-radius:0.25rem;"
+>
+
 <h2 id="角-薫" style="font-size: 2.5rem;">角 薫</h2>
 
 公立はこだて未来大学　システム情報科学部　教授
@@ -28,6 +34,8 @@ nav: false
 
 人間の感情，行動，身体性，非言語コミュニケーションを理解し，人に寄り添い，学習や行動変容を支援するAIおよびインタラクティブシステムの研究開発に取り組んでいます．
 [公立はこだて未来大学 教員紹介ページ](https://www.fun.ac.jp/faculty/sumi-kaoru/)
+
+<div style="clear: both;"></div>
 
 ## 主な研究分野
 
