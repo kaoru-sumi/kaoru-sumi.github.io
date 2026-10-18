@@ -76,10 +76,11 @@ _Analysis and Prediction of Student Emotions while Doing Programming Exercises_
 _Classification of Emotions in Programming from Face and Log Features Using Representative Intervals_  
 27th International Conference on Computers in Education (ICCE 2019).
 
-### Infinite Loop Award (Corporate Award)
+### HOKKAIDO Student App Contest Corporate Award
 
 **Keigo Yabuki**  
 _Conversational Implicature ZERO_  
+<small>Sponsor: Infinite Loop Co., Ltd.</small>  
 HOKKAIDO Student App Contest 2019, February 2019.
 
 ## 2018
@@ -136,16 +137,18 @@ Information Processing Society of Japan, Hokkaido Branch, 2016. _(in Japanese)_
 _A Pitching Training System Using Visual Effects_  
 Digital Games Research Association Japan Annual Conference, 2016. _(in Japanese)_
 
-### Media Magic Award
+### HOKKAIDO Student App Contest Corporate Award
 
 **Kodai Kasai**  
 _SNS Candid Thoughts_  
+<small>Sponsor: Media Magic</small>  
 HOKKAIDO Student App Contest, 2016.
 
-### Crypton Future Media Award
+### HOKKAIDO Student App Contest Corporate Award
 
 **Keigo Yamaguchi**  
 _Touch Coding!! — Easy, Fun Programming_  
+<small>Sponsor: Crypton Future Media, INC.</small>  
 HOKKAIDO Student App Contest, 2016.
 
 ## 2013
