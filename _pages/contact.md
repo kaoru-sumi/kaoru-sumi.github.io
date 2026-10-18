@@ -45,12 +45,6 @@ Future University Hakodate
 
 **Email:** kaorus [at] fun.ac.jp
 
-## PAHAI Lab
-
-Persuasive and Affective Human–AI Interaction Laboratory
-
-For new inquiries about collaboration, visiting research, or student supervision, please contact the **Kaoru Lab Office** at kaorulab.office [at] gmail.com.
-
 ## Access
 
 Future University Hakodate is located in Hakodate, Hokkaido, Japan.
