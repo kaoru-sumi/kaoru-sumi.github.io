@@ -22,7 +22,7 @@ Selected as an IEEE Computer Society Distinguished Visitor for the 2026–2028 t
 
 ## 2026
 
-### JSAI SIG Excellent Research Award
+### JSAI SIG-LSE Excellent Research Award
 
 **Shun Suzuki and Kaoru Sumi**  
 _Effects of a Peer Agent That Understands the Real-World Environment on Loneliness and Social Presence_  
@@ -30,7 +30,7 @@ JSAI Special Interest Group on Language Sense Engineering, July 2026. _(in Japan
 
 ## 2025
 
-### Best Presentation Award
+### BTI9 Best Presentation Award
 
 **Tenma Saito and Kaoru Sumi**  
 _Investigating Phantom Sensation in the Metaverse_  
@@ -38,7 +38,7 @@ The 9th AIoT Behavior Transformation Research Meeting (BTI9), March 2025. _(in J
 
 ## 2023
 
-### JSAI SIG Excellent Research Award
+### JSAI SIG-LSE Excellent Research Award
 
 **Rio Harada and Kaoru Sumi**  
 _Persuasion through Motions and Emotional Expressions of Pet-Like Artifacts_  
@@ -46,9 +46,7 @@ JSAI Special Interest Group on Language Sense Engineering, 2023. _(in Japanese)_
 
 ## 2021
 
-### Interactive Presentation Award
-
-#### Program Committee Recommendation
+### Interaction 2021 Interactive Presentation Award (PC Recommendation)
 
 **Toshiro Kashiwagi and Kaoru Sumi**  
 _A Telecommunication System for Sharing a Physical Space through Remote Participation as a Character Agent_  
@@ -56,7 +54,7 @@ Interaction 2021, Information Processing Society of Japan, 2021. _(in Japanese)_
 
 ## 2020
 
-### Best Technical Design Paper Award
+### ICCE 2020 Best Technical Design Paper Award
 
 **Shusuke Sato and Kaoru Sumi**  
 _Story Generation System Using Player’s Emotions for Review in Game-Based Learning_  
@@ -64,13 +62,13 @@ _Story Generation System Using Player’s Emotions for Review in Game-Based Lear
 
 ## 2019
 
-### Best Full Paper Award
+### ITS 2019 Best Full Paper Award
 
 **Thomas James Z. Tiam-Lee and Kaoru Sumi**  
 _Analysis and Prediction of Student Emotions while Doing Programming Exercises_  
 15th International Conference on Intelligent Tutoring Systems (ITS 2019).
 
-### Best Student Paper Award Nominee
+### ICCE 2019 Best Student Paper Award Nominee
 
 **Thomas James Z. Tiam-Lee and Kaoru Sumi**  
 _Classification of Emotions in Programming from Face and Log Features Using Representative Intervals_  
@@ -85,25 +83,25 @@ HOKKAIDO Student App Contest 2019, February 2019.
 
 ## 2018
 
-### IEEE Brain Winner
+### IEEE SMC 2018 BCI Hackathon — IEEE Brain Winner
 
 **Kaoru Sumi, Keigo Yabuki, Thomas James Tiam-Lee, Abdelkader Nasreddine Belkacem, Quentin Ferre, Shogo Hirai, and Teruto Endo**  
 _A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface_  
 Brain–Computer Interface Hackathon at IEEE SMC 2018, 2018.
 
-### First Place Winner
+### IEEE SMC 2018 BCI Hackathon — First Place Winner
 
 **Kaoru Sumi, Keigo Yabuki, Thomas James Tiam-Lee, Abdelkader Nasreddine Belkacem, Quentin Ferre, Shogo Hirai, and Teruto Endo**  
 _A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface_  
 Brain–Computer Interface Hackathon at IEEE SMC 2018, 2018.
 
-### BR41N.IO SfN Winner
+### IEEE SMC 2018 BCI Hackathon — BR41N.IO SfN Winner
 
 **Kaoru Sumi, Keigo Yabuki, Thomas James Tiam-Lee, Abdelkader Nasreddine Belkacem, Quentin Ferre, Shogo Hirai, and Teruto Endo**  
 _A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface_  
 Brain–Computer Interface Hackathon at IEEE SMC 2018, 2018.
 
-### Student Presentation Award
+### IPSJ SIG-CH Student Presentation Award
 
 **Keigo Yabuki and Kaoru Sumi**  
 _Communication Learning Support System for Interacting with People with Autism Using a Humanoid Robot_  
@@ -111,7 +109,7 @@ IPSJ Special Interest Group on Computers and the Humanities, 2018. _(in Japanese
 
 ## 2017
 
-### JSAI SIG Excellent Research Award
+### JSAI SIG-LSE Excellent Research Award
 
 **Keigo Yabuki and Kaoru Sumi**  
 _A Serious Game for Learning Conversations that Include Implicit Meanings with People with Autism_  
@@ -125,13 +123,13 @@ HOKKAIDO Student App Contest 2017, March 2017.
 
 ## 2016
 
-### Research Encouragement Award
+### IPSJ Hokkaido Branch Research Encouragement Award
 
 **Keigo Yabuki and Kaoru Sumi**  
 _A Serious Game Supporting Communication with People with Autism through Implicit Meanings_  
 Information Processing Society of Japan, Hokkaido Branch, 2016. _(in Japanese)_
 
-### Student Encouragement Award
+### DiGRA JAPAN Annual Conference Student Encouragement Award
 
 **Yuki Tsukamoto and Kaoru Sumi**  
 _A Pitching Training System Using Visual Effects_  
