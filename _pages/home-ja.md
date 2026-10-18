@@ -70,10 +70,3 @@ nav: false
 
 {% include selected_papers.liquid %}
 
-[すべての研究業績を見る](/publications/)
-
-## PAHAI研究室
-
-PAHAI研究室では，感情的・説得的Human–AI Interactionを中心に，人間中心AI，身体性を持つエージェント，XR，シリアスゲーム，生体情報計測に関する研究を行っています．
-
-[PAHAI研究室の紹介はこちら](/ja/lab/)
