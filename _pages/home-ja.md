@@ -70,3 +70,12 @@ nav: false
 
 {% include selected_papers.liquid %}
 
+<div class="social">
+  <div class="contact-icons">
+    <a href="https://researchmap.jp/kaorusumi?lang=ja" title="researchmap" target="_blank" rel="external nofollow noopener"><img src="/assets/img/researchmap.png" alt="researchmap"></a>
+    <a href="https://scholar.google.com/citations?user=6D0WgUMAAAAJ" title="Google Scholar" target="_blank" rel="external nofollow noopener"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://orcid.org/0000-0002-0514-1510" title="ORCID" target="_blank" rel="external nofollow noopener"><i class="ai ai-orcid"></i></a>
+    <a href="https://www.linkedin.com/in/kaoru-sumi-38862110" title="LinkedIn" target="_blank" rel="external nofollow noopener"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+  <div class="contact-note"></div>
+</div>
