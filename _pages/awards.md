@@ -76,7 +76,19 @@ _Analysis and Prediction of Student Emotions while Doing Programming Exercises_
 _Classification of Emotions in Programming from Face and Log Features Using Representative Intervals_  
 27th International Conference on Computers in Education (ICCE 2019).
 
+### Infinite Loop Award (Corporate Award)
+
+**Keigo Yabuki**  
+_Conversational Implicature ZERO_  
+HOKKAIDO Student App Contest 2019, February 2019.
+
 ## 2018
+
+### JASEC Research Encouragement Award
+
+**Mari Katori and Kaoru Sumi**  
+_Effects of Role-Playing in English-Language Interviews_  
+27th Annual Conference of the Japan Association for Studies in English Communication (JASEC), October 2018.
 
 ### IEEE Brain Winner
 
@@ -110,6 +122,12 @@ IPSJ Special Interest Group on Computers and the Humanities, 2018. _(in Japanese
 _A Serious Game for Learning Conversations that Include Implicit Meanings with People with Autism_  
 JSAI Special Interest Group on Language Sense Engineering, 2017. _(in Japanese)_
 
+### Encouragement Award
+
+**Ryoma Tanabe**  
+_Anti-Bullying Learning App for Elementary School Students Using 3D Models_  
+HOKKAIDO Student App Contest 2017, March 2017.
+
 ## 2016
 
 ### Research Encouragement Award
@@ -126,14 +144,19 @@ Digital Games Research Association Japan Annual Conference, 2016. _(in Japanese)
 
 ### Media Magic Award
 
+**Kodai Kasai**  
+_SNS Candid Thoughts_  
 HOKKAIDO Student App Contest, 2016.
 
 ### Crypton Future Media Award
 
+**Keigo Yamaguchi**  
+_Touch Coding!! — Easy, Fun Programming_  
 HOKKAIDO Student App Contest, 2016.
 
-## 2012
+## 2013
 
 ### Excellence Award
 
-HOKKAIDO Student App Contest, 2012.
+**Ayaka Kazuhara**  
+HOKKAIDO Student App Contest, 2013.
