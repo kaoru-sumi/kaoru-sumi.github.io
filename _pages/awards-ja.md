@@ -33,7 +33,7 @@ IEEE Computer SocietyのDistinguished Visitorに選出．任期は2026～2028年
 
 ## 2026年
 
-### 人工知能学会研究会優秀賞
+### 人工知能学会 ことば工学研究会 優秀賞
 
 **鈴木隼，角薫**  
 「実世界を理解するピアエージェントが孤独感と社会的存在感に与える影響の検証」  
@@ -41,7 +41,7 @@ IEEE Computer SocietyのDistinguished Visitorに選出．任期は2026～2028年
 
 ## 2025年
 
-### 最優秀発表賞
+### BTI9 最優秀発表賞
 
 **齋藤天馬，角薫**  
 「メタバース空間におけるファントムセンスの実証研究」  
@@ -49,7 +49,7 @@ AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 
 ## 2023年
 
-### 人工知能学会研究会優秀賞
+### 人工知能学会 ことば工学研究会 優秀賞
 
 **原田理央，角薫**  
 「ペット型の人工物による動作と感情による説得」  
@@ -57,7 +57,7 @@ AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 
 ## 2021年
 
-### インタラクティブ発表賞（PC推薦）
+### Interaction 2021 インタラクティブ発表賞（PC推薦）
 
 **柏木敏朗，角薫**  
 「遠隔からキャラクタエージェントとして参加することにより空間を共有するテレコミュニケーションシステム」  
@@ -65,7 +65,7 @@ AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 
 ## 2020年
 
-### Best Technical Design Paper Award
+### ICCE 2020 Best Technical Design Paper Award
 
 **Shusuke Sato，Kaoru Sumi**  
 “Story Generation System Using Player’s Emotions for Review in Game-Based Learning”  
@@ -73,13 +73,13 @@ AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 
 ## 2019年
 
-### Best Full Paper Award
+### ITS 2019 Best Full Paper Award
 
 **Thomas James Z. Tiam-Lee，Kaoru Sumi**  
 “Analysis and Prediction of Student Emotions while Doing Programming Exercises”  
 15th International Conference on Intelligent Tutoring Systems（ITS 2019）．
 
-### Best Student Paper Award Nominee
+### ICCE 2019 Best Student Paper Award Nominee
 
 **Thomas James Z. Tiam-Lee，Kaoru Sumi**  
 “Classification of Emotions in Programming from Face and Log Features Using Representative Intervals”  
@@ -94,25 +94,25 @@ HOKKAIDO学生アプリコンテスト2019，2019年2月．
 
 ## 2018年
 
-### IEEE Brain Winner
+### IEEE SMC 2018 BCI Hackathon — IEEE Brain Winner
 
 **Kaoru Sumi，Keigo Yabuki，Thomas James Tiam-Lee，Abdelkader Nasreddine Belkacem，Quentin Ferre，Shogo Hirai，Teruto Endo**  
 “A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface”  
 Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
 
-### 1st Place Winner
+### IEEE SMC 2018 BCI Hackathon — 1st Place Winner
 
 **Kaoru Sumi，Keigo Yabuki，Thomas James Tiam-Lee，Abdelkader Nasreddine Belkacem，Quentin Ferre，Shogo Hirai，Teruto Endo**  
 “A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface”  
 Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
 
-### BR41N.IO SfN Winner
+### IEEE SMC 2018 BCI Hackathon — BR41N.IO SfN Winner
 
 **Kaoru Sumi，Keigo Yabuki，Thomas James Tiam-Lee，Abdelkader Nasreddine Belkacem，Quentin Ferre，Shogo Hirai，Teruto Endo**  
 “A Cooperative Game Using the P300 EEG-Based Brain-Computer Interface”  
 Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
 
-### 学生発表賞
+### 情報処理学会 人文科学とコンピュータ研究会 学生発表賞
 
 **矢吹渓悟，角薫**  
 「ヒューマノイド・ロボットを用いた自閉症者とのコミュニケーション学習支援システム」  
@@ -120,7 +120,7 @@ Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
 
 ## 2017年
 
-### 人工知能学会研究会優秀賞
+### 人工知能学会 ことば工学研究会 優秀賞
 
 **矢吹渓悟，角薫**  
 「自閉症者との言外の意味を含む対話について学習するシリアスゲームの研究」  
@@ -140,7 +140,7 @@ HOKKAIDO学生アプリコンテスト2017，2017年3月．
 「自閉症者との言外の意味を含む会話を支援するシリアスゲームの研究」  
 情報処理北海道シンポジウム，2016年．
 
-### 日本デジタルゲーム学会 学生奨励賞
+### DiGRA JAPAN 2015年度年次大会 学生奨励賞
 
 **塚本裕樹，角薫**  
 「映像エフェクトを用いた投球トレーニングシステム」  
