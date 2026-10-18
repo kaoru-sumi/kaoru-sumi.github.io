@@ -85,10 +85,11 @@ AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 “Classification of Emotions in Programming from Face and Log Features Using Representative Intervals”  
 27th International Conference on Computers in Education（ICCE 2019）．
 
-### インフィニットループ賞（企業賞）
+### HOKKAIDO学生アプリコンテスト企業賞
 
 **矢吹渓悟**  
 「言外の意味ZERO」  
+<small>企業：株式会社インフィニットループ</small>  
 HOKKAIDO学生アプリコンテスト2019，2019年2月．
 
 ## 2018年
@@ -145,16 +146,18 @@ HOKKAIDO学生アプリコンテスト2017，2017年3月．
 「映像エフェクトを用いた投球トレーニングシステム」  
 日本デジタルゲーム学会2015年度年次大会，2016年2月．
 
-### メディア・マジック賞
+### HOKKAIDO学生アプリコンテスト企業賞
 
 **葛西皓大**  
 「SNS忌憚」  
+<small>企業：株式会社メディア・マジック</small>  
 HOKKAIDO学生アプリコンテスト，2016年．
 
-### クリプトン・フューチャー・メディア賞
+### HOKKAIDO学生アプリコンテスト企業賞
 
 **山口慧悟**  
 「Touch Coding！！～簡単、楽しい、プログラミング～」  
+<small>企業：クリプトン・フューチャー・メディア株式会社</small>  
 HOKKAIDO学生アプリコンテスト，2016年．
 
 ## 2013年
