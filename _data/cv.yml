@@ -56,8 +56,8 @@ cv:
         end_date: 1998
 
     Visiting and International Positions:
-      - company: University of Alcala
-        position: Invited Research Fellow, Giner de los Rios Program
+      - company: University of Alcalá
+        position: Invited Research Fellow, Giner de los Ríos Program
         location: Spain
         date: 2025
         summary: Conversational interaction in human-agent systems.
@@ -166,7 +166,7 @@ cv:
           - Kaoru Sumi
         journal: International Conference on Intelligent Tutoring Systems, Lecture Notes in Computer Science
         date: 2019
-        url: https://link.springer.com/
+        doi: 10.1007/978-3-030-22244-4_4
       - title: "A Serious Game for Learning Social Networking Literacy by Flaming Experiences"
         authors:
           - Kaoru Sumi
@@ -183,7 +183,7 @@ cv:
         doi: 10.1109/5254.940022
 
     Honors, Awards and Distinctions:
-      - bullet: "**IEEE Computer Society Distinguished Visitor (2026-2028).** Selected through a highly competitive process in recognition of contributions to IEEE, the computing profession, and the technical community. [Official profile](https://www.computer.org/profiles/kaoru-sumi)"
+      - bullet: "**IEEE Computer Society Distinguished Visitor (2026-2028).** Selected through a highly competitive process in recognition of contributions to IEEE, the computing profession, and the technical community. [https://www.computer.org/profiles/kaoru-sumi](https://www.computer.org/profiles/kaoru-sumi)"
       - bullet: "**JSAI Research Meeting Outstanding Award**, Japanese Society for Artificial Intelligence, 2026, 2023, and 2017."
       - bullet: "**Best Presentation Award**, AIoT Behavior Transformation Research Meeting, 2025."
       - bullet: "**Best Technical Design Paper Award**, International Conference on Computers in Education (ICCE 2020)."
