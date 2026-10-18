@@ -43,6 +43,12 @@ jobs:
             exit 1
           fi
           rendercv render $cv_file --settings $settings
+          generated_pdf="assets/rendercv/rendercv_output/Kaoru_Sumi_CV.pdf"
+          if [ ! -f "$generated_pdf" ]; then
+            echo "Expected generated PDF not found: $generated_pdf"
+            exit 1
+          fi
+          cp "$generated_pdf" assets/pdf/Kaoru_Sumi_CV.pdf
           rm assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
