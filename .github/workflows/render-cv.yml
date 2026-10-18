@@ -42,6 +42,7 @@ jobs:
             echo "Missing RenderCV config file!"
             exit 1
           fi
+          rm -f assets/rendercv/rendercv_output/*.pdf assets/rendercv/rendercv_output/*.typ
           rendercv render $cv_file --settings $settings
           generated_pdf="assets/rendercv/rendercv_output/Kaoru_Sumi_CV.pdf"
           if [ ! -f "$generated_pdf" ]; then
