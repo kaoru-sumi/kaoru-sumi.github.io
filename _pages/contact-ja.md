@@ -22,9 +22,9 @@ nav: false
 
 ## 新規のお問い合わせ
 
-新規のお問い合わせは，研究室窓口へお願いします．
+新規のお問い合わせは，角薫角薫研究室窓口へお願いします．
 
-**研究室窓口：** kaorulab.office [at] gmail.com
+**角薫研究室窓口：** kaorulab.office [at] gmail.com
 
 メール送信時は [at] を @ に置き換えてください．
 
