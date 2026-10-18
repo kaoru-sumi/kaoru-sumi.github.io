@@ -20,7 +20,11 @@ nav: false
   {% endfor %}
 </nav>
 
-<img src="/assets/img/kaoru_sumi_profile.jpg" alt="角薫" class="img-fluid z-depth-1 rounded" style="float:right; width:270px; max-width:38%; height:auto; margin:0 0 1rem 1.5rem;">
+<div class="profile float-right">
+  <figure>
+    <img src="/assets/img/kaoru_sumi_profile.jpg" alt="角薫" class="img-fluid z-depth-1 rounded" width="100%" height="auto">
+  </figure>
+</div>
 
 感情コンピューティング，Human–AI Interaction，説得技術，身体性を持つAIエージェント，VR・MRを中心に研究しています．
 
