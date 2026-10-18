@@ -43,7 +43,7 @@ IEEE Computer SocietyのDistinguished Visitorに選出．任期は2026～2028年
 
 ### 最優秀発表賞
 
-**斉藤天馬，角薫**  
+**齋藤天馬，角薫**  
 「メタバース空間におけるファントムセンスの実証研究」  
 AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 
@@ -85,7 +85,19 @@ AIoT行動変容学会第9回研究会（BTI9），2025年3月．
 “Classification of Emotions in Programming from Face and Log Features Using Representative Intervals”  
 27th International Conference on Computers in Education（ICCE 2019）．
 
+### インフィニットループ賞（企業賞）
+
+**矢吹渓悟**  
+「言外の意味ZERO」  
+HOKKAIDO学生アプリコンテスト2019，2019年2月．
+
 ## 2018年
+
+### 日本英語コミュニケーション学会賞（研究奨励賞）
+
+**香取真理，角薫**  
+「英語でのインタビュー時におけるロールプレイングの効果」  
+第27回JASEC（日本英語コミュニケーション学会）年次大会，2018年10月．
 
 ### IEEE Brain Winner
 
@@ -118,6 +130,12 @@ Brain–Computer Interface Hackathon at IEEE SMC 2018，2018年．
 **矢吹渓悟，角薫**  
 「自閉症者との言外の意味を含む対話について学習するシリアスゲームの研究」  
 人工知能学会 ことば工学研究会，2017年．
+
+### 奨励賞
+
+**田邊崚眞**  
+「3Dモデルを利用した小学生向けのいじめ防止学習アプリ」  
+HOKKAIDO学生アプリコンテスト2017，2017年3月．
 
 ## 2016年
 
