@@ -84,12 +84,6 @@ HOKKAIDO Student App Contest 2019, February 2019.
 
 ## 2018
 
-### JASEC Research Encouragement Award
-
-**Mari Katori and Kaoru Sumi**  
-_Effects of Role-Playing in English-Language Interviews_  
-27th Annual Conference of the Japan Association for Studies in English Communication (JASEC), October 2018.
-
 ### IEEE Brain Winner
 
 **Kaoru Sumi, Keigo Yabuki, Thomas James Tiam-Lee, Abdelkader Nasreddine Belkacem, Quentin Ferre, Shogo Hirai, and Teruto Endo**  
