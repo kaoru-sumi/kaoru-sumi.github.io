@@ -12,13 +12,13 @@ nav_order: 5
 
 ## New Inquiries
 
-**Kaoru Sumi Lab Office:** kaorulab.office [at] gmail.com
+**Kaoru Lab Office:** kaorulab.office [at] gmail.com
 
 Replace [at] with @ when sending email.
 
 For new inquiries about graduate study, research-student (kenkyusei), internship or postdoctoral opportunities, or research collaboration, please contact the lab office.
 
-Student inquiries and follow-up correspondence should remain with the Kaoru Sumi Lab Office unless Prof. Kaoru Sumi explicitly asks you to contact her directly.
+Student inquiries and follow-up correspondence should remain with the Kaoru Lab Office unless Prof. Kaoru Sumi explicitly asks you to contact her directly.
 
 Replies are prepared with AI assistance and reviewed by Prof. Kaoru Sumi.
 
@@ -49,7 +49,7 @@ Future University Hakodate
 
 Persuasive and Affective Human–AI Interaction Laboratory
 
-For new inquiries about collaboration, visiting research, or student supervision, please contact the **Kaoru Sumi Lab Office** at kaorulab.office [at] gmail.com.
+For new inquiries about collaboration, visiting research, or student supervision, please contact the **Kaoru Lab Office** at kaorulab.office [at] gmail.com.
 
 ## Access
 
