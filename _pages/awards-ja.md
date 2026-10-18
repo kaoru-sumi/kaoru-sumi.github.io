@@ -93,12 +93,6 @@ HOKKAIDO学生アプリコンテスト2019，2019年2月．
 
 ## 2018年
 
-### 日本英語コミュニケーション学会賞（研究奨励賞）
-
-**香取真理，角薫**  
-「英語でのインタビュー時におけるロールプレイングの効果」  
-第27回JASEC（日本英語コミュニケーション学会）年次大会，2018年10月．
-
 ### IEEE Brain Winner
 
 **Kaoru Sumi，Keigo Yabuki，Thomas James Tiam-Lee，Abdelkader Nasreddine Belkacem，Quentin Ferre，Shogo Hirai，Teruto Endo**  
