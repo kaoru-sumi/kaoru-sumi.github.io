@@ -117,7 +117,7 @@ IPSJ Special Interest Group on Computers and the Humanities, 2018. _(in Japanese
 _A Serious Game for Learning Conversations that Include Implicit Meanings with People with Autism_  
 JSAI Special Interest Group on Language Sense Engineering, 2017. _(in Japanese)_
 
-### Encouragement Award
+### HOKKAIDO Student App Contest Encouragement Award
 
 **Ryoma Tanabe**  
 _Anti-Bullying Learning App for Elementary School Students Using 3D Models_  
@@ -153,7 +153,7 @@ HOKKAIDO Student App Contest, 2016.
 
 ## 2013
 
-### Excellence Award
+### HOKKAIDO Student App Contest Excellence Award
 
 **Ayaka Kazuhara**  
 HOKKAIDO Student App Contest, 2013.
