@@ -1,189 +1,251 @@
+# yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
+
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Kaoru Sumi
+  headline: Professor, Future University Hakodate
+  location: Hakodate, Hokkaido, Japan
+  email: kaorus@fun.ac.jp
+  website: https://kaoru-sumi.github.io/
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
+    - network: ORCID
+      username: 0000-0002-0514-1510
+    - network: Google Scholar
+      username: 6D0WgUMAAAAJ
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: kaoru-sumi-38862110
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+    Research Profile:
+      - "Researcher in affective computing and human-AI interaction, with research spanning persuasive technology, human-agent and human-robot interaction, embodied AI, VR/MR/XR, nonverbal communication, serious games, and affective learning. Current work focuses on socially embodied AI that can understand human affect and behavior, adapt its nonverbal and verbal behavior, and support learning, behavior change, communication, and social connection."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+    Research Areas:
+      - label: Areas
+        details: Affective Computing; Human-AI Interaction; Human-Agent Interaction; Human-Robot Interaction; Persuasive Technology; Embodied AI and Social Agents; VR/MR/XR; Serious Games and Affective Learning; Nonverbal and Multimodal Interaction; Physiological Sensing
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+    Academic Appointments:
+      - company: Future University Hakodate
+        position: Professor, Department of Information Architecture
+        location: Hakodate, Japan
+        start_date: 2011
+        end_date: present
+      - company: Hitotsubashi University
+        position: Associate Professor
+        location: Tokyo, Japan
+        start_date: 2009
+        end_date: 2011
+      - company: National Institute of Information and Communications Technology (NICT)
+        position: Researcher
+        location: Japan
+        start_date: 2004
+        end_date: 2009
+      - company: Osaka University
+        position: Assistant Professor
+        location: Osaka, Japan
+        start_date: 2000
+        end_date: 2004
+      - company: Communications Research Laboratory (CRL)
+        position: Researcher
+        location: Japan
+        start_date: 1998
+        end_date: 2000
+      - company: ATR Media Information Science Laboratories
+        position: Special Research Fellow
+        location: Kyoto, Japan
+        start_date: 1996
+        end_date: 1998
 
-      - company: California Institute of Technology
+    Visiting and International Positions:
+      - company: University of Alcala
+        position: Invited Research Fellow, Giner de los Rios Program
+        location: Spain
+        date: 2025
+        summary: Conversational interaction in human-agent systems.
+      - company: University of British Columbia
         position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+        location: Vancouver, Canada
+        date: 2018
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+    Education:
+      - institution: University of Tokyo
+        area: Engineering
+        degree: Ph.D.
+        date: 1999
+        location: Japan
+        summary: "Dissertation: Research on Communication Support Using Individual Conceptual Spaces"
+      - institution: University of Tsukuba
+        area: Management Systems Science
+        degree: M.S.
+        date: 1995
+        location: Japan
+      - institution: Tokyo University of Science
+        area: Physics
+        degree: B.S.
+        date: 1988
+        location: Japan
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
+    Books and Edited Volumes:
+      - title: Affective Learning and Serious Games
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
+          - Kaoru Sumi
+        journal: CRC Press / Taylor & Francis
+        date: 2026
+        doi: 10.1201/9781003782735
+      - title: "Persuasive Technology: 21st International Conference, PERSUASIVE 2026, Hakodate, Japan, March 10-13, 2026, Proceedings"
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Kaoru Sumi
+          - Raian Ali
+          - Roberto Legaspi
+        journal: Springer, Lecture Notes in Computer Science, Vol. 16476
+        date: 2026
+        doi: 10.1007/978-3-032-19687-3
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+    Selected Publications:
+      - title: "DXSP: Gesture-Only Temporal Localization of Decisive Moments in Dyadic Persuasion"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+          - Pakpoom Chaimook
+          - Kaoru Sumi
+        journal: Frontiers in Artificial Intelligence, 9, Article 1928901
+        date: 2026
+        doi: 10.3389/frai.2026.1928901
+      - title: "Emotional Expression in Persuasion by Quadruped Virtual Agents: Toward Cross-Species Design Patterns"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+          - Kaoru Sumi
+          - Souki Osawa
+        journal: arXiv preprint, arXiv:2608.01895
+        date: 2026
+        doi: 10.48550/arXiv.2608.01895
+      - title: "Designing Persuasive Interactions with Pet-Type Virtual Agents: Effects of Emotion and Context in Mixed Reality"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Kaoru Sumi
+          - Rio Harada
+        journal: "Human Factors in Design, Engineering, and Computing, AHFE 2025, Vol. 199, pp. 996-1005"
+        date: 2025
+        doi: 10.54941/ahfe1006912
+      - title: "The Impact of Anonymity on Communication in the Metaverse"
+        authors:
+          - Yoshifuru Nakayama
+          - Kaoru Sumi
+        journal: "2024 IEEE 48th Annual Computers, Software, and Applications Conference (COMPSAC), pp. 2095-2100"
+        date: 2024
+        doi: 10.1109/COMPSAC61105.2024.00335
+      - title: "Deception Detection in Educational AI: Challenges for Japanese Middle School Students in Interacting with Generative AI Robots"
+        authors:
+          - Ahmed Salem
+          - Kaoru Sumi
+        journal: Frontiers in Artificial Intelligence, 7, Article 1493348
+        date: 2024
+        doi: 10.3389/frai.2024.1493348
+      - title: "Persuasive Technology Through Behavior and Emotion with Pet-Type Artifacts"
+        authors:
+          - Rio Harada
+          - Kaoru Sumi
+        journal: "Persuasive Technology, PERSUASIVE 2024, LNCS 14636, pp. 151-160"
+        date: 2024
+        doi: 10.1007/978-3-031-58226-4_12
+      - title: "Experiences of Game-Based Learning and Reviewing History of the Experience Using Player's Emotions"
+        authors:
+          - Kaoru Sumi
+          - Shusuke Sato
+        journal: Frontiers in Artificial Intelligence, 5, Article 874106
+        date: 2022
+        doi: 10.3389/frai.2022.874106
+      - title: "Emotional Characteristic Analysis of Human Gait while Real-Time Movie Viewing"
+        authors:
+          - Nitchan Jianwattanapaisarn
+          - Kaoru Sumi
+          - Akira Utsumi
+          - Nirattaya Khamsemanan
+          - Cholwich Nattee
+        journal: Frontiers in Artificial Intelligence, 5, Article 989860
+        date: 2022
+        doi: 10.3389/frai.2022.989860
+      - title: "Analysis and Prediction of Student Emotions while Doing Programming Exercises"
+        authors:
+          - Thomas James Z. Tiam-Lee
+          - Kaoru Sumi
+        journal: International Conference on Intelligent Tutoring Systems, Lecture Notes in Computer Science
+        date: 2019
+        url: https://link.springer.com/
+      - title: "A Serious Game for Learning Social Networking Literacy by Flaming Experiences"
+        authors:
+          - Kaoru Sumi
+          - Kodai Kasai
+        journal: "Intelligent Technologies for Interactive Entertainment, LNICST 178, pp. 23-33"
+        date: 2017
+        doi: 10.1007/978-3-319-49616-0_3
+      - title: "TelMe: A Personalized, Context-Aware Communication Support System"
+        authors:
+          - Kaoru Sumi
+          - Toyoaki Nishida
+        journal: "IEEE Intelligent Systems, 16(3), pp. 21-27"
+        date: 2001
+        doi: 10.1109/5254.940022
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Honors, Awards and Distinctions:
+      - bullet: "**IEEE Computer Society Distinguished Visitor (2026-2028).** Selected through a highly competitive process in recognition of contributions to IEEE, the computing profession, and the technical community. [Official profile](https://www.computer.org/profiles/kaoru-sumi)"
+      - bullet: "**JSAI Research Meeting Outstanding Award**, Japanese Society for Artificial Intelligence, 2026, 2023, and 2017."
+      - bullet: "**Best Presentation Award**, AIoT Behavior Transformation Research Meeting, 2025."
+      - bullet: "**Best Technical Design Paper Award**, International Conference on Computers in Education (ICCE 2020)."
+      - bullet: "**Best Full Paper Award**, International Conference on Intelligent Tutoring Systems (ITS 2019)."
+      - bullet: "**IEEE Brain Winner and First Place Winner**, Brain-Computer Interface Hackathon at IEEE SMC 2018."
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+    Selected Research Funding:
+      - name: NEDO / Strategic Innovation Promotion Program (SIP), Phase 3
+        date: 2023-2027
+        summary: Registered researcher, infrastructure technologies and governance for expanding the virtual economy.
+      - name: JSPS KAKENHI, Grant-in-Aid for Scientific Research (C)
+        date: 2018-2020
+        summary: "Principal Investigator - Content Creation and Sharing Platform for Simulation in Virtual Worlds."
+      - name: JSPS KAKENHI, Challenging Exploratory Research
+        date: 2015-2016
+        summary: "Principal Investigator - Visual Logic Programming for Training Logical Thinking."
+      - name: JSPS KAKENHI, Challenging Exploratory Research
+        date: 2012-2013
+        summary: "Principal Investigator - Service-Mind Computing through Facial-Expression and Behavioral Training."
+      - name: JSPS KAKENHI, Grant-in-Aid for Scientific Research on Innovative Areas
+        date: 2010-2011
+        summary: "Principal Investigator - Persuasive Technology through Human-Robot Interaction."
 
-      - name: English
-        summary: "Fluent"
+    Keynote and Invited Talks:
+      - name: Keynote Speaker, IEEE TEMSMET 2026
+        date: 2026-10
+        location: Hyderabad, India
+        summary: "Keynote at IEEE TEMSMET 2026, October 29-31, 2026."
+      - name: Invited Speaker, TED-HRI Workshop, IEEE RO-MAN 2026
+        date: 2026-08
+        location: Kitakyushu, Japan
+      - name: Keynote and Panel, IEEE NSS MIC RTSD 2025
+        date: 2025
+        summary: "Designing Emotionally Persuasive and Inclusive AI: From Social Robots to XR Agents."
+      - name: Keynote Speaker, Behavior Transformation by IoT International Workshop 2024
+        date: 2024
+        summary: "Persuasive Technology and Emotions."
+      - name: Plenary Speaker, Symposium on APEC ICT Skill Standards for AI
+        date: 2023
+        summary: "Artificial Intelligence for the Future of Learning and Experiences in Training Students."
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    Teaching and Mentorship:
+      - bullet: "Designs and delivers undergraduate and graduate courses in interactive systems, AI, media, and human-agent interaction."
+      - bullet: "Leads project-based learning in AI, VR/MR, robotics, games, and educational technology, and supervises doctoral, master's, and undergraduate research."
+      - bullet: "Mentors domestic and international students through research-question formulation, system development, user studies, data analysis, conference presentation, and publication."
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    Editorial and Conference Leadership:
+      - bullet: "**Associate Editor**, Behaviour & Information Technology (Taylor & Francis), 2024-present."
+      - bullet: "**Associate Editor**, Frontiers in Artificial Intelligence, AI for Human Learning and Behavior Change, 2025-present."
+      - bullet: "**Guest Editor**, Frontiers Research Topic, Next-Generation Persuasive Technologies for Human-AI Interaction and Behavior Change, 2025-present."
+      - bullet: "**Guest Editor**, JoVE Methods Collection, Interactive Technologies for Behavior Change and Emotional Engagement."
+      - bullet: "**General Chair**, 21st International Conference on Persuasive Technology (PERSUASIVE 2026), Hakodate, Japan."
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    Professional and International Academic Service:
+      - bullet: "**IEEE Japan Council Women in Engineering Coordinator**, 2025-present."
+      - bullet: "**Chair, IEEE Sapporo Section Women in Engineering**, 2020-present."
+      - bullet: "**Executive Board Member, IEEE Sapporo Section**, 2023-present."
+      - bullet: "**External Referee for Promotion and Tenure Review**, York University, Canada, 2026."
+      - bullet: "Ph.D. dissertation committee service at De La Salle University, Philippines, and Thammasat University, Thailand."
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Professional Memberships:
+      - bullet: "Senior Member, Institute of Electrical and Electronics Engineers (IEEE)."
+      - bullet: "Senior Member, Association for Computing Machinery (ACM)."
+      - bullet: "Member, Japanese Society for Artificial Intelligence (JSAI)."
+      - bullet: "Member, Information Processing Society of Japan (IPSJ)."
