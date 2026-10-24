@@ -9,11 +9,11 @@ const routes = [
   { path: "/lab/", heading: "PAHAI Lab", lang: "en" },
   { path: "/awards/", heading: "Awards", lang: "en" },
   { path: "/contact/", heading: "Contact", lang: "en" },
-  { path: "/ja/", heading: "ホーム", lang: "ja" },
+  { path: "/ja/", heading: "角 薫", lang: "ja" },
   { path: "/ja/research/", heading: "研究", lang: "ja" },
   { path: "/ja/lab/", heading: "PAHAI研究室", lang: "ja" },
   { path: "/ja/awards/", heading: "受賞", lang: "ja" },
-  { path: "/ja/contact/", heading: "お問い合わせ", lang: "ja" },
+  { path: "/ja/contact/", heading: "お問合せ", lang: "ja" },
 ];
 
 const reviewScreenshots = {
