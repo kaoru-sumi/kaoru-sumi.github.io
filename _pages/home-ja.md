@@ -62,7 +62,6 @@ nav: false
 ## 最近の活動
 
 - **基調講演：** 2026年10月29～31日にインド・ハイデラバードで開催される[IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/)にて基調講演を行います．
-- **オープンラボ：** 2026年10月19日午後，公立はこだて未来大学でPAHAI研究室のオープンラボを開催します．学生が研究システムやデモを紹介します．
 - **IEEE Computer Society Distinguished Visitor：** 2026～2028年のIEEE Computer Society Distinguished Visitorに選出されました．[公式プロフィール](https://www.computer.org/profiles/kaoru-sumi)
 - **国際会議論文採択：** Daichi NakanoとKaoru Sumiの論文「The Impact of Nonverbal Information Visualization on Dialogue and Perceived Understanding in the Metaverse」がISEMV 2026にFull Paperとして採択されました．
 - **国際会議論文採択：** Shuo MaoとKaoru Sumiの論文「Emotion-Adaptive Music Generation in Games: Comparing Dynamic and Real-Time AI-Generated Music」がEAI ArtsIT 2026に採択されました．
