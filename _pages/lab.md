@@ -136,7 +136,7 @@ Student inquiries and follow-up correspondence should remain with the Kaoru Lab 
 
 Replies are prepared with AI assistance and reviewed by Prof. Kaoru Sumi.
 
-Prospective Master's and PhD students should first review the [research themes, application requirements, required documents, and funding information on the official faculty page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/), then complete the [Prospective Student Application Form](https://forms.gle/zrAUEejKb1Axz6FR7).
+Prospective Master's and PhD students should first review the [research themes, application requirements, required documents, and funding information on the official faculty page](https://www.fun.ac.jp/faculty-en/sumi-kaoru/), then complete the [Prospective Student Application Form](https://forms.gle/zrAUEejKb1Axz6FR7).
 
 After submitting the form, please email the lab office a short confirmation of your submission. Do not send application documents by email or attach the same documents again.
 
@@ -146,7 +146,7 @@ For university admission procedures or inquiries about other laboratories, pleas
 
 Existing research collaborators may continue to contact Prof. Kaoru Sumi directly at **kaorus [at] fun.ac.jp**.
 
-- [Official Future University Hakodate Faculty Page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/)
+- [Official Future University Hakodate Faculty Page](https://www.fun.ac.jp/faculty-en/sumi-kaoru/)
 - [Research Projects](/research/)
 - [Contact](/contact/)
 
