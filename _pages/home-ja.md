@@ -63,7 +63,7 @@ nav: false
 
 - **基調講演：** 2026年10月29～31日にインド・ハイデラバードで開催される[IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/)にて基調講演を行います．
 - **IEEE Computer Society Distinguished Visitor：** 2026～2028年のIEEE Computer Society Distinguished Visitorに選出されました．[公式プロフィール](https://www.computer.org/profiles/kaoru-sumi)
-- **国際会議論文採択：** Daichi NakanoとKaoru Sumiの論文「The Impact of Nonverbal Information Visualization on Dialogue and Perceived Understanding in the Metaverse」がISEMV 2026にFull Paperとして採択されました．
+- **国際会議発表：** 中野大地が，角薫との共著論文「The Impact of Nonverbal Information Visualization on Dialogue and Perceived Understanding in the Metaverse」を，2026年10月22～24日にキプロスとオンラインで開催された[ISEMV 2026](https://ieee-isemv.org/)にてFull Paperとして発表しました．
 - **国際会議論文採択：** Shuo MaoとKaoru Sumiの論文「Emotion-Adaptive Music Generation in Games: Comparing Dynamic and Real-Time AI-Generated Music」がEAI ArtsIT 2026に採択されました．
 - **論文受理：** 2026年9月30日，Ahmed SalemとKaoru Sumiの論文「Effects of Robot Personality and Facial Appearance on Embarrassment in HRI」がJournal of Visualized Experiments（JoVE）に受理されました．
 - **論文掲載：** 2026年9月16日，Pakpoom ChaimookとKaoru Sumiの論文「[DXSP: Gesture-Only Temporal Localization of Decisive Moments in Dyadic Persuasion](https://doi.org/10.3389/frai.2026.1928901)」がFrontiers in Artificial Intelligence（Vol. 9）に掲載されました．
