@@ -40,7 +40,7 @@ nav: false
 ## ハイライト
 
 - **2026–2028 — IEEE Computer Society Distinguished Visitor：** [Distinguished Visitorに選出](https://www.computer.org/profiles/kaoru-sumi)されました．IEEE，コンピューティング分野，技術コミュニティへの貢献が評価されたものです．
-- **基調講演：** [IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/)，インド・ハイデラバード，2026年10月29～31日．
+- **基調講演：** 2026年10月29日，インド・ハイデラバードの[IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/)にて基調講演を行いました．
 - **新刊書籍：** [_Affective Learning and Serious Games_](https://www.routledge.com/Affective-Learning-and-Serious-Games/Sumi/p/book/9781041322627)，CRC Press / Taylor & Francis，2026年6月2日刊行．
 - **招待講演：** [TED-HRI Workshop](https://sites.google.com/view/ted-hri/program?authuser=0)，IEEE RO-MAN 2026，北九州，2026年8月．
 - **General Chair：** [Persuasive 2026](https://2026.persuasivetech.org/)，函館，2026年3月．
@@ -61,7 +61,7 @@ nav: false
 
 ## 最近の活動
 
-- **基調講演：** 2026年10月29～31日にインド・ハイデラバードで開催される[IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/)にて基調講演を行います．
+- **基調講演：** 2026年10月29日，インド・ハイデラバードで開催された[IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/)にて基調講演を行いました．
 - **IEEE Computer Society Distinguished Visitor：** 2026～2028年のIEEE Computer Society Distinguished Visitorに選出されました．[公式プロフィール](https://www.computer.org/profiles/kaoru-sumi)
 - **国際会議発表：** 中野大地が，角薫との共著論文「The Impact of Nonverbal Information Visualization on Dialogue and Perceived Understanding in the Metaverse」を，2026年10月22～24日にキプロスとオンラインで開催された[ISEMV 2026](https://ieee-isemv.org/)にてFull Paperとして発表しました．
 - **国際会議論文採択：** Shuo MaoとKaoru Sumiの論文「Emotion-Adaptive Music Generation in Games: Comparing Dynamic and Real-Time AI-Generated Music」がEAI ArtsIT 2026に採択されました．
