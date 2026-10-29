@@ -61,7 +61,7 @@ nav: false
 
 ## 最近の活動
 
-- **基調講演：** 2026年10月29日，インド・ハイデラバードで開催された[IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/)にて基調講演を行いました．
+- **基調講演：** 2026年10月29日，インド・ハイデラバードで開催された[IEEE TEMSMET 2026](https://temsmet2026.sithyd.edu.in/)にて，「Human-Centered AI for Societal Impact: Designing Persuasive and Affective Interactive Systems」と題した基調講演を行いました．
 - **IEEE Computer Society Distinguished Visitor：** 2026～2028年のIEEE Computer Society Distinguished Visitorに選出されました．[公式プロフィール](https://www.computer.org/profiles/kaoru-sumi)
 - **国際会議発表：** 中野大地が，角薫との共著論文「The Impact of Nonverbal Information Visualization on Dialogue and Perceived Understanding in the Metaverse」を，2026年10月22～24日にキプロスとオンラインで開催された[ISEMV 2026](https://ieee-isemv.org/)にてFull Paperとして発表しました．
 - **国際会議論文採択：** Shuo MaoとKaoru Sumiの論文「Emotion-Adaptive Music Generation in Games: Comparing Dynamic and Real-Time AI-Generated Music」がEAI ArtsIT 2026に採択されました．
