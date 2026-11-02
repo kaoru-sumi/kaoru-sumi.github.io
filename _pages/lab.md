@@ -104,7 +104,11 @@ PAHAI Lab members and research projects have received awards at international co
 ### Special Research Students and Short-term Research in 2026
 
 - Antonio Rivera Pérez — <img src="/assets/img/flags/mx.svg" alt="Mexico" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> Mexico (June 2026)
-- Taran Shetty — <img src="/assets/img/flags/in.svg" alt="India" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> India (November 2026, planned)
+- Taran Shetty — <img src="/assets/img/flags/in.svg" alt="India" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> India (visiting since 2 November 2026)
+
+### Planned Special Research Students and Short-term Research in 2027
+
+- Cervilla Enzo — <img src="/assets/img/flags/fr.svg" alt="France" style="width:16px; height:auto; vertical-align:-2px; margin:0 5px;"> France (February–June 2027, planned)
 
 ## Research Environment
 
