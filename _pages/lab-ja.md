@@ -108,9 +108,9 @@ PAHAI研究室の学生・共同研究者は，国際会議，学会研究会，
 ### 2026年の特別研究学生・短期研究
 
 - <img src="/assets/img/flags/mx.svg" alt="" style="width:16px;"> Antonio Rivera Pérez（メキシコ，2026年6月）
-- <img src="/assets/img/flags/in.svg" alt="" style="width:16px;"> Taran Shetty（インド，2026年11月2日から滞在中）
+- <img src="/assets/img/flags/in.svg" alt="" style="width:16px;"> Taran Shetty（インド，2026年11月）
 
-### 2027年の特別研究学生・短期研究（予定）
+### 2027年の特別研究学生・短期研究
 
 - <img src="/assets/img/flags/fr.svg" alt="" style="width:16px;"> Cervilla Enzo（フランス，2027年2月～6月予定）
 
