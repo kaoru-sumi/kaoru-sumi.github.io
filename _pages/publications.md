@@ -13,7 +13,7 @@ The home page highlights a small set of representative works as **Featured Publi
 
 Publications are organized into a recent book and book chapters, edited conference proceedings, recent publications, and selected earlier works.
 
-For a complete publication record, please see my [ORCID profile](https://orcid.org/0000-0002-0514-1510) and [official Future University Hakodate faculty page](https://www.fun.ac.jp/en/faculty/sumi-kaoru/).
+For a complete publication record, please see my [ORCID profile](https://orcid.org/0000-0002-0514-1510) and [official Future University Hakodate faculty page](https://www.fun.ac.jp/faculty-en/sumi-kaoru/).
 
 {% include bib_search.liquid %}
 
