@@ -46,13 +46,43 @@ PAHAI研究室の学生・共同研究者は，国際会議，学会研究会，
 
 ## 現在のメンバー
 
-<p align="center">
-  <img
-    src="/assets/img/pahai_lab_members.png"
-    alt="PAHAI研究室メンバー"
-    style="width:40%; max-width:580px; height:auto;"
-  >
-</p>
+<figure class="lab-photo-current" style="width:100%; max-width:650px; margin:1rem auto; text-align:center;">
+  <a href="/assets/img/pahai_lab_members_2026-11.jpeg" style="display:block; cursor:zoom-in;">
+    <img
+      src="/assets/img/pahai_lab_members_2026-11.jpeg"
+      alt="PAHAI研究室の集合写真（2026年11月更新）"
+      width="1536"
+      height="1152"
+      decoding="async"
+      style="display:block; width:100%; height:auto;"
+    >
+  </a>
+  <figcaption style="margin-top:0.5rem; font-size:0.9rem; line-height:1.6;">
+    研究室の集合写真（2026年11月更新）<br>
+    写真をクリック・タップすると拡大できます。
+  </figcaption>
+</figure>
+
+<details id="lab-photo-archive" style="width:100%; max-width:650px; margin:0 auto 1.5rem;">
+  <summary style="cursor:pointer; padding:0.75rem 0; color:var(--global-theme-color); font-weight:500;">
+    これまでの研究室写真を見る
+  </summary>
+  <figure style="margin:0.5rem 0 1rem; text-align:center;">
+    <a href="/assets/img/pahai_lab_members.png" style="display:block; cursor:zoom-in;">
+      <img
+        src="/assets/img/pahai_lab_members.png"
+        alt="PAHAI研究室の以前の集合写真"
+        loading="lazy"
+        decoding="async"
+        style="display:block; width:100%; height:auto;"
+      >
+    </a>
+    <figcaption style="margin-top:0.5rem; font-size:0.9rem; line-height:1.6;">
+      以前の集合写真<br>
+      写真をクリック・タップすると拡大できます。
+    </figcaption>
+  </figure>
+</details>
 
 ### 博士後期課程
 
