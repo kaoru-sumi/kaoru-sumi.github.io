@@ -1,29 +1,66 @@
 name: Axe accessibility testing
 
 on:
-  # if you want to run this on every push uncomment the following lines
-  # push:
-  #   branches:
-  #     - master
-  #     - main
-  # pull_request:
-  #   branches:
-  #     - master
-  #     - main
+  pull_request:
+    branches: [main, master]
+    paths:
+      - "_pages/**"
+      - "_data/**"
+      - "_news/**"
+      - "_posts/**"
+      - "_projects/**"
+      - "_books/**"
+      - "_teachings/**"
+      - "_bibliography/**"
+      - "_plugins/**"
+      - "_layouts/**"
+      - "_includes/**"
+      - "_sass/**"
+      - "assets/**"
+      - "*.html"
+      - "*.md"
+      - "_config*.yml"
+      - "Gemfile*"
+      - "package*.json"
+      - "purgecss.config.js"
+      - ".github/workflows/axe.yml"
   workflow_dispatch:
     inputs:
       url:
-        description: "URL to be checked (e.g.: blog/)"
+        description: "Local page path to check (e.g. blog/); blank checks the four main English/Japanese pages"
+        type: string
         required: false
 
-env:
-  URL: ""
+permissions:
+  contents: read
+
+concurrency:
+  group: axe-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  check:
-    # available images: https://github.com/actions/runner-images#available-images
+  build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      pages: ${{ steps.pages.outputs.pages }}
     steps:
+      - name: Select pages
+        id: pages
+        env:
+          REQUESTED_PATH: ${{ inputs.url }}
+        run: |
+          python3 - <<'PYTHON'
+          import json, os
+          requested = os.environ["REQUESTED_PATH"].strip()
+          pages = ["/", "/ja/", "/lab/", "/ja/lab/"]
+          if requested:
+              if ":" in requested or "?" in requested or "#" in requested or "\\" in requested or ".." in requested.split("/"):
+                  raise SystemExit("Enter a local page path, such as blog/ or /ja/lab/.")
+              pages = ["/" + requested.lstrip("/")]
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              output.write("pages=" + json.dumps(pages) + "\n")
+          PYTHON
       - name: Checkout 🛎️
         uses: actions/checkout@v4
       - name: Setup Ruby
@@ -51,24 +88,79 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      - name: Get Chromium version 🌐
-        # https://github.com/GoogleChromeLabs/chrome-for-testing?tab=readme-ov-file#other-api-endpoints
-        run: |
-          CHROMIUM_VERSION=$(wget -qO- https://googlechromelabs.github.io/chrome-for-testing/LATEST_RELEASE_STABLE | cut -d. -f1)
-          echo "Chromium version: $CHROMIUM_VERSION"
-          echo "CHROMIUM_VERSION=$CHROMIUM_VERSION" >> $GITHUB_ENV
-      - name: Setup Chrome 🌐
-        id: setup-chrome
+      - name: Share the built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: axe-site
+          path: _site/
+          retention-days: 1
+          include-hidden-files: true
+          if-no-files-found: error
+
+  check:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        page: ${{ fromJSON(needs.build.outputs.pages) }}
+    name: Axe (${{ matrix.page }})
+    steps:
+      - name: Download the built site
+        uses: actions/download-artifact@v4
+        with:
+          name: axe-site
+          path: _site
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Setup Chrome
+        id: chrome
         uses: browser-actions/setup-chrome@v1
         with:
-          chrome-version: ${{ env.CHROMIUM_VERSION }}
-      - name: Install chromedriver 🚗
+          chrome-version: stable
+          install-chromedriver: true
+      - name: Install Axe
+        run: npm install -g @axe-core/cli@4.10.2
+      - name: Run Axe
+        env:
+          PAGE_PATH: ${{ matrix.page }}
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+          CHROMEDRIVER_PATH: ${{ steps.chrome.outputs.chromedriver-path }}
         run: |
-          npm install -g chromedriver@$CHROMIUM_VERSION
-      - name: Run axe 🪓
-        # https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli
+          python3 -m http.server 8080 --bind 127.0.0.1 --directory _site > /tmp/axe-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:8080/ > /dev/null; then break; fi
+            sleep 1
+          done
+          # Fail on missing pages instead of auditing a server's 404 response.
+          curl --fail --silent "http://127.0.0.1:8080$PAGE_PATH" > /dev/null
+          axe --chrome-path "$CHROME_PATH" --chromedriver-path "$CHROMEDRIVER_PATH" \
+            "http://127.0.0.1:8080$PAGE_PATH" --chrome-options="--headless,--no-sandbox" --load-delay=1500 --exit
+      - name: Verify missing alt is rejected
+        if: ${{ !cancelled() && matrix.page == '/' && steps.chrome.outcome == 'success' }}
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+          CHROMEDRIVER_PATH: ${{ steps.chrome.outputs.chromedriver-path }}
         run: |
-          npm install -g @axe-core/cli
-          npm install -g http-server
-          http-server _site/ &
-          axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:8080/${{ github.event.inputs.url || env.URL }} --load-delay=1500 --exit
+          fixture=$(mktemp -d)
+          trap 'kill "$server_pid"; rm -rf "$fixture"' EXIT
+          printf '%s' '<!doctype html><html lang="en"><title>Axe regression fixture</title><main><img src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22%3E%3C/svg%3E"></main></html>' > "$fixture/index.html"
+          python3 -m http.server 8081 --bind 127.0.0.1 --directory "$fixture" > /tmp/axe-fixture.log 2>&1 &
+          server_pid=$!
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:8081/ > /dev/null; then break; fi
+            sleep 1
+          done
+          curl --fail --silent http://127.0.0.1:8081/ > /dev/null
+          status=0
+          axe --chrome-path "$CHROME_PATH" --chromedriver-path "$CHROMEDRIVER_PATH" \
+            http://127.0.0.1:8081/ --chrome-options="--headless,--no-sandbox" --rules image-alt --exit > /tmp/axe-negative.log 2>&1 || status=$?
+          cat /tmp/axe-negative.log
+          test "$status" -eq 1
+          grep -q 'image-alt' /tmp/axe-negative.log
